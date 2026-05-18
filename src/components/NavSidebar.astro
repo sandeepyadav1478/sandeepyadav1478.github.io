@@ -10,13 +10,19 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
 
 {/* Desktop: fixed left sidebar — flat dot navigation */}
 <nav class="nav-sidebar" aria-label="Site navigation">
-  <div class="nav-dots" id="nav-dots">
-    <a href="/#works" class="nav-dot-item" data-nav-id="works">Projects</a>
-    {SECTIONS.showExperience && <a href="/#experience" class="nav-dot-item" data-nav-id="experience">Experience</a>}
-    {SECTIONS.showSkills && <a href="/#skills" class="nav-dot-item" data-nav-id="skills">Skills</a>}
-    {(SECTIONS.showEducation || SECTIONS.showAwards) && <a href="/#education" class="nav-dot-item" data-nav-id="education">Education</a>}
-    <a href="/#testimonials" class="nav-dot-item" data-nav-id="testimonials">Testimonials</a>
-    <a href="/#sharing" class="nav-dot-item" data-nav-id="sharing">Contact</a>
+  <div class:list={["nav-dots", currentPath !== "/" && "nav-dots--back"]} id="nav-dots">
+    {currentPath === "/" ? (
+      <>
+        <a href="/#works" class="nav-dot-item" data-nav-id="works">Projects</a>
+        {SECTIONS.showExperience && <a href="/#experience" class="nav-dot-item" data-nav-id="experience">Experience</a>}
+        {SECTIONS.showSkills && <a href="/#skills" class="nav-dot-item" data-nav-id="skills">Skills</a>}
+        {(SECTIONS.showEducation || SECTIONS.showAwards) && <a href="/#education" class="nav-dot-item" data-nav-id="education">Education</a>}
+        <a href="/#testimonials" class="nav-dot-item" data-nav-id="testimonials">Testimonials</a>
+        <a href="/#sharing" class="nav-dot-item" data-nav-id="sharing">Contact</a>
+      </>
+    ) : (
+      <a href="/" class="nav-dot-item nav-dot-back" id="nav-back-link">&larr; Back</a>
+    )}
   </div>
 
   {/* ── Page links & utilities ── */}
@@ -186,12 +192,55 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
     window.addEventListener("scroll", onScroll, { passive: true });
     updateActive();
 
+    const modalDialog = document.getElementById("work-modal");
+    if (modalDialog) {
+      modalDialog.addEventListener("close", () => {
+        setTimeout(updateActive, 60);
+      });
+    }
+
     return () => window.removeEventListener("scroll", onScroll);
   }
 
+  function initNavLeave() {
+    const sidebar = document.querySelector<HTMLElement>(".nav-sidebar");
+    if (!sidebar) return;
+    const links = sidebar.querySelectorAll<HTMLAnchorElement>("a.nav-page-link, a.nav-sidebar-icon");
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        const href = link.getAttribute("href");
+        if (!href || href.startsWith("#") || href.startsWith("/#")) return;
+        e.preventDefault();
+        sidebar.classList.add("nav-leaving");
+        setTimeout(() => { window.location.href = link.href; }, 300);
+      });
+    });
+  }
+
+
+  function initBackNav() {
+    const backLink = document.getElementById("nav-back-link");
+    if (!backLink) return;
+    backLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const params = new URLSearchParams(location.search);
+      const modalId = params.get("from_modal");
+      const fromPage = params.get("from_page") || "/";
+      if (modalId) {
+        window.location.href = fromPage + (fromPage.includes("?") ? "&" : "?") + `open_modal=${encodeURIComponent(modalId)}`;
+      } else {
+        window.location.href = "/";
+      }
+    });
+  }
+
   let cleanup = initNavDots();
+  initNavLeave();
+  initBackNav();
   document.addEventListener("astro:page-load", () => {
     if (cleanup) cleanup();
     cleanup = initNavDots();
+    initNavLeave();
+    initBackNav();
   });
 </script>

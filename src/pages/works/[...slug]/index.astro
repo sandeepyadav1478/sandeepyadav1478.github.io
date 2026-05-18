@@ -66,9 +66,19 @@ const ogImage = ogImageUrl
   <NavSidebar />
   <main id="main-content" class="app-layout main-content post-main" data-pagefind-body>
     <div class="work-back-link-wrap">
-      <a href="/" class="work-back-link">
-        &larr; Back to board
+      <a href="/" class="work-back-link" id="work-back-link">
+        &larr; Back
       </a>
+      <script>
+        document.getElementById("work-back-link")?.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (document.referrer && new URL(document.referrer).origin === location.origin) {
+            history.back();
+          } else {
+            window.location.href = "/";
+          }
+        });
+      </script>
     </div>
     <h1 class="post-title">
       {title}

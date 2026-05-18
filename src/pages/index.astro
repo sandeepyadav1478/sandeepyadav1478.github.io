@@ -88,8 +88,6 @@ const statusLabelMap: Record<string, { label: string; cls: string }> = {
     <Hero />
 
     {SECTIONS.showAbout && <AboutSection />}
-    {SECTIONS.showStartHere && <StartHere />}
-    {SECTIONS.showStats && <StatsBar />}
     <HighlightCards />
 
     {/* === THE BOARD === */}
@@ -251,7 +249,7 @@ const statusLabelMap: Record<string, { label: string; cls: string }> = {
 
               <div class="modal-tags">
                 {work.data.tags.map(tag => (
-                  <span class="tag-chip">#{tag}</span>
+                  <a href={`/tags?t=${encodeURIComponent(tag)}`} class="tag-chip tag-link">#{tag}</a>
                 ))}
               </div>
 

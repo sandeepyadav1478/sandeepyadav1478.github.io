@@ -144,7 +144,7 @@ const sortedWorks = getSortedWorks(allWorks);
 
               <div class="modal-tags">
                 {work.data.tags.map((t: string) => (
-                  <span class="tag-chip">#{t}</span>
+                  <a href={`/tags?t=${encodeURIComponent(t)}`} class="tag-chip tag-link">#{t}</a>
                 ))}
               </div>
 

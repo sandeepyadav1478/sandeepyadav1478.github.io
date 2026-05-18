@@ -7,7 +7,17 @@ function initModal() {
   if (!dialog || !modalContent || !closeBtn) return;
 
   let savedScrollY = 0;
-  const originalUrl = location.href;
+
+  const pendingModal = new URLSearchParams(location.search).get("open_modal");
+  const cleanSearch = location.search
+    .replace(/[?&]open_modal=[^&]*/g, "")
+    .replace(/^\?$/, "")
+    .replace(/\?&/, "?");
+  const basePath = location.pathname + cleanSearch;
+
+  if (pendingModal) {
+    history.replaceState(null, "", basePath);
+  }
 
   function lockBody() {
     savedScrollY = window.scrollY;
@@ -23,6 +33,7 @@ function initModal() {
     document.documentElement.style.scrollBehavior = "auto";
     window.scrollTo(0, savedScrollY);
     document.documentElement.style.scrollBehavior = "";
+    setTimeout(() => window.dispatchEvent(new Event("scroll")), 50);
   }
 
   function openLightbox(html: string) {
@@ -51,7 +62,7 @@ function initModal() {
     if (!source || !modalContent) return;
 
     modalContent.innerHTML = source.innerHTML;
-    history.replaceState({ modal: true }, "", `/works/${workId}`);
+    history.replaceState(null, "", `/works/${workId}`);
 
     lockBody();
     const inner = dialog.querySelector(".modal-inner") as HTMLElement;
@@ -59,6 +70,15 @@ function initModal() {
     dialog.showModal();
 
     initLightboxTriggers();
+    interceptTagLinks(workId);
+  }
+
+  function closeModal() {
+    if (!dialog.open) return;
+    closeLightbox();
+    dialog.close();
+    unlockBody();
+    history.replaceState(null, "", basePath);
   }
 
   function initLightboxTriggers() {
@@ -156,6 +176,17 @@ function initModal() {
     });
   }
 
+  function interceptTagLinks(workId: string) {
+    dialog.querySelectorAll<HTMLAnchorElement>(".tag-link").forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const href = link.getAttribute("href") || "/tags";
+        const sep = href.includes("?") ? "&" : "?";
+        window.location.href = `${href}${sep}from_modal=${encodeURIComponent(workId)}&from_page=${encodeURIComponent(basePath)}`;
+      });
+    });
+  }
+
   document.querySelectorAll<HTMLElement>(".work-card-trigger").forEach(trigger => {
     trigger.addEventListener("click", (e) => {
       if ((e.target as HTMLElement).closest(".tag-link")) return;
@@ -192,14 +223,13 @@ function initModal() {
     closeModal();
   });
 
-  function closeModal() {
-    if (!dialog.open) return;
-    closeLightbox();
-    dialog.close();
-    unlockBody();
-    history.replaceState(null, "", originalUrl);
+  if (pendingModal) {
+    const worksEl = document.getElementById("works");
+    if (worksEl) {
+      window.scrollTo({ top: worksEl.offsetTop, behavior: "instant" });
+    }
+    openModal(pendingModal);
   }
 }
 
-initModal();
 document.addEventListener("astro:page-load", initModal);
