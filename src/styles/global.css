@@ -415,6 +415,9 @@ body.bg-dot-grid {
   position: relative;
   overflow: hidden;
   border-radius: 9999px;
+  border: 3px solid var(--foreground);
+  box-shadow: 0 4px 20px color-mix(in srgb, var(--foreground) 15%, transparent),
+              0 0 0 4px color-mix(in srgb, var(--foreground) 8%, transparent);
 }
 
 .hero-photo-wrap img {
@@ -2451,9 +2454,6 @@ body.bg-dot-grid {
 .hero-photo {
   border-radius: 9999px;
   object-fit: cover;
-  border: 3px solid var(--foreground);
-  box-shadow: 0 4px 20px color-mix(in srgb, var(--foreground) 15%, transparent),
-              0 0 0 4px color-mix(in srgb, var(--foreground) 8%, transparent);
 }
 
 /* --- Text highlights for key phrases --- */
