@@ -433,7 +433,13 @@ body.bg-dot-grid {
 
 .section-tinted + .section-tinted {
   margin-top: 0;
+  padding-top: 0.5rem;
   border-top: 1px solid var(--border);
+}
+
+.section-tinted + .section-tinted > :first-child {
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
 .active-nav {
@@ -2504,8 +2510,8 @@ body.bg-dot-grid {
 
 /* --- Experience Section (Card Layout) --- */
 .experience-section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .experience-heading {
@@ -2968,7 +2974,7 @@ body.bg-dot-grid {
 
 /* --- Contact Section --- */
 .contact-section {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 
@@ -5867,8 +5873,8 @@ html[data-theme="dark"] .lets-talk-social:hover {
    Open Source Section
    ============================================================================ */
 .oss-section {
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .oss-grid {
@@ -6084,8 +6090,8 @@ html[data-theme="dark"] .lets-talk-social:hover {
    Featured Models Section
    ============================================================================ */
 .models-section {
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .models-grid {
@@ -6450,8 +6456,8 @@ a.client-item:hover .client-logo-full {
    Education Section
    ============================================================================ */
 .education-section {
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .edu-awards-grid {
