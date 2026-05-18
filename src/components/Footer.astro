@@ -1,0 +1,19 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import Socials from "./Socials.astro";
+
+type Props = {
+  noMarginTop?: boolean;
+} & HTMLAttributes<"footer">;
+
+const { noMarginTop = false, class: className, ...attrs } = Astro.props;
+---
+
+<footer
+  class:list={["app-layout", !noMarginTop && "footer-wrap", className]}
+  {...attrs}
+>
+  <div class="footer-inner">
+    <Socials />
+  </div>
+</footer>

@@ -1,0 +1,118 @@
+---
+import { render, type CollectionEntry, getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import NavSidebar from "@/components/NavSidebar.astro";
+import Footer from "@/components/Footer.astro";
+import Tag from "@/components/Tag.astro";
+import Datetime from "@/components/Datetime.astro";
+import BackToTopButton from "@/components/BackToTopButton.astro";
+import { getPath } from "@/utils/getPath";
+import { slugifyStr } from "@/utils/slugify";
+import { SITE } from "@/config";
+
+export async function getStaticPaths() {
+  const works = await getCollection("works", ({ data }) => !data.draft);
+  return works.map(work => ({
+    params: { slug: getPath(work.id, work.filePath, false) },
+    props: { work },
+  }));
+}
+
+type Props = { work: CollectionEntry<"works"> };
+
+const { work } = Astro.props;
+const { title, description, pubDatetime, modDatetime, timezone, tags, links, organization, type, ogImage: initOgImage } = work.data;
+
+const { Content } = await render(work);
+
+const typeLabelMap: Record<string, string> = {
+  oss: "OSS",
+  project: "Project",
+  writing: "Writing",
+  talk: "Talk",
+  certification: "Cert",
+  experience: "Role",
+  conference: "Conf",
+  hackathon: "Hack",
+  meetup: "Meetup",
+  building: "Building",
+  learning: "Learning",
+  reading: "Reading",
+};
+
+let ogImageUrl: string | undefined;
+if (typeof initOgImage === "string") {
+  ogImageUrl = initOgImage;
+} else if (initOgImage?.src) {
+  ogImageUrl = initOgImage.src;
+}
+if (!ogImageUrl && SITE.dynamicOgImage) {
+  ogImageUrl = `${getPath(work.id, work.filePath)}/index.png`;
+}
+const ogImage = ogImageUrl
+  ? new URL(ogImageUrl, Astro.url.origin).href
+  : undefined;
+---
+
+<Layout
+  title={`${title} | ${SITE.title}`}
+  author={SITE.author}
+  description={description}
+  pubDatetime={pubDatetime}
+  modDatetime={modDatetime}
+  ogImage={ogImage}
+  scrollSmooth
+>
+  <NavSidebar />
+  <main id="main-content" class="app-layout main-content post-main" data-pagefind-body>
+    <div class="work-back-link-wrap">
+      <a href="/" class="work-back-link" id="work-back-link">
+        &larr; Back
+      </a>
+      <script>
+        document.getElementById("work-back-link")?.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (document.referrer && new URL(document.referrer).origin === location.origin) {
+            history.back();
+          } else {
+            window.location.href = "/";
+          }
+        });
+      </script>
+    </div>
+    <h1 class="post-title">
+      {title}
+    </h1>
+    <div class="post-meta">
+      <span class="type-badge">{typeLabelMap[type]}</span>
+      <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
+    </div>
+    {organization && <p class="work-org-text">at {organization}</p>}
+
+    <article class="app-prose post-article">
+      <Content />
+    </article>
+
+    {links && links.length > 0 && (
+      <div class="work-links-row">
+        {links.map(link => (
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="modal-link"
+          >
+            {link.label} &rarr;
+          </a>
+        ))}
+      </div>
+    )}
+
+    <ul class="post-tags">
+      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />)}
+    </ul>
+
+    <BackToTopButton />
+  </main>
+  <Footer />
+</Layout>

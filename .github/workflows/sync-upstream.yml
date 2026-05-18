@@ -1,0 +1,49 @@
+name: Sync from upstream template
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Daily at 6 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Only run in forks, not in the template repo itself
+    if: github.repository != 'sandeepyadav1478/sora'
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: git remote add upstream https://github.com/sandeepyadav1478/sora.git || true
+
+      - name: Fetch upstream
+        run: git fetch upstream main
+
+      - name: Merge upstream changes
+        run: |
+          git merge upstream/main --no-edit --allow-unrelated-histories || {
+            echo "::warning::Merge conflict detected. Creating a PR instead."
+            git merge --abort
+            git checkout -b sync/upstream-$(date +%Y%m%d)
+            git merge upstream/main --no-edit --allow-unrelated-histories || true
+            git add -A
+            git commit -m "chore: sync upstream template (conflicts)" --allow-empty
+            git push origin sync/upstream-$(date +%Y%m%d)
+            echo "CONFLICT=true" >> $GITHUB_ENV
+          }
+
+      - name: Push merged changes
+        if: env.CONFLICT != 'true'
+        run: git push origin main

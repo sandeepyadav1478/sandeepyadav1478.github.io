@@ -1,0 +1,78 @@
+---
+import type { CollectionEntry } from "astro:content";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
+import { SITE } from "@/config";
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
+
+type Props = CollectionEntry<"works">;
+
+const { id, data } = Astro.props;
+const { title, type, pubDatetime, modDatetime, endDatetime, ongoing, tags, organization, role, featured, status, badgeColor } = data;
+
+const statusLabelMap: Record<string, { label: string; cls: string }> = {
+  "active": { label: "Active", cls: "status-active" },
+  "maintained": { label: "Maintained", cls: "status-maintained" },
+  "in-production": { label: "In Production", cls: "status-active" },
+  "archived": { label: "Archived", cls: "status-archived" },
+};
+
+const typeLabelMap: Record<string, string> = {
+  oss: "OSS",
+  project: "Project",
+  writing: "Writing",
+  talk: "Talk",
+  certification: "Cert",
+  experience: "Role",
+  conference: "Conf",
+  hackathon: "Hack",
+  meetup: "Meetup",
+  building: "Building",
+  learning: "Learning",
+  reading: "Reading",
+};
+
+const tz = SITE.timezone;
+const startDate = dayjs(pubDatetime).tz(tz).format("MMM YYYY");
+const endDate = ongoing ? "Present" : endDatetime ? dayjs(endDatetime).tz(tz).format("MMM YYYY") : null;
+const dateDisplay = endDate ? `${startDate} — ${endDate}` : startDate;
+---
+
+<li class="work-item" data-type={type} data-tags={tags.join(",")}>
+  <div
+    class:list={[
+      "work-card-trigger medium-card",
+      featured && "medium-card-featured",
+    ]}
+    data-work-id={id}
+    data-type={type}
+    data-tags={tags.join(",")}
+    role="button"
+    tabindex="0"
+  >
+    <div class="work-card-header">
+      <span class:list={["type-badge", `type-badge--${type}`]} style={badgeColor ? `--badge-color:${badgeColor};background:color-mix(in srgb,var(--badge-color) 12%,transparent);color:var(--badge-color)` : undefined}>{typeLabelMap[type]}</span>
+      <h3 class="work-card-title">
+        {title}
+      </h3>
+      {organization && (
+        <span class="work-card-org">at {organization}</span>
+      )}
+    </div>
+    {role && (
+      <p class="work-card-role">{role}</p>
+    )}
+    <div class="work-card-meta">
+      <span class="work-card-date">{dateDisplay}</span>
+      {featured && <span class="featured-badge">Featured</span>}
+      {status && statusLabelMap[status] && (
+        <span class:list={["status-badge", statusLabelMap[status].cls]}>
+          {statusLabelMap[status].label}
+        </span>
+      )}
+    </div>
+  </div>
+</li>

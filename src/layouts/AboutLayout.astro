@@ -1,0 +1,22 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+import NavSidebar from "@/components/NavSidebar.astro";
+import Footer from "@/components/Footer.astro";
+import Layout from "./Layout.astro";
+import { SITE } from "@/config";
+
+type Props = MarkdownLayoutProps<{ title: string }>;
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <NavSidebar />
+  <main id="main-content" class="app-layout main-content">
+    <section id="about" class="about-page-content app-prose">
+      <h1 class="about-page-title">{frontmatter.title}</h1>
+      <slot />
+    </section>
+  </main>
+  <Footer />
+</Layout>

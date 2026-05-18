@@ -1,0 +1,26 @@
+---
+import { SHARE_LINKS } from "@/constants";
+import LinkButton from "./LinkButton.astro";
+
+const URL = Astro.url;
+---
+
+{
+  SHARE_LINKS.length > 0 && (
+    <div class="share-links">
+      <span class="share-links-label">Share this post on:</span>
+      <div class="share-links-row">
+        {SHARE_LINKS.map(social => (
+          <LinkButton
+            href={`${social.href + URL}`}
+            class="link-btn-icon"
+            title={social.linkTitle}
+          >
+            <social.icon class="link-btn-svg" />
+            <span class="sr-only">{social.linkTitle}</span>
+          </LinkButton>
+        ))}
+      </div>
+    </div>
+  )
+}

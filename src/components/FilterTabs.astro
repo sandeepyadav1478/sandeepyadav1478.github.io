@@ -1,0 +1,97 @@
+---
+const tabs = [
+  { filter: "all", label: "All" },
+  { filter: "oss", label: "OSS" },
+  { filter: "project", label: "Projects" },
+  { filter: "writing", label: "Writing" },
+  { filter: "talk", label: "Talks" },
+  { filter: "certification", label: "Certs" },
+  { filter: "experience", label: "Roles" },
+  { filter: "conference", label: "Conferences" },
+  { filter: "hackathon", label: "Hackathons" },
+  { filter: "meetup", label: "Meetups" },
+  { filter: "building", label: "Building" },
+  { filter: "learning", label: "Learning" },
+  { filter: "reading", label: "Reading" },
+];
+---
+
+{/* Desktop: fixed right sidebar */}
+<aside class="filter-sidebar filter-desktop">
+  <nav class="filter-nav">
+    {
+      tabs.map(tab => (
+        <span
+          data-filter={tab.filter}
+          role="button"
+          tabindex="0"
+          class:list={[
+            "filter-link",
+            { active: tab.filter === "all" },
+          ]}
+        >
+          {tab.label}
+        </span>
+      ))
+    }
+    <div class="active-tags-desktop"></div>
+  </nav>
+</aside>
+
+{/* Mobile/Tablet: horizontal scroll row */}
+<nav class="filter-mobile">
+  <div class="filter-mobile-scroll">
+    {
+      tabs.map(tab => (
+        <span
+          data-filter={tab.filter}
+          role="button"
+          tabindex="0"
+          class:list={[
+            "filter-link",
+            { active: tab.filter === "all" },
+          ]}
+        >
+          {tab.label}
+        </span>
+      ))
+    }
+  </div>
+  <div class="active-tags-mobile"></div>
+</nav>
+
+<script>
+  function initFilterTabs() {
+    const links = document.querySelectorAll<HTMLElement>(".filter-link");
+    const items = document.querySelectorAll<HTMLElement>(".work-item");
+    const desktopSidebar = document.querySelector<HTMLElement>(".filter-desktop");
+    const worksSection = document.getElementById("works");
+
+    links.forEach(link => {
+      link.addEventListener("click", () => {
+        const filter = link.dataset.filter!;
+        links.forEach(l => l.classList.remove("active"));
+        document.querySelectorAll<HTMLElement>(`.filter-link[data-filter="${filter}"]`)
+          .forEach(l => l.classList.add("active"));
+
+        items.forEach(item => {
+          const typeMatch = filter === "all" || item.dataset.type === filter;
+          item.style.display = typeMatch ? "" : "none";
+        });
+      });
+    });
+
+    if (desktopSidebar && worksSection) {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          desktopSidebar.classList.toggle("filter-visible", entry.isIntersecting);
+        },
+        { rootMargin: "-5% 0px -5% 0px", threshold: 0 }
+      );
+      observer.observe(worksSection);
+    }
+  }
+
+  initFilterTabs();
+  document.addEventListener("astro:page-load", initFilterTabs);
+</script>
