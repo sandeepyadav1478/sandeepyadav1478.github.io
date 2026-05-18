@@ -218,6 +218,13 @@ cd my-portfolio && pnpm install</code></pre>
             </div>
             <span class="docs-demo-style-label">noise</span>
           </div>
+          <div class="docs-demo-card-wrap card-design--borderless">
+            <div class="grid-card">
+              <h3 class="grid-card-title">Sample Work</h3>
+              <p class="grid-card-desc">Clean, no border</p>
+            </div>
+            <span class="docs-demo-style-label">borderless</span>
+          </div>
         </div>
       </section>
 
@@ -289,51 +296,51 @@ cd my-portfolio && pnpm install</code></pre>
 
         <div class="docs-types-grid">
           <div class="docs-type-item">
-            <span class="type-badge" data-type="oss">OSS</span>
+            <span class="type-badge type-badge--oss">OSS</span>
             <span class="docs-type-desc">Open source contributions</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="project">Project</span>
+            <span class="type-badge type-badge--project">Project</span>
             <span class="docs-type-desc">Personal or professional projects</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="writing">Writing</span>
+            <span class="type-badge type-badge--writing">Writing</span>
             <span class="docs-type-desc">Blog posts, papers, articles</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="talk">Talk</span>
+            <span class="type-badge type-badge--talk">Talk</span>
             <span class="docs-type-desc">Presentations and workshops</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="certification">Cert</span>
+            <span class="type-badge type-badge--certification">Cert</span>
             <span class="docs-type-desc">Professional certifications</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="experience">Role</span>
+            <span class="type-badge type-badge--experience">Role</span>
             <span class="docs-type-desc">Job roles and positions</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="conference">Conf</span>
+            <span class="type-badge type-badge--conference">Conf</span>
             <span class="docs-type-desc">Conference attendance</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="hackathon">Hack</span>
+            <span class="type-badge type-badge--hackathon">Hack</span>
             <span class="docs-type-desc">Hackathons and competitions</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="meetup">Meetup</span>
+            <span class="type-badge type-badge--meetup">Meetup</span>
             <span class="docs-type-desc">Community events</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="building">Building</span>
+            <span class="type-badge type-badge--building">Building</span>
             <span class="docs-type-desc">Things being built</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="learning">Learning</span>
+            <span class="type-badge type-badge--learning">Learning</span>
             <span class="docs-type-desc">Learning journeys</span>
           </div>
           <div class="docs-type-item">
-            <span class="type-badge" data-type="reading">Reading</span>
+            <span class="type-badge type-badge--reading">Reading</span>
             <span class="docs-type-desc">Books and reading</span>
           </div>
         </div>
@@ -413,7 +420,7 @@ cd my-portfolio && pnpm install</code></pre>
             </thead>
             <tbody>
               <tr><td><code>title</code></td><td>string</td><td>Yes</td><td>Work title</td></tr>
-              <tr><td><code>type</code></td><td>enum</td><td>Yes</td><td>oss, project, writing, talk, certification, experience, conference, hackathon, meetup</td></tr>
+              <tr><td><code>type</code></td><td>enum</td><td>Yes</td><td>oss, project, writing, talk, certification, experience, conference, hackathon, meetup, building, learning, reading</td></tr>
               <tr><td><code>pubDatetime</code></td><td>date</td><td>Yes</td><td>Publish date (ISO format)</td></tr>
               <tr><td><code>description</code></td><td>string</td><td>Yes</td><td>One-line summary (shown on cards)</td></tr>
               <tr><td><code>tags</code></td><td>string[]</td><td>Yes</td><td>Tags for filtering</td></tr>
@@ -428,7 +435,7 @@ cd my-portfolio && pnpm install</code></pre>
               <tr><td><code>role</code></td><td>string</td><td></td><td>Your role in this work</td></tr>
               <tr><td><code>links</code></td><td>array</td><td></td><td>Action buttons: [&#123;label, url&#125;]</td></tr>
               <tr class="docs-table-divider"><td colspan="4"></td></tr>
-              <tr><td><code>highlights</code></td><td>array</td><td></td><td>Metric cards: [&#123;label, value&#125;]</td></tr>
+              <tr><td><code>highlights</code></td><td>array</td><td></td><td>Metric cards: [&#123;label, value, icon?&#125;]</td></tr>
               <tr><td><code>gallery</code></td><td>array</td><td></td><td>Media: [&#123;src, caption, type&#125;]</td></tr>
               <tr><td><code>timeline</code></td><td>array</td><td></td><td>Milestones: [&#123;date, title, description&#125;]</td></tr>
               <tr><td><code>cardStyle</code></td><td>enum</td><td></td><td>Visual card style (see Card Styles)</td></tr>
@@ -453,7 +460,7 @@ cd my-portfolio && pnpm install</code></pre>
           </div>
           <div class="docs-config-card">
             <h3>PROFILE</h3>
-            <p>Name, tagline, photo, role, organization, location, SEO keywords</p>
+            <p>Name, tagline, photo, role, organization, location, typed phrases, trending keywords</p>
           </div>
           <div class="docs-config-card">
             <h3>SOCIALS_CONFIG</h3>
@@ -479,6 +486,118 @@ cd my-portfolio && pnpm install</code></pre>
             <h3>SKILLS</h3>
             <p>Grouped skill categories with items</p>
           </div>
+          <div class="docs-config-card">
+            <h3>ABOUT</h3>
+            <p>Rich bio with markdown decorators: **bold**, ~muted~, _italic_, ## headings</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>TESTIMONIALS</h3>
+            <p>Social proof quotes with author, role, company</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>NEWSLETTER</h3>
+            <p>Email signup — Buttondown, Substack, ConvertKit, or custom</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>PUBLICATIONS</h3>
+            <p>Research papers, articles, Google Scholar link</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>STATS</h3>
+            <p>Key metrics — GitHub stars, contributions, etc.</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>OPEN_SOURCE</h3>
+            <p>Highlighted OSS repos with stars, language, role</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>SPEAKING</h3>
+            <p>Talks, podcasts, workshops with links</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>FEATURED_MODELS</h3>
+            <p>HuggingFace models with downloads and task</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>RESOURCES</h3>
+            <p>Curated learning paths and roadmaps</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>CURATED_LISTS</h3>
+            <p>People, tools, papers you recommend</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>HIGHLIGHTS</h3>
+            <p>Spotlight cards — certifications, power user badges</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>EDUCATION</h3>
+            <p>Degrees, bootcamps, courses</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>AWARDS</h3>
+            <p>Recognitions, competition wins</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>FAQ</h3>
+            <p>Frequently asked questions (accordion format)</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>CLIENTS</h3>
+            <p>Company logos — "Trusted By" section</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>START_HERE</h3>
+            <p>Curated entry points for new visitors</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>USES</h3>
+            <p>Tools, hardware, and setup (/uses page)</p>
+          </div>
+          <div class="docs-config-card">
+            <h3>READING</h3>
+            <p>Curated reading list (/reading page)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero Backgrounds & Animations -->
+      <section class="docs-section">
+        <h2 class="docs-heading" id="hero">Hero Backgrounds & Animations</h2>
+        <p class="docs-text">Set <code>SITE.heroBackground</code> and <code>SITE.heroAnimation</code> in config. Use the shuffle button in the sidebar to preview random combinations.</p>
+
+        <h3 class="docs-subheading">Backgrounds</h3>
+        <div class="docs-bg-grid">
+          <div class="docs-bg-card hero-bg--dot-grid"><div class="docs-bg-label"><code>dot-grid</code><span>Subtle repeating dot matrix</span></div></div>
+          <div class="docs-bg-card hero-bg--dual-glow"><div class="docs-bg-label"><code>dual-glow</code><span>Soft accent blobs left/right</span></div></div>
+          <div class="docs-bg-card hero-bg--mesh"><div class="docs-bg-label"><code>mesh</code><span>Multiple color blobs (SaaS style)</span></div></div>
+          <div class="docs-bg-card hero-bg--aurora"><div class="docs-bg-label"><code>aurora</code><span>Northern-lights color bands</span></div></div>
+          <div class="docs-bg-card hero-bg--spotlight"><div class="docs-bg-label"><code>spotlight</code><span>Center glow fading to edges</span></div></div>
+          <div class="docs-bg-card hero-bg--sunset"><div class="docs-bg-label"><code>sunset</code><span>Warm-to-cool diagonal sweep</span></div></div>
+          <div class="docs-bg-card hero-bg--frosted"><div class="docs-bg-label"><code>frosted</code><span>Subtle single-tint frosted glass</span></div></div>
+          <div class="docs-bg-card hero-bg--cyber"><div class="docs-bg-label"><code>cyber</code><span>Neon grid with scan lines</span></div></div>
+          <div class="docs-bg-card hero-bg--gradient-mesh"><div class="docs-bg-label"><code>gradient-mesh</code><span>Conic color wheel gradient</span></div></div>
+          <div class="docs-bg-card"><div class="docs-bg-label"><code>none</code><span>No background effect</span></div></div>
+        </div>
+
+        <h3 class="docs-subheading">Canvas Animations</h3>
+        <div class="docs-anim-grid" id="docs-anim-grid">
+          <div class="docs-anim-card"><canvas data-docs-anim="snake"></canvas><div class="docs-anim-label"><code>snake</code><span>Glowing lines on dot grid</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="aurora"></canvas><div class="docs-anim-label"><code>aurora</code><span>Drifting translucent blobs</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="constellation"></canvas><div class="docs-anim-label"><code>constellation</code><span>Particles with connection lines</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="wave-field"></canvas><div class="docs-anim-label"><code>wave-field</code><span>Dots rippling in sine waves</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="mesh-gradient"></canvas><div class="docs-anim-label"><code>mesh-gradient</code><span>Animated color fills</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="noise-flow"></canvas><div class="docs-anim-label"><code>noise-flow</code><span>Particles along noise currents</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="warp-starfield"></canvas><div class="docs-anim-label"><code>warp-starfield</code><span>Depth-projected star trails</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="neural-pulse"></canvas><div class="docs-anim-label"><code>neural-pulse</code><span>Dot grid with cascading beams</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="morph-blobs"></canvas><div class="docs-anim-label"><code>morph-blobs</code><span>Organic shape-shifting blobs</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="silk-waves"></canvas><div class="docs-anim-label"><code>silk-waves</code><span>Layered flowing ribbons</span></div></div>
+          <div class="docs-anim-card"><canvas data-docs-anim="floating-orbs"></canvas><div class="docs-anim-label"><code>floating-orbs</code><span>Glowing orbs with depth</span></div></div>
+          <div class="docs-anim-card"><div class="docs-anim-label"><code>none</code><span>No animation</span></div></div>
+        </div>
+
+        <div class="docs-callout">
+          <strong>Shuffle button:</strong> When <code>isTemplate: true</code>, a shuffle icon appears in the sidebar and hero area. Click it to preview random background + animation combinations.
         </div>
       </section>
 
@@ -592,9 +711,9 @@ cd my-portfolio && pnpm install</code></pre>
       <section class="docs-section docs-section-last">
         <h2 class="docs-heading" id="disable">Removing This Page</h2>
         <p class="docs-text">
-          Once you've configured your site, hide this documentation page by setting:
+          Once you've configured your site, hide the documentation page, the Docs nav link, and the hero shuffle button by setting:
         </p>
-        <pre class="docs-code"><code set:html={`// src/config.ts\nexport const SITE = {\n  ...\n  isTemplate: false,  // ← hides /docs page\n};`}></code></pre>
+        <pre class="docs-code"><code set:html={`// src/config.ts\nexport const SITE = {\n  ...\n  isTemplate: false,  // ← hides /docs page, Docs link, and shuffle button\n};`}></code></pre>
       </section>
 
     </article>
@@ -718,7 +837,7 @@ cd my-portfolio && pnpm install</code></pre>
   /* Layout Grid */
   .docs-layout-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
   .docs-layout-card {
@@ -1035,6 +1154,23 @@ cd my-portfolio && pnpm install</code></pre>
     color: color-mix(in srgb, var(--foreground) 60%, transparent);
   }
 
+  /* Subheading */
+  .docs-subheading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem;
+    color: color-mix(in srgb, var(--foreground) 85%, transparent);
+  }
+  .docs-mono-label {
+    font-size: 0.78rem;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+  }
+
   /* Callout */
   .docs-callout {
     background: color-mix(in srgb, var(--accent) 6%, transparent);
@@ -1104,5 +1240,136 @@ cd my-portfolio && pnpm install</code></pre>
     }
     .docs-tech-demo-label { min-width: auto; }
     .docs-file-entry { flex-wrap: wrap; }
+    .docs-bg-grid { grid-template-columns: repeat(2, 1fr); }
+    .docs-anim-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Background Preview Cards */
+  .docs-bg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+  }
+  .docs-bg-card {
+    position: relative;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    height: 8rem;
+    transition: border-color 0.2s;
+  }
+  .docs-bg-card:hover {
+    border-color: var(--accent);
+  }
+  .docs-bg-card.hero-bg--dot-grid::after {
+    display: none;
+  }
+  .docs-bg-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: linear-gradient(to top, var(--background) 40%, transparent);
+  }
+  .docs-bg-label code {
+    font-size: 0.78rem;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .docs-bg-label span {
+    font-size: 0.75rem;
+    color: color-mix(in srgb, var(--foreground) 65%, transparent);
+  }
+
+  /* Animation Preview Cards */
+  .docs-anim-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+  }
+  .docs-anim-card {
+    position: relative;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    height: 10rem;
+    transition: border-color 0.2s;
+  }
+  .docs-anim-card:hover {
+    border-color: var(--accent);
+  }
+  .docs-anim-card canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .docs-anim-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: linear-gradient(to top, var(--background) 40%, transparent);
+  }
+  .docs-anim-label code {
+    font-size: 0.78rem;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .docs-anim-label span {
+    font-size: 0.75rem;
+    color: color-mix(in srgb, var(--foreground) 65%, transparent);
   }
 </style>
+
+<script>
+  async function initDocsAnimations() {
+    const canvases = document.querySelectorAll<HTMLCanvasElement>("[data-docs-anim]");
+    if (!canvases.length) return;
+
+    const { animations } = await import("@/utils/heroAnimations");
+    const cleanups: (() => void)[] = [];
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const canvas = entry.target as HTMLCanvasElement;
+        const type = canvas.dataset.docsAnim;
+        if (!type || !entry.isIntersecting) return;
+        if (canvas.dataset.running) return;
+        canvas.dataset.running = "1";
+        const fn = animations[type];
+        if (fn) {
+          const cleanup = fn(canvas);
+          if (cleanup) cleanups.push(cleanup);
+        }
+        observer.unobserve(canvas);
+      });
+    }, { rootMargin: "100px" });
+
+    canvases.forEach(c => observer.observe(c));
+
+    return () => {
+      observer.disconnect();
+      cleanups.forEach(c => c());
+    };
+  }
+
+  let docsCleanup: (() => void) | undefined;
+  initDocsAnimations().then(c => { docsCleanup = c; });
+  document.addEventListener("astro:page-load", () => {
+    if (docsCleanup) docsCleanup();
+    initDocsAnimations().then(c => { docsCleanup = c; });
+  });
+</script>
