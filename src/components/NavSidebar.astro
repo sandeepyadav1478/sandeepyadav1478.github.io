@@ -195,7 +195,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
     const modalDialog = document.getElementById("work-modal");
     if (modalDialog) {
       modalDialog.addEventListener("close", () => {
-        setTimeout(updateActive, 60);
+        requestAnimationFrame(() => {
+          updateActive();
+          setTimeout(updateActive, 100);
+        });
       });
     }
 

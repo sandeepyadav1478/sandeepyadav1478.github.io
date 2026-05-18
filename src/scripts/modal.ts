@@ -33,7 +33,9 @@ function initModal() {
     document.documentElement.style.scrollBehavior = "auto";
     window.scrollTo(0, savedScrollY);
     document.documentElement.style.scrollBehavior = "";
-    setTimeout(() => window.dispatchEvent(new Event("scroll")), 50);
+    requestAnimationFrame(() => {
+      window.dispatchEvent(new Event("scroll"));
+    });
   }
 
   function openLightbox(html: string) {
@@ -77,8 +79,8 @@ function initModal() {
     if (!dialog.open) return;
     closeLightbox();
     dialog.close();
-    unlockBody();
     history.replaceState(null, "", basePath);
+    unlockBody();
   }
 
   function initLightboxTriggers() {
