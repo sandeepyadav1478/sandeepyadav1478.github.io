@@ -187,7 +187,10 @@ export function constellation(canvas: HTMLCanvasElement): Cleanup {
   const { ctx, destroy } = setupCanvas(canvas);
   const get = () => { const r = canvas.getBoundingClientRect(); return { w: r.width, h: r.height }; };
 
-  const COUNT = 50, LINK_DIST = 120;
+  const initRect = canvas.getBoundingClientRect();
+  const area = initRect.width * initRect.height;
+  const COUNT = Math.max(10, Math.min(50, Math.round(area / 8000)));
+  const LINK_DIST = Math.max(50, Math.min(120, Math.round(Math.sqrt(area) / 5)));
   const particles = Array.from({ length: COUNT }, () => ({
     x: Math.random(), y: Math.random(),
     vx: (Math.random() - 0.5) * 0.0004,
