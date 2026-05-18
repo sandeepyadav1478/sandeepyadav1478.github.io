@@ -6650,3 +6650,145 @@ a.client-item:hover .client-logo-full {
   line-height: 1.5;
   margin-top: 0.25rem;
 }
+
+/* ============================================================================
+   Mobile Responsive Overrides (≤ 639px)
+   ============================================================================ */
+@media (max-width: 639px) {
+  /* Hero — reduce padding and photo size */
+  .hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero-row {
+    gap: 1.5rem;
+  }
+
+  .hero-photo-wrap {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .hero-headline {
+    font-size: 1.35rem;
+    height: calc(1.35rem * 1.2);
+  }
+
+  .hero-pitch,
+  .hero-keywords {
+    font-size: 1.1rem;
+  }
+
+  /* About section */
+  .about-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-body {
+    font-size: 0.95rem;
+  }
+
+  /* Section tinted — reduce padding */
+  .section-tinted {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Modal */
+  .work-modal {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    width: 100vw;
+    border-radius: 0;
+  }
+
+  .modal-title {
+    font-size: 1.25rem;
+  }
+
+  .modal-meta-row {
+    flex-wrap: wrap;
+  }
+
+  .modal-link-bar {
+    flex-wrap: wrap;
+  }
+
+  /* About page */
+  .about-pg-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .about-pg-avatar {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .about-pg-name {
+    font-size: 1.35rem;
+  }
+
+  .about-pg-start-item {
+    gap: 0.625rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .about-pg-start-num {
+    display: none;
+  }
+
+  /* Experience cards */
+  .exp-card {
+    padding: 1rem;
+  }
+
+  .exp-card-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .exp-logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  /* Highlight card */
+  .highlight-card {
+    padding: 1rem 1.25rem;
+  }
+
+  .highlight-header {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  .highlight-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  /* Compact card — allow title to wrap */
+  .compact-title {
+    white-space: normal;
+    font-size: 0.8125rem;
+  }
+
+  .compact-date {
+    display: none;
+  }
+
+  /* Navigation mobile */
+  .nav-mobile-links {
+    gap: 0.4rem;
+  }
+
+  .nav-mobile-link {
+    font-size: 0.75rem;
+  }
+}
