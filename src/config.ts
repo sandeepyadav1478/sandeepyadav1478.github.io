@@ -57,7 +57,7 @@ export const SITE = {
 export const PROFILE = {
   name: "Sandeep Yadav",
   tagline: "Building production-grade intelligent systems — from research to deployment.",
-  photo: "/profile-photo.svg",
+  photo: "/profile-photo.jpg",
   role: "AI Engineer",
   organization: "",
   organizationUrl: "",
