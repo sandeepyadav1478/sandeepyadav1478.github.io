@@ -298,6 +298,13 @@ _What drives me doesn't fit on a resume._
 Training, experiment tracking, inference at scale, and the tooling that holds it all together.
 ~Bigger problems. Harder systems. End-to-end.~
 ## **Ready for what's next.**`,
+  // Highlight cards shown on the /about page (up to ~4 recommended)
+  highlights: [
+    { value: "4+", label: "Years Building" },
+    { value: "12+", label: "OSS Contributions" },
+    { value: "3", label: "Production Pipelines" },
+    { value: "1M+", label: "Inference Requests" },
+  ],
 } as const;
 
 // ============================================================================
