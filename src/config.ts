@@ -2,16 +2,30 @@
 // SITE — Global site settings
 // ============================================================================
 export const SITE = {
+<<<<<<< HEAD
   website: "https://sandeepyadav1478.github.io/",
   author: "Sandeep Yadav",
   profile: "https://sandeepyadav1478.github.io/",
   desc: "AI Engineer building production-grade intelligent systems — from model training and fine-tuning to agentic workflows, ML infrastructure, and scalable inference.",
   title: "Sandeep Yadav",
+=======
+  website: "https://johndoe.github.io/",       // your deployed URL
+  author: "John Doe",                           // used in meta tags, RSS, structured data
+  profile: "https://johndoe.github.io/",        // canonical profile URL
+  desc: "AI Engineer building production-grade intelligent systems — from model training and fine-tuning to agentic workflows, ML infrastructure, and scalable inference.",
+  title: "John Doe",                            // browser tab / site title
+>>>>>>> upstream/main
   ogImage: "sora-og.jpg",                       // default OG image in public/
   lightAndDarkMode: true,
   // "light" | "dark" | "" (empty = follow system preference)
   initialColorScheme: "" as "" | "light" | "dark",
+<<<<<<< HEAD
   isTemplate: false,
+=======
+  // Template mode: shows /docs page with setup guide & visual demos.
+  // Set to false after you've configured your site.
+  isTemplate: true,
+>>>>>>> upstream/main
   postPerIndex: 6,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000,
@@ -48,13 +62,18 @@ export const SITE = {
   dynamicOgImage: true,
   dir: "ltr" as "ltr" | "rtl",
   lang: "en",
+<<<<<<< HEAD
   timezone: "Asia/Kolkata",
+=======
+  timezone: "America/New_York",
+>>>>>>> upstream/main
 } as const;
 
 // ============================================================================
 // PROFILE — Your personal information
 // ============================================================================
 export const PROFILE = {
+<<<<<<< HEAD
   name: "Sandeep Yadav",
   tagline: "Building production-grade intelligent systems — from research to deployment.",
   photo: "/profile-photo.jpg",
@@ -62,6 +81,15 @@ export const PROFILE = {
   organization: "",
   organizationUrl: "",
   location: "New Delhi, India",
+=======
+  name: "John Doe",
+  tagline: "Building production-grade intelligent systems — from research to deployment.",
+  photo: "/profile-photo.svg",              // place your photo in public/ (.jpg, .png, or .svg)
+  role: "AI Engineer",                      // current role / title (also used in SEO structured data)
+  organization: "Acme AI",                  // current company or affiliation
+  organizationUrl: "https://example.com",   // optional link
+  location: "San Francisco, USA",           // city / region
+>>>>>>> upstream/main
   // SEO keywords for structured data (what you want to be found for)
   keywords: ["Machine Learning", "LLM", "MLOps", "Deep Learning", "NLP", "Fine-Tuning", "RAG", "AI Agents", "Model Deployment"],
   // Phrases that cycle with a typing animation as the main headline
@@ -83,9 +111,16 @@ export const PROFILE = {
 //   "Facebook", "Telegram", "Pinterest", "Calendly"
 // ============================================================================
 export const SOCIALS_CONFIG = [
+<<<<<<< HEAD
   { name: "GitHub", url: "https://github.com/sandeepyadav1478" },
   { name: "X", url: "https://x.com/sandeepyadav148" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/sandeepyadav1478/" },
+=======
+  { name: "GitHub", url: "https://github.com/johndoe" },
+  { name: "X", url: "https://x.com/johndoe" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/johndoe/" },
+  { name: "Mail", url: "mailto:hello@johndoe.dev" },
+>>>>>>> upstream/main
 ] as const;
 
 // ============================================================================
@@ -492,21 +527,33 @@ export const PUBLICATIONS = {
       title: "Efficient Multi-Agent Architectures for Document Understanding",
       venue: "arXiv preprint",
       year: 2024,
+<<<<<<< HEAD
       authors: "Sandeep Yadav, Alice Park, Bob Liu",
+=======
+      authors: "John Doe, Alice Park, Bob Liu",
+>>>>>>> upstream/main
       url: "https://arxiv.org/abs/0000.00000",
     },
     {
       title: "Scaling Retrieval-Augmented Generation for Enterprise Knowledge Bases",
       venue: "NeurIPS Workshop",
       year: 2023,
+<<<<<<< HEAD
       authors: "Sandeep Yadav, Carol Zhang",
+=======
+      authors: "John Doe, Carol Zhang",
+>>>>>>> upstream/main
       url: "https://arxiv.org/abs/0000.00000",
     },
     {
       title: "Low-Rank Adaptation Strategies for Domain-Specific LLMs",
       venue: "EMNLP",
       year: 2023,
+<<<<<<< HEAD
       authors: "Alice Park, Sandeep Yadav, David Kim",
+=======
+      authors: "Alice Park, John Doe, David Kim",
+>>>>>>> upstream/main
       url: "https://arxiv.org/abs/0000.00000",
     },
   ] as Publication[],
@@ -560,12 +607,20 @@ export const OPEN_SOURCE: OpenSourceProject[] = [
     role: "Contributor",
   },
   {
+<<<<<<< HEAD
     name: "sandeepyadav1478/ml-pipeline-kit",
+=======
+    name: "johndoe/ml-pipeline-kit",
+>>>>>>> upstream/main
     description: "Opinionated ML pipeline toolkit for rapid experimentation and deployment.",
     stars: "1.2K",
     forks: "180",
     language: "Python",
+<<<<<<< HEAD
     url: "https://github.com/sandeepyadav1478/ml-pipeline-kit",
+=======
+    url: "https://github.com/johndoe/ml-pipeline-kit",
+>>>>>>> upstream/main
     role: "Author",
   },
 ];
@@ -622,6 +677,7 @@ export interface FeaturedModel {
 
 export const FEATURED_MODELS: FeaturedModel[] = [
   {
+<<<<<<< HEAD
     name: "sandeepyadav1478/llama3-medical-qa",
     description: "Llama 3 fine-tuned on medical QA datasets for clinical decision support.",
     downloads: "5K+",
@@ -634,6 +690,20 @@ export const FEATURED_MODELS: FeaturedModel[] = [
     downloads: "2K+",
     task: "Code Generation",
     url: "https://huggingface.co/sandeepyadav1478/code-reviewer-7b",
+=======
+    name: "johndoe/llama3-medical-qa",
+    description: "Llama 3 fine-tuned on medical QA datasets for clinical decision support.",
+    downloads: "5K+",
+    task: "Question Answering",
+    url: "https://huggingface.co/johndoe/llama3-medical-qa",
+  },
+  {
+    name: "johndoe/code-reviewer-7b",
+    description: "7B parameter model fine-tuned for automated code review and suggestions.",
+    downloads: "2K+",
+    task: "Code Generation",
+    url: "https://huggingface.co/johndoe/code-reviewer-7b",
+>>>>>>> upstream/main
   },
 ];
 
