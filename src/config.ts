@@ -80,12 +80,13 @@ export const PROFILE = {
 // ============================================================================
 // SOCIALS — Your social links (icons are mapped automatically)
 // Supported names: "GitHub", "X", "LinkedIn", "Mail", "WhatsApp",
-//   "Facebook", "Telegram", "Pinterest", "Calendly"
+//   "Facebook", "Telegram", "Pinterest", "Calendly", "Topmate"
 // ============================================================================
 export const SOCIALS_CONFIG = [
   { name: "GitHub", url: "https://github.com/sandeepyadav1478" },
   { name: "X", url: "https://x.com/sandeepyadav148" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/sandeepyadav1478/" },
+  { name: "Topmate", url: "https://topmate.io/sandeepyadav1478" },
 ] as const;
 
 // ============================================================================
@@ -326,7 +327,7 @@ export const CONNECT = {
   heading: "Book a 1:1",
   subheading: "Pick a time that works for you — happy to chat about roles, collaborations, or anything else.",
   // Replace with your Calendly (or Cal.com / SavvyCal) scheduling link
-  calendlyUrl: "https://calendly.com/your-username/30min",
+  calendlyUrl: "https://calendly.com/sandeepyadav1478",
 } as const;
 
 // ============================================================================

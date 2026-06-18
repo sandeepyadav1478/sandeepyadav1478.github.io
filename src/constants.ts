@@ -8,6 +8,7 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconCalendar from "@/assets/icons/IconCalendar.svg";
+import IconTopmate from "@/assets/icons/IconTopmate.svg";
 import { SITE, CONNECT, SOCIALS_CONFIG } from "@/config";
 
 interface Social {
@@ -27,6 +28,7 @@ const ICON_MAP: Record<string, (_props: Props) => Element> = {
   Telegram: IconTelegram,
   Pinterest: IconPinterest,
   Calendly: IconCalendar,
+  Topmate: IconTopmate,
 };
 
 export const SOCIALS: Social[] = [
