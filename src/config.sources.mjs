@@ -1,67 +1,66 @@
 // SOURCES — single source of truth for the content aggregator.
 // Plain JS so BOTH the Node orchestrator (scripts/) and Astro (via config.ts) can import it.
-// The template ships every source OFF / blank. A forker fills in handles to enable.
 // SECURITY: this repo is public. Never put secrets here — only public handles.
 export const SOURCES = {
   github: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // GitHub username, e.g. "octocat"
-    maxCommits: 25, // latest activity items kept in the feed
+    enabled: true,
+    handle: "sandeepyadav1478",
+    maxCommits: 25,
   },
   codeforces: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // Codeforces handle, e.g. "tourist"
-    maxRatings: 50, // latest rating changes kept (active users have ~300+)
+    enabled: true,
+    handle: "sandeepyadav1478",
+    maxRatings: 50,
   },
   pypi: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // PyPI project name, e.g. "requests"
-    maxPackages: 25, // releases kept (this adapter emits the latest release)
+    enabled: true,
+    handle: "sqloutbox",
+    maxPackages: 25,
   },
   npm: {
-    enabled: false, // forker: set true + add package names
-    packages: [], // e.g. ["your-package"] — npm package names you publish
-    maxPackages: 25, // latest releases kept
+    enabled: false,
+    packages: [],
+    maxPackages: 25,
   },
   rss: {
-    enabled: false, // forker: set true + add at least one feed URL
-    feeds: [], // e.g. ["https://overreacted.io/rss.xml", "https://blog.rust-lang.org/feed.xml"]
-    maxPosts: 50, // newest posts kept across ALL feeds combined
+    enabled: false,
+    feeds: [],
+    maxPosts: 50,
   },
   youtube: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // YouTube CHANNEL id, must start with "UC…" (NOT an @handle). Find it via the channel page source / a UC-id lookup.
-    maxVideos: 15, // latest videos kept in the feed
+    enabled: false,
+    handle: "",
+    maxVideos: 15,
   },
   stackoverflow: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // Stack Overflow NUMERIC user id, e.g. "22656" (from your profile URL /users/<id>/...)
-    maxPosts: 25, // latest answers kept in the feed
+    enabled: false,
+    handle: "",
+    maxPosts: 25,
   },
   bluesky: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // Bluesky handle or DID, e.g. "bsky.app" (no @)
-    maxPosts: 25, // latest original posts kept (reposts + replies excluded)
+    enabled: false,
+    handle: "",
+    maxPosts: 25,
   },
   mastodon: {
-    enabled: false, // forker: set true + fill instance & user
-    instance: "", // Mastodon instance host, e.g. "mastodon.social"
-    user: "", // local username (acct), e.g. "Gargron"
-    maxPosts: 25, // latest original posts kept (boosts & replies dropped)
+    enabled: false,
+    instance: "",
+    user: "",
+    maxPosts: 25,
   },
   huggingface: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // HF org/user, e.g. "google" — author= on both endpoints
-    maxBadges: 50, // model+dataset badges kept (per-endpoint API limit too)
+    enabled: true,
+    handle: "sandeepyadav1478",
+    maxBadges: 50,
   },
   wakatime: {
-    enabled: false, // forker: set true; key comes from the WAKATIME_API_KEY env/secret, NOT here
-    handle: "", // WakaTime username (display only)
-    profileUrl: "", // public profile, e.g. "https://wakatime.com/@yourname" — used as the item url
-    range: "last_7_days", // WakaTime stats range; part of the dedup id (wakatime:rating:<range>)
+    enabled: true,
+    handle: "sandeepyadav1478",
+    profileUrl: "https://wakatime.com/@sandeepyadav1478",
+    range: "last_7_days",
   },
   leetcode: {
-    enabled: false, // forker: set true + fill handle
-    handle: "", // LeetCode username, e.g. "sandeepyadav1478"
+    enabled: true,
+    handle: "sandeepyadav1478",
   },
 };
