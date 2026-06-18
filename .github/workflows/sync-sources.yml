@@ -1,0 +1,118 @@
+name: Sync content sources
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # Daily at 2am UTC
+  workflow_dispatch: # Manual trigger from the Actions UI
+
+permissions:
+  contents: write # push updated cache to main
+  issues: write # open / update / close the failure issue
+
+concurrency:
+  group: sync-sources
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run sync
+        continue-on-error: true
+        run: node scripts/sync-sources.mjs --report
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Write fallback report on sync crash
+        if: always()
+        run: |
+          if [ ! -f sync-report.json ]; then
+            echo '{"generatedAt":"'"$(date -u +%Y-%m-%dT%H:%M:%S.000Z)"'","failures":[{"source":"sync-script","error":"Fatal crash — see Actions log for details"}],"successes":[]}' > sync-report.json
+          fi
+
+      - name: Commit updated cache
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet src/data/sources-cache.json; then
+            echo "Cache unchanged — skipping commit"
+          else
+            git add src/data/sources-cache.json
+            git commit -m "chore(sync): update sources cache"
+            git push
+          fi
+
+      - name: Process sync report
+        id: report
+        if: always()
+        continue-on-error: true
+        run: node scripts/process-report.mjs
+
+      - name: Write fallback issue body if process-report crashed
+        id: fallback_report
+        if: always()
+        run: |
+          if [ ! -f /tmp/issue_body.md ]; then
+            printf '## Sync failures\n\n_Report processing failed — check the Actions log._\n' > /tmp/issue_body.md
+            echo "failure_count=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ensure sync-failure label exists
+        if: always() && (steps.report.outputs.failure_count != '0' || steps.fallback_report.outputs.failure_count != '')
+        run: |
+          gh label create "sync-failure" \
+            --color "d73a4a" \
+            --description "Automatic sync failure notification" \
+            --force 2>/dev/null || true
+
+      - name: Open or update failure issue
+        if: always() && (steps.report.outputs.failure_count != '0' || steps.fallback_report.outputs.failure_count != '')
+        run: |
+          ISSUE_TITLE="[Sora] Sync failures"
+          EXISTING=$(gh issue list --state open \
+            --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -z "$EXISTING" ]; then
+            gh issue create \
+              --title "$ISSUE_TITLE" \
+              --body-file /tmp/issue_body.md \
+              --label "sync-failure"
+          else
+            gh issue edit "$EXISTING" --body-file /tmp/issue_body.md
+          fi
+
+      - name: Close failure issue on clean sync
+        if: always() && steps.report.outputs.failure_count == '0' && steps.fallback_report.outputs.failure_count == ''
+        run: |
+          ISSUE_TITLE="[Sora] Sync failures"
+          EXISTING=$(gh issue list --state open \
+            --search "\"$ISSUE_TITLE\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" \
+              --comment "All sources synced successfully. Closing."
+          fi
