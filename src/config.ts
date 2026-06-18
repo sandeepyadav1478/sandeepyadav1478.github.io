@@ -108,6 +108,54 @@ export const SECTIONS = {
   showAwards: true,
   showFAQ: true,
   showContact: false,
+  showActivity: true,
+} as const;
+
+// ============================================================================
+// ACTIVITY_DISPLAY — Controls which payload fields appear as badges/tooltips
+// on ActivityCard items. Each field is opt-in. All false = no badges shown.
+// ============================================================================
+export const ACTIVITY_DISPLAY = {
+  // commit
+  commit_branch:     true,  // ⎇ branch name badge
+  commit_tooltip:    true,  // hover: commit message
+
+  // release
+  release_version:   true,  // 🏷 version tag badge
+  release_tooltip:   true,  // hover: repo name
+
+  // package (npm + pypi)
+  package_version:   true,  // 📦 version badge
+  package_downloads: false, // ⬇ download count badge (omitted if absent)
+  package_tooltip:   true,  // hover: registry name (npm / pypi)
+
+  // post (rss, bluesky, mastodon, stackoverflow)
+  post_feed:         true,  // 📰 feed/platform name badge
+  post_tooltip:      true,  // hover: excerpt (first 120 chars)
+
+  // video (youtube)
+  video_views:       true,  // ▶ view count badge (omitted if 0)
+  video_tooltip:     true,  // hover: channel name
+
+  // rating — codeforces
+  cf_rating:         true,  // ★ rating badge
+  cf_rank:           true,  // # rank badge
+  cf_tooltip:        true,  // hover: Contest #<id>
+
+  // rating — wakatime
+  waka_time:         true,  // ⏱ total coding time badge
+  waka_avg:          true,  // avg/day badge (omitted if absent)
+  waka_tooltip:      true,  // hover: top languages
+
+  // rating — leetcode
+  lc_solved:         true,  // ✓ solved count badge
+  lc_rank:           true,  // # global rank badge (formatted)
+  lc_tooltip:        true,  // hover: Easy X · Medium Y · Hard Z
+
+  // badge — huggingface
+  hf_downloads:      true,  // ⬇ download count badge
+  hf_likes:          true,  // ♥ likes badge (omitted if 0)
+  hf_tooltip:        true,  // hover: label + top 3 tags
 } as const;
 
 // ============================================================================
