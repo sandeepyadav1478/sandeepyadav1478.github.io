@@ -5,7 +5,8 @@ export const SOURCES = {
   github: {
     enabled: true,
     handle: "sandeepyadav1478",
-    maxCommits: 25,
+    maxCommits: 50,
+    maxPages: 3,
   },
   codeforces: {
     enabled: true,
