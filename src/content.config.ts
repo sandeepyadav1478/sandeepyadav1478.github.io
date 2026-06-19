@@ -27,6 +27,7 @@ const works = defineCollection({
       endDatetime: z.date().optional().nullable(),
       ongoing: z.boolean().optional().default(false),
       status: z.enum(["active", "maintained", "archived", "in-production"]).optional(),
+      githubRepo: z.string().optional(),
       highlights: z
         .array(z.object({ label: z.string(), value: z.string(), icon: z.string().optional() }))
         .optional()
