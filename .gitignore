@@ -28,3 +28,4 @@ pnpm-debug.log*
 public/pagefind
 
 sync-report.json
+archive-alerts.json
