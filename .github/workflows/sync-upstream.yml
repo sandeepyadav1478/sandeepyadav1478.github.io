@@ -1,9 +1,7 @@
 name: Sync from upstream template
 
 on:
-  schedule:
-    - cron: "0 6 * * *" # Daily at 6 AM UTC
-  workflow_dispatch:
+  workflow_dispatch: # manual only — auto-sync disabled (no shared git history with template)
 
 permissions:
   contents: write
@@ -17,8 +15,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    # Only run in forks, not in the template repo itself
-    if: github.repository != 'sandeepyadav1478/sora'
+    # Disabled: clone has no shared git history with template — all files conflict on every merge.
+    # Template updates are synced manually via our workflow scripts instead.
+    if: false
     steps:
       - name: Checkout fork
         uses: actions/checkout@v4
