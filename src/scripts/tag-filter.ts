@@ -8,7 +8,7 @@ function initTagFilter() {
 
   if (tagLinks.length === 0) return;
 
-  let activeTags = new Set<string>();
+  const activeTags = new Set<string>();
 
   function applyFilters() {
     const typeLinks = document.querySelectorAll<HTMLElement>(".filter-link");

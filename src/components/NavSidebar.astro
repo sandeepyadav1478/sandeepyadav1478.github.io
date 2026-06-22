@@ -135,7 +135,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
 <script>
   function initNavDots() {
     const sidebar = document.querySelector<HTMLElement>(".nav-sidebar");
-    const dotsWrap = document.getElementById("nav-dots");
+    void document.getElementById("nav-dots"); // referenced for side-effect only
     const items = document.querySelectorAll<HTMLElement>(".nav-dot-item[data-nav-id]");
 
     const heroFloatIcons = document.getElementById("hero-float-icons");

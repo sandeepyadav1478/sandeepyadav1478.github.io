@@ -259,7 +259,7 @@ export function constellation(canvas: HTMLCanvasElement): Cleanup {
 // ── 4. Wave Field ──
 export function waveField(canvas: HTMLCanvasElement): Cleanup {
   const { ctx, destroy } = setupCanvas(canvas);
-  const get = () => { const r = canvas.getBoundingClientRect(); return { w: r.width, h: r.height }; };
+  const _get = () => { const r = canvas.getBoundingClientRect(); return { w: r.width, h: r.height }; };
 
   const SPACING = 24;
   let animId = 0, time = 0;

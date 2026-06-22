@@ -11,7 +11,7 @@ dayjs.extend(timezone);
 type Props = CollectionEntry<"works">;
 
 const { id, data } = Astro.props;
-const { title, type, pubDatetime, modDatetime, endDatetime, ongoing, tags, organization, role, featured, status, badgeColor } = data;
+const { title, type, pubDatetime, endDatetime, ongoing, tags, organization, role, featured, status, badgeColor } = data;
 
 const statusLabelMap: Record<string, { label: string; cls: string }> = {
   "active": { label: "Active", cls: "status-active" },

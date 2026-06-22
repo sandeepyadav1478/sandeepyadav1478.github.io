@@ -4,10 +4,10 @@ import NavSidebar from "@/components/NavSidebar.astro";
 import Footer from "@/components/Footer.astro";
 import Socials from "@/components/Socials.astro";
 import {
-  SITE, ABOUT, PROFILE, SOCIALS_CONFIG,
+  SITE, ABOUT, PROFILE,
   EXPERIENCE, SKILLS, EDUCATION, AWARDS,
   STATS, FAQ, SPEAKING, OPEN_SOURCE,
-  TESTIMONIALS, SECTIONS, START_HERE,
+  TESTIMONIALS, START_HERE,
 } from "@/config";
 
 const highlights = "highlights" in ABOUT ? (ABOUT.highlights as readonly { value: string; label: string }[]) : [];

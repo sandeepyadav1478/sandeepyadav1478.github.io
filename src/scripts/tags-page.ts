@@ -3,7 +3,7 @@ function initTagsPage() {
   const items = document.querySelectorAll<HTMLElement>(".work-item");
   if (toggles.length === 0 || items.length === 0) return;
 
-  let activeTags = new Set<string>();
+  const activeTags = new Set<string>();
 
   const params = new URLSearchParams(window.location.search);
   const preselected = params.get("t");

@@ -184,6 +184,7 @@ const heroAnim = "heroAnimation" in SITE ? (SITE.heroAnimation as string) : "sna
     }
 
     const label = `${newBg} + ${newAnim}`;
+    // eslint-disable-next-line no-console
     console.log(`🎲 Hero: ${label}`);
     const toast = document.createElement("div");
     toast.className = "shuffle-toast";

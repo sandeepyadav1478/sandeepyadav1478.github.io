@@ -72,7 +72,7 @@ test("fetch_ returns envelopes for a valid user", async () => {
   // fetchJson calls fetch twice: once for answers, once for questions.
   // First call returns an answer item; second call returns the matching question.
   let callCount = 0;
-  globalThis.fetch = async (_url) => {
+  globalThis.fetch = async () => {
     callCount += 1;
     if (callCount === 1) {
       // answers endpoint
