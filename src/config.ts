@@ -157,6 +157,11 @@ export const ACTIVITY_DISPLAY = {
   hf_downloads:      true,  // ⬇ download count badge
   hf_likes:          true,  // ♥ likes badge (omitted if 0)
   hf_tooltip:        true,  // hover: label + top 3 tags
+
+  // badge — credly
+  credly_expired:    true,  // ⚠ "expired" warning when payload.expired === true
+  credly_issuer:     true,  // 🏅 issuing organisation name badge
+  credly_tooltip:    true,  // hover: badge description (first 120 chars)
 } as const;
 
 // ============================================================================

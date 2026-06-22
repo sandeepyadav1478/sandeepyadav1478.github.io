@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: "☁️ Checkout repository"
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: "📦 Install pnpm"
         uses: pnpm/action-setup@v4
@@ -32,7 +32,7 @@ jobs:
           version: 10.11.1
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
@@ -48,6 +48,15 @@ jobs:
 
       - name: "🧪 Run sync tests"
         run: pnpm run test:sync
+
+      - name: "🔢 Assert minimum test count"
+        run: |
+          FILE_COUNT=$(find scripts/__tests__ -name '*.test.mjs' | wc -l | tr -d ' ')
+          echo "Test files found: $FILE_COUNT"
+          if [ "$FILE_COUNT" -lt 10 ]; then
+            echo "::error::Expected at least 10 test files, found $FILE_COUNT. Test suite may be incomplete."
+            exit 1
+          fi
 
       - name: "🚀 Build the project"
         run: pnpm run build

@@ -49,6 +49,12 @@ export const SOURCES = {
     user: "",
     maxPosts: 25,
   },
+  credly: {
+    enabled: true,
+    handle: "sandeepyadav1478",
+    maxBadges: 50,
+    includeExpired: true,
+  },
   huggingface: {
     enabled: true,
     handle: "sandeepyadav1478",
