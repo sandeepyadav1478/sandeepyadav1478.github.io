@@ -7,7 +7,7 @@ export const SITE = {
   profile: "https://sandeepyadav1478.github.io/",
   desc: "AI Engineer building production-grade intelligent systems — from model training and fine-tuning to agentic workflows, ML infrastructure, and scalable inference.",
   title: "Sandeep Yadav",
-  ogImage: "sora-og.jpg",                       // default OG image in public/
+  ogImage: "sora-og.jpg", // default OG image in public/
   lightAndDarkMode: true,
   // "light" | "dark" | "" (empty = follow system preference)
   initialColorScheme: "" as "" | "light" | "dark",
@@ -22,7 +22,7 @@ export const SITE = {
     text: "",
     url: "",
   },
-  favicon: "/favicon.svg",                       // path to site favicon in public/
+  favicon: "/favicon.svg", // path to site favicon in public/
   // Background pattern: "dot-grid" | "none"
   // dot-grid: subtle repeating dot matrix (like santifer.io)
   backgroundPattern: "dot-grid" as "dot-grid" | "none",
@@ -34,7 +34,17 @@ export const SITE = {
   // "spotlight"  — single bright glow from center, fading to edges
   // "sunset"     — warm-to-cool diagonal sweep
   // "frosted"    — very subtle single-tint frosted glass
-  heroBackground: "dot-grid" as "dot-grid" | "dual-glow" | "mesh" | "aurora" | "spotlight" | "sunset" | "frosted" | "cyber" | "gradient-mesh" | "none",
+  heroBackground: "dot-grid" as
+    | "dot-grid"
+    | "dual-glow"
+    | "mesh"
+    | "aurora"
+    | "spotlight"
+    | "sunset"
+    | "frosted"
+    | "cyber"
+    | "gradient-mesh"
+    | "none",
   // Hero section canvas animation:
   // "snake"           — glowing lines traversing the dot grid
   // "aurora"          — slow-drifting translucent color blobs
@@ -44,7 +54,19 @@ export const SITE = {
   // "noise-flow"      — particles streaming along noise currents
   // "geometric-pulse" — concentric rings expanding from center
   // "none"            — no animation
-  heroAnimation: "neural-pulse" as "snake" | "aurora" | "constellation" | "wave-field" | "mesh-gradient" | "noise-flow" | "warp-starfield" | "neural-pulse" | "morph-blobs" | "silk-waves" | "floating-orbs" | "none",
+  heroAnimation: "neural-pulse" as
+    | "snake"
+    | "aurora"
+    | "constellation"
+    | "wave-field"
+    | "mesh-gradient"
+    | "noise-flow"
+    | "warp-starfield"
+    | "neural-pulse"
+    | "morph-blobs"
+    | "silk-waves"
+    | "floating-orbs"
+    | "none",
   dynamicOgImage: true,
   dir: "ltr" as "ltr" | "rtl",
   lang: "en",
@@ -56,14 +78,25 @@ export const SITE = {
 // ============================================================================
 export const PROFILE = {
   name: "Sandeep Yadav",
-  tagline: "Building production-grade intelligent systems — from research to deployment.",
+  tagline:
+    "Building production-grade intelligent systems — from research to deployment.",
   photo: "/profile-photo.jpg",
   role: "AI Engineer",
   organization: "",
   organizationUrl: "",
   location: "New Delhi, India",
   // SEO keywords for structured data (what you want to be found for)
-  keywords: ["Machine Learning", "LLM", "MLOps", "Deep Learning", "NLP", "Fine-Tuning", "RAG", "AI Agents", "Model Deployment"],
+  keywords: [
+    "Machine Learning",
+    "LLM",
+    "MLOps",
+    "Deep Learning",
+    "NLP",
+    "Fine-Tuning",
+    "RAG",
+    "AI Agents",
+    "Model Deployment",
+  ],
   // Phrases that cycle with a typing animation as the main headline
   typedPhrases: [
     "AI Systems Builder",
@@ -118,50 +151,50 @@ export const SECTIONS = {
 // ============================================================================
 export const ACTIVITY_DISPLAY = {
   // commit
-  commit_branch:     true,  // ⎇ branch name badge
-  commit_tooltip:    true,  // hover: commit message
+  commit_branch: true, // ⎇ branch name badge
+  commit_tooltip: true, // hover: commit message
 
   // release
-  release_version:   true,  // 🏷 version tag badge
-  release_tooltip:   true,  // hover: repo name
+  release_version: true, // 🏷 version tag badge
+  release_tooltip: true, // hover: repo name
 
   // package (npm + pypi)
-  package_version:   true,  // 📦 version badge
+  package_version: true, // 📦 version badge
   package_downloads: false, // ⬇ download count badge (omitted if absent)
-  package_tooltip:   true,  // hover: registry name (npm / pypi)
+  package_tooltip: true, // hover: registry name (npm / pypi)
 
   // post (rss, bluesky, mastodon, stackoverflow)
-  post_feed:         true,  // 📰 feed/platform name badge
-  post_tooltip:      true,  // hover: excerpt (first 120 chars)
+  post_feed: true, // 📰 feed/platform name badge
+  post_tooltip: true, // hover: excerpt (first 120 chars)
 
   // video (youtube)
-  video_views:       true,  // ▶ view count badge (omitted if 0)
-  video_tooltip:     true,  // hover: channel name
+  video_views: true, // ▶ view count badge (omitted if 0)
+  video_tooltip: true, // hover: channel name
 
   // rating — codeforces
-  cf_rating:         true,  // ★ rating badge
-  cf_rank:           true,  // # rank badge
-  cf_tooltip:        true,  // hover: Contest #<id>
+  cf_rating: true, // ★ rating badge
+  cf_rank: true, // # rank badge
+  cf_tooltip: true, // hover: Contest #<id>
 
   // rating — wakatime
-  waka_time:         true,  // ⏱ total coding time badge
-  waka_avg:          true,  // avg/day badge (omitted if absent)
-  waka_tooltip:      true,  // hover: top languages
+  waka_time: true, // ⏱ total coding time badge
+  waka_avg: true, // avg/day badge (omitted if absent)
+  waka_tooltip: true, // hover: top languages
 
   // rating — leetcode
-  lc_solved:         true,  // ✓ solved count badge
-  lc_rank:           true,  // # global rank badge (formatted)
-  lc_tooltip:        true,  // hover: Easy X · Medium Y · Hard Z
+  lc_solved: true, // ✓ solved count badge
+  lc_rank: true, // # global rank badge (formatted)
+  lc_tooltip: true, // hover: Easy X · Medium Y · Hard Z
 
   // badge — huggingface
-  hf_downloads:      true,  // ⬇ download count badge
-  hf_likes:          true,  // ♥ likes badge (omitted if 0)
-  hf_tooltip:        true,  // hover: label + top 3 tags
+  hf_downloads: true, // ⬇ download count badge
+  hf_likes: true, // ♥ likes badge (omitted if 0)
+  hf_tooltip: true, // hover: label + top 3 tags
 
   // badge — credly
-  credly_expired:    true,  // ⚠ "expired" warning when payload.expired === true
-  credly_issuer:     true,  // 🏅 issuing organisation name badge
-  credly_tooltip:    true,  // hover: badge description (first 120 chars)
+  credly_expired: true, // ⚠ "expired" warning when payload.expired === true
+  credly_issuer: true, // 🏅 issuing organisation name badge
+  credly_tooltip: true, // hover: badge description (first 120 chars)
 } as const;
 
 // ============================================================================
@@ -187,7 +220,14 @@ export const BOARD = {
   //   "dot-separated"   — plain text joined by dots
   //   "comma-list"      — plain inline text with label prefix
   //   "filled-pills"    — solid accent background, white text
-  techStyle: "left-border" as "muted-badges" | "two-tone" | "left-border" | "outlined" | "dot-separated" | "comma-list" | "filled-pills",
+  techStyle: "left-border" as
+    | "muted-badges"
+    | "two-tone"
+    | "left-border"
+    | "outlined"
+    | "dot-separated"
+    | "comma-list"
+    | "filled-pills",
 
   // Type badge color mode:
   //   "colorful" — each work type gets a distinct badge color
@@ -205,10 +245,16 @@ export const USES = {
       name: "AI / ML Stack",
       items: [
         { name: "PyTorch", desc: "Primary deep learning framework" },
-        { name: "HuggingFace Transformers", desc: "Model hub & training pipelines" },
+        {
+          name: "HuggingFace Transformers",
+          desc: "Model hub & training pipelines",
+        },
         { name: "vLLM", desc: "High-throughput LLM inference" },
         { name: "LangGraph", desc: "Agentic workflow orchestration" },
-        { name: "Weights & Biases", desc: "Experiment tracking & model registry" },
+        {
+          name: "Weights & Biases",
+          desc: "Experiment tracking & model registry",
+        },
         { name: "Unsloth", desc: "Fast LoRA fine-tuning" },
       ],
     },
@@ -227,7 +273,10 @@ export const USES = {
         { name: "Docker + K8s", desc: "Containerized deployments" },
         { name: "AWS (SageMaker, Lambda, ECS)", desc: "Cloud ML platform" },
         { name: "Terraform", desc: "Infrastructure as code" },
-        { name: "GitHub Actions", desc: "CI/CD and model deployment pipelines" },
+        {
+          name: "GitHub Actions",
+          desc: "CI/CD and model deployment pipelines",
+        },
       ],
     },
     {
@@ -235,7 +284,10 @@ export const USES = {
       items: [
         { name: "MacBook Pro M3 Max", desc: "Daily driver" },
         { name: "NVIDIA A100 (cloud)", desc: "Training & fine-tuning" },
-        { name: "Mechanical keyboard", desc: "Keychron Q1 with brown switches" },
+        {
+          name: "Mechanical keyboard",
+          desc: "Keychron Q1 with brown switches",
+        },
       ],
     },
   ],
@@ -248,19 +300,22 @@ export const TESTIMONIALS = {
   enabled: true,
   items: [
     {
-      quote: "One of the most thoughtful engineers I've worked with. Takes complex ML problems and delivers clean, production-ready solutions.",
+      quote:
+        "One of the most thoughtful engineers I've worked with. Takes complex ML problems and delivers clean, production-ready solutions.",
       author: "Jane Smith",
       role: "Engineering Manager, Acme AI",
       companyUrl: "https://example.com",
     },
     {
-      quote: "Their open-source contributions to our inference pipeline saved us weeks of work. Clear code, excellent documentation.",
+      quote:
+        "Their open-source contributions to our inference pipeline saved us weeks of work. Clear code, excellent documentation.",
       author: "Alex Chen",
       role: "Staff Engineer, DataCorp",
       companyUrl: "https://example.com",
     },
     {
-      quote: "Rare combination of deep ML knowledge and strong engineering fundamentals. Ships reliable systems, not just notebooks.",
+      quote:
+        "Rare combination of deep ML knowledge and strong engineering fundamentals. Ships reliable systems, not just notebooks.",
       author: "Sam Patel",
       role: "CTO, TechStart",
     },
@@ -273,7 +328,8 @@ export const TESTIMONIALS = {
 export const NEWSLETTER = {
   enabled: true,
   heading: "Stay in the loop",
-  subheading: "Occasional thoughts on AI engineering, model deployment, and building intelligent systems.",
+  subheading:
+    "Occasional thoughts on AI engineering, model deployment, and building intelligent systems.",
   // Supported: "buttondown", "substack", "convertkit", "custom"
   provider: "buttondown" as "buttondown" | "substack" | "convertkit" | "custom",
   // Your newsletter URL or form action
@@ -289,27 +345,67 @@ export const READING = {
     {
       name: "Books",
       items: [
-        { title: "Designing Machine Learning Systems", author: "Chip Huyen", url: "" },
+        {
+          title: "Designing Machine Learning Systems",
+          author: "Chip Huyen",
+          url: "",
+        },
         { title: "The Staff Engineer's Path", author: "Tanya Reilly", url: "" },
-        { title: "Fundamentals of Data Engineering", author: "Joe Reis & Matt Housley", url: "" },
-        { title: "Building LLMs for Production", author: "Shin & Alam", url: "" },
+        {
+          title: "Fundamentals of Data Engineering",
+          author: "Joe Reis & Matt Housley",
+          url: "",
+        },
+        {
+          title: "Building LLMs for Production",
+          author: "Shin & Alam",
+          url: "",
+        },
       ],
     },
     {
       name: "Papers",
       items: [
-        { title: "Attention Is All You Need", author: "Vaswani et al., 2017", url: "https://arxiv.org/abs/1706.03762" },
-        { title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP", author: "Lewis et al., 2020", url: "https://arxiv.org/abs/2005.11401" },
-        { title: "LoRA: Low-Rank Adaptation of Large Language Models", author: "Hu et al., 2021", url: "https://arxiv.org/abs/2106.09685" },
-        { title: "Constitutional AI", author: "Bai et al., 2022", url: "https://arxiv.org/abs/2212.08073" },
+        {
+          title: "Attention Is All You Need",
+          author: "Vaswani et al., 2017",
+          url: "https://arxiv.org/abs/1706.03762",
+        },
+        {
+          title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+          author: "Lewis et al., 2020",
+          url: "https://arxiv.org/abs/2005.11401",
+        },
+        {
+          title: "LoRA: Low-Rank Adaptation of Large Language Models",
+          author: "Hu et al., 2021",
+          url: "https://arxiv.org/abs/2106.09685",
+        },
+        {
+          title: "Constitutional AI",
+          author: "Bai et al., 2022",
+          url: "https://arxiv.org/abs/2212.08073",
+        },
       ],
     },
     {
       name: "Blogs & Resources",
       items: [
-        { title: "Lilian Weng's Blog", author: "OpenAI", url: "https://lilianweng.github.io" },
-        { title: "The Batch", author: "DeepLearning.AI", url: "https://www.deeplearning.ai/the-batch/" },
-        { title: "Chip Huyen's Blog", author: "", url: "https://huyenchip.com/blog/" },
+        {
+          title: "Lilian Weng's Blog",
+          author: "OpenAI",
+          url: "https://lilianweng.github.io",
+        },
+        {
+          title: "The Batch",
+          author: "DeepLearning.AI",
+          url: "https://www.deeplearning.ai/the-batch/",
+        },
+        {
+          title: "Chip Huyen's Blog",
+          author: "",
+          url: "https://huyenchip.com/blog/",
+        },
       ],
     },
   ],
@@ -321,7 +417,13 @@ export const READING = {
 export const COLOPHON = {
   enabled: false,
   text: "Built with Astro, Tailwind CSS, and TypeScript. Styled with semantic CSS. Search by Pagefind. Deployed on GitHub Pages.",
-  stack: ["Astro v5", "Tailwind CSS v4", "TypeScript", "Pagefind", "GitHub Pages"],
+  stack: [
+    "Astro v5",
+    "Tailwind CSS v4",
+    "TypeScript",
+    "Pagefind",
+    "GitHub Pages",
+  ],
 } as const;
 
 // ============================================================================
@@ -330,7 +432,8 @@ export const COLOPHON = {
 export const CONNECT = {
   enabled: true,
   heading: "Book a 1:1",
-  subheading: "Pick a time that works for you — happy to chat about roles, collaborations, or anything else.",
+  subheading:
+    "Pick a time that works for you — happy to chat about roles, collaborations, or anything else.",
   // Replace with your Calendly (or Cal.com / SavvyCal) scheduling link
   calendlyUrl: "https://calendly.com/sandeepyadav1478",
 } as const;
@@ -376,27 +479,33 @@ export interface CompetencyArea {
 export const COMPETENCY_AREAS: CompetencyArea[] = [
   {
     title: "LLM Application Development",
-    description: "RAG pipelines, prompt engineering, multi-model orchestration, production inference",
+    description:
+      "RAG pipelines, prompt engineering, multi-model orchestration, production inference",
   },
   {
     title: "Model Fine-Tuning & Training",
-    description: "LoRA/QLoRA, domain adaptation, dataset curation, distributed training",
+    description:
+      "LoRA/QLoRA, domain adaptation, dataset curation, distributed training",
   },
   {
     title: "Agentic Workflows",
-    description: "Multi-agent systems, tool use, HITL handoff, orchestration with LangGraph",
+    description:
+      "Multi-agent systems, tool use, HITL handoff, orchestration with LangGraph",
   },
   {
     title: "ML Infrastructure & MLOps",
-    description: "Feature stores, experiment tracking, model registry, CI/CD for ML",
+    description:
+      "Feature stores, experiment tracking, model registry, CI/CD for ML",
   },
   {
     title: "Production Inference",
-    description: "vLLM, quantization, batching strategies, latency optimization, autoscaling",
+    description:
+      "vLLM, quantization, batching strategies, latency optimization, autoscaling",
   },
   {
     title: "Technical Leadership",
-    description: "Architecture design, code review, mentoring, cross-team collaboration",
+    description:
+      "Architecture design, code review, mentoring, cross-team collaboration",
   },
 ];
 
@@ -429,7 +538,8 @@ export const EXPERIENCE: ExperienceEntry[] = [
     caseStudies: [
       {
         title: "Multi-Agent Document Understanding",
-        description: "Extracting structured data from unstructured documents using specialized LLM agents.",
+        description:
+          "Extracting structured data from unstructured documents using specialized LLM agents.",
         tech: ["LangGraph", "GPT-4", "FastAPI"],
       },
     ],
@@ -475,11 +585,31 @@ export interface SkillGroup {
 export const SKILLS: SkillGroup[] = [
   {
     category: "ML / AI",
-    items: ["PyTorch", "HuggingFace", "LangChain", "LangGraph", "Unsloth", "vLLM", "ONNX", "LoRA / QLoRA", "RAG", "Agents"],
+    items: [
+      "PyTorch",
+      "HuggingFace",
+      "LangChain",
+      "LangGraph",
+      "Unsloth",
+      "vLLM",
+      "ONNX",
+      "LoRA / QLoRA",
+      "RAG",
+      "Agents",
+    ],
   },
   {
     category: "MLOps & Data",
-    items: ["MLflow", "DVC", "Weights & Biases", "Ray", "Airflow", "Kubeflow", "Feature Stores", "Vector DBs"],
+    items: [
+      "MLflow",
+      "DVC",
+      "Weights & Biases",
+      "Ray",
+      "Airflow",
+      "Kubeflow",
+      "Feature Stores",
+      "Vector DBs",
+    ],
   },
   {
     category: "Programming",
@@ -487,11 +617,27 @@ export const SKILLS: SkillGroup[] = [
   },
   {
     category: "Infra & Cloud",
-    items: ["Docker", "Kubernetes", "AWS", "GCP", "Terraform", "GitHub Actions", "FastAPI", "gRPC"],
+    items: [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "Terraform",
+      "GitHub Actions",
+      "FastAPI",
+      "gRPC",
+    ],
   },
   {
     category: "Soft Skills",
-    items: ["Technical Writing", "System Design", "Team Leadership", "Mentoring", "Cross-functional Collaboration", "Agile / Scrum"],
+    items: [
+      "Technical Writing",
+      "System Design",
+      "Team Leadership",
+      "Mentoring",
+      "Cross-functional Collaboration",
+      "Agile / Scrum",
+    ],
   },
   {
     category: "Spoken Languages",
@@ -512,17 +658,20 @@ export interface StartHereItem {
 export const START_HERE: StartHereItem[] = [
   {
     label: "My Most Popular OSS Project",
-    description: "A HuggingFace Transformers contribution that powers thousands of inference pipelines.",
+    description:
+      "A HuggingFace Transformers contribution that powers thousands of inference pipelines.",
     workSlug: "huggingface-transformers",
   },
   {
     label: "How I Approach ML Systems",
-    description: "A deep dive into building reliable, production-grade ML infrastructure.",
+    description:
+      "A deep dive into building reliable, production-grade ML infrastructure.",
     workSlug: "sora-portfolio",
   },
   {
     label: "Read My Latest Writing",
-    description: "Thoughts on practical AI engineering and shipping models to production.",
+    description:
+      "Thoughts on practical AI engineering and shipping models to production.",
     url: "/tags",
   },
 ];
@@ -550,7 +699,8 @@ export const PUBLICATIONS = {
       url: "https://arxiv.org/abs/0000.00000",
     },
     {
-      title: "Scaling Retrieval-Augmented Generation for Enterprise Knowledge Bases",
+      title:
+        "Scaling Retrieval-Augmented Generation for Enterprise Knowledge Bases",
       venue: "NeurIPS Workshop",
       year: 2023,
       authors: "Sandeep Yadav, Carol Zhang",
@@ -597,7 +747,8 @@ export interface OpenSourceProject {
 export const OPEN_SOURCE: OpenSourceProject[] = [
   {
     name: "huggingface/transformers",
-    description: "Added efficient batch decoding for streaming inference pipelines.",
+    description:
+      "Added efficient batch decoding for streaming inference pipelines.",
     stars: "120K",
     forks: "24K",
     language: "Python",
@@ -606,7 +757,8 @@ export const OPEN_SOURCE: OpenSourceProject[] = [
   },
   {
     name: "vllm-project/vllm",
-    description: "Implemented custom sampling strategies for domain-specific generation.",
+    description:
+      "Implemented custom sampling strategies for domain-specific generation.",
     stars: "35K",
     forks: "5.2K",
     language: "Python",
@@ -615,7 +767,8 @@ export const OPEN_SOURCE: OpenSourceProject[] = [
   },
   {
     name: "sandeepyadav1478/ml-pipeline-kit",
-    description: "Opinionated ML pipeline toolkit for rapid experimentation and deployment.",
+    description:
+      "Opinionated ML pipeline toolkit for rapid experimentation and deployment.",
     stars: "1.2K",
     forks: "180",
     language: "Python",
@@ -677,14 +830,16 @@ export interface FeaturedModel {
 export const FEATURED_MODELS: FeaturedModel[] = [
   {
     name: "sandeepyadav1478/llama3-medical-qa",
-    description: "Llama 3 fine-tuned on medical QA datasets for clinical decision support.",
+    description:
+      "Llama 3 fine-tuned on medical QA datasets for clinical decision support.",
     downloads: "5K+",
     task: "Question Answering",
     url: "https://huggingface.co/sandeepyadav1478/llama3-medical-qa",
   },
   {
     name: "sandeepyadav1478/code-reviewer-7b",
-    description: "7B parameter model fine-tuned for automated code review and suggestions.",
+    description:
+      "7B parameter model fine-tuned for automated code review and suggestions.",
     downloads: "2K+",
     task: "Code Generation",
     url: "https://huggingface.co/sandeepyadav1478/code-reviewer-7b",
@@ -703,17 +858,42 @@ export const RESOURCES: ResourceGroup[] = [
   {
     name: "Getting Started with LLMs",
     items: [
-      { title: "LLM Fundamentals", description: "From transformers to RLHF — the essential building blocks.", url: "" },
-      { title: "Prompt Engineering Guide", description: "Systematic techniques for reliable LLM outputs.", url: "" },
-      { title: "Fine-Tuning Playbook", description: "When, why, and how to fine-tune open-weight models.", url: "" },
+      {
+        title: "LLM Fundamentals",
+        description:
+          "From transformers to RLHF — the essential building blocks.",
+        url: "",
+      },
+      {
+        title: "Prompt Engineering Guide",
+        description: "Systematic techniques for reliable LLM outputs.",
+        url: "",
+      },
+      {
+        title: "Fine-Tuning Playbook",
+        description: "When, why, and how to fine-tune open-weight models.",
+        url: "",
+      },
     ],
   },
   {
     name: "ML Engineering in Production",
     items: [
-      { title: "ML System Design", description: "Patterns for building maintainable ML-powered products.", url: "" },
-      { title: "Inference Optimization", description: "Quantization, batching, and serving at scale.", url: "" },
-      { title: "Monitoring & Evaluation", description: "Keeping models honest after deployment.", url: "" },
+      {
+        title: "ML System Design",
+        description: "Patterns for building maintainable ML-powered products.",
+        url: "",
+      },
+      {
+        title: "Inference Optimization",
+        description: "Quantization, batching, and serving at scale.",
+        url: "",
+      },
+      {
+        title: "Monitoring & Evaluation",
+        description: "Keeping models honest after deployment.",
+        url: "",
+      },
     ],
   },
 ];
@@ -730,17 +910,41 @@ export const CURATED_LISTS: CuratedList[] = [
   {
     name: "People to Follow",
     items: [
-      { title: "Andrej Karpathy", description: "AI education & research", url: "https://karpathy.ai" },
-      { title: "Chip Huyen", description: "ML systems & MLOps", url: "https://huyenchip.com" },
-      { title: "Simon Willison", description: "LLM tooling & open data", url: "https://simonwillison.net" },
+      {
+        title: "Andrej Karpathy",
+        description: "AI education & research",
+        url: "https://karpathy.ai",
+      },
+      {
+        title: "Chip Huyen",
+        description: "ML systems & MLOps",
+        url: "https://huyenchip.com",
+      },
+      {
+        title: "Simon Willison",
+        description: "LLM tooling & open data",
+        url: "https://simonwillison.net",
+      },
     ],
   },
   {
     name: "Essential Tools",
     items: [
-      { title: "vLLM", description: "High-throughput LLM serving", url: "https://github.com/vllm-project/vllm" },
-      { title: "LangGraph", description: "Agentic workflow orchestration", url: "https://github.com/langchain-ai/langgraph" },
-      { title: "Weights & Biases", description: "Experiment tracking", url: "https://wandb.ai" },
+      {
+        title: "vLLM",
+        description: "High-throughput LLM serving",
+        url: "https://github.com/vllm-project/vllm",
+      },
+      {
+        title: "LangGraph",
+        description: "Agentic workflow orchestration",
+        url: "https://github.com/langchain-ai/langgraph",
+      },
+      {
+        title: "Weights & Biases",
+        description: "Experiment tracking",
+        url: "https://wandb.ai",
+      },
     ],
   },
 ];
@@ -756,19 +960,23 @@ export interface FAQItem {
 export const FAQ: FAQItem[] = [
   {
     question: "Are you open to freelance or consulting work?",
-    answer: "Yes — I take on select projects involving LLM applications, ML infrastructure, and AI strategy. Reach out via email to discuss.",
+    answer:
+      "Yes — I take on select projects involving LLM applications, ML infrastructure, and AI strategy. Reach out via email to discuss.",
   },
   {
     question: "What's your tech stack for most projects?",
-    answer: "Python + PyTorch for ML, HuggingFace for models, FastAPI for serving, Docker + K8s for deployment, and AWS for cloud infrastructure.",
+    answer:
+      "Python + PyTorch for ML, HuggingFace for models, FastAPI for serving, Docker + K8s for deployment, and AWS for cloud infrastructure.",
   },
   {
     question: "Do you contribute to open source?",
-    answer: "Actively. I contribute to HuggingFace Transformers, vLLM, and maintain a few of my own tools. Check the Open Source section above.",
+    answer:
+      "Actively. I contribute to HuggingFace Transformers, vLLM, and maintain a few of my own tools. Check the Open Source section above.",
   },
   {
     question: "How do I book time with you?",
-    answer: "Use the Calendly link on the contact page, or send me an email. I typically respond within 48 hours.",
+    answer:
+      "Use the Calendly link on the contact page, or send me an email. I typically respond within 48 hours.",
   },
 ];
 
@@ -786,9 +994,23 @@ export const CLIENTS = {
   heading: "Trusted By",
   items: [
     { name: "Google", logo: "/logos/google.svg", url: "https://google.com" },
-    { name: "Microsoft", logo: "/logos/microsoft.svg", url: "https://microsoft.com", hideWordmark: true },
-    { name: "Amazon", logo: "/logos/amazon.svg", url: "https://amazon.com", hideWordmark: true },
-    { name: "HuggingFace", logo: "/logos/huggingface.svg", url: "https://huggingface.co" },
+    {
+      name: "Microsoft",
+      logo: "/logos/microsoft.svg",
+      url: "https://microsoft.com",
+      hideWordmark: true,
+    },
+    {
+      name: "Amazon",
+      logo: "/logos/amazon.svg",
+      url: "https://amazon.com",
+      hideWordmark: true,
+    },
+    {
+      name: "HuggingFace",
+      logo: "/logos/huggingface.svg",
+      url: "https://huggingface.co",
+    },
     { name: "NVIDIA", logo: "/logos/nvidia.svg", url: "https://nvidia.com" },
     { name: "Meta", logo: "/logos/meta.svg", url: "https://meta.com" },
   ] as Client[],
@@ -818,14 +1040,16 @@ export const EDUCATION: EducationEntry[] = [
     institution: "IIT Delhi",
     url: "https://iitd.ac.in",
     year: "2018",
-    description: "Graduated with honors. Thesis on deep learning for medical imaging.",
+    description:
+      "Graduated with honors. Thesis on deep learning for medical imaging.",
   },
   {
     degree: "AI Product Management Bootcamp",
     institution: "Maven",
     url: "https://maven.com",
     year: "2024",
-    description: "Led by Dr. Marily Nika (ex-Google PM). Completed capstone project.",
+    description:
+      "Led by Dr. Marily Nika (ex-Google PM). Completed capstone project.",
   },
 ];
 
@@ -847,14 +1071,16 @@ export const AWARDS: AwardEntry[] = [
     issuer: "HuggingFace",
     issuerUrl: "https://huggingface.co",
     year: "2024",
-    description: "Built a multi-agent document understanding pipeline in 48 hours.",
+    description:
+      "Built a multi-agent document understanding pipeline in 48 hours.",
   },
   {
     title: "Top 10 Open Source Contributors",
     issuer: "GitHub",
     issuerUrl: "https://github.com",
     year: "2023",
-    description: "Recognized for sustained contributions to ML ecosystem projects.",
+    description:
+      "Recognized for sustained contributions to ML ecosystem projects.",
   },
   {
     title: "Outstanding Graduate Thesis Award",
@@ -881,7 +1107,8 @@ export const HIGHLIGHTS: HighlightCard[] = [
     title: "Claude Code Power User",
     badge: "High-Agency · AI-Fluency",
     icon: "terminal",
-    description: "Building production systems with AI-assisted development — using Claude Code for architecture design, complex refactors, and shipping full-stack features from terminal to deployment.",
+    description:
+      "Building production systems with AI-assisted development — using Claude Code for architecture design, complex refactors, and shipping full-stack features from terminal to deployment.",
     bullets: [
       "Built this entire portfolio site with Claude Code as AI pair programmer",
       "Custom MCP servers, multi-agent workflows, and agentic tool chains",

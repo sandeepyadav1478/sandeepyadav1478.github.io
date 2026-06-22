@@ -77,13 +77,7 @@
         "humanReadableTotal": "33 hrs 31 mins",
         "range": "last_7_days",
         "dailyAverage": 17239,
-        "languages": [
-          "Python",
-          "Markdown",
-          "JavaScript",
-          "Other",
-          "YAML"
-        ]
+        "languages": ["Python", "Markdown", "JavaScript", "Other", "YAML"]
       }
     },
     {

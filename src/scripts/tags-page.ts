@@ -12,7 +12,9 @@ function initTagsPage() {
   function applyFilters() {
     items.forEach(item => {
       const itemTags = (item.dataset.tags || "").split(",").filter(Boolean);
-      const match = activeTags.size === 0 || [...activeTags].every(t => itemTags.includes(t));
+      const match =
+        activeTags.size === 0 ||
+        [...activeTags].every(t => itemTags.includes(t));
       item.style.display = match ? "" : "none";
     });
   }

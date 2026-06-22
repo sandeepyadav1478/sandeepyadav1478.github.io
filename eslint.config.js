@@ -16,11 +16,14 @@ export default [
   {
     rules: {
       "no-console": "error",
-      "@typescript-eslint/no-unused-vars": ["error", {
-        "varsIgnorePattern": "^_",
-        "argsIgnorePattern": "^_",
-        "caughtErrorsIgnorePattern": "^_",
-      }],
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          varsIgnorePattern: "^_",
+          argsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+        },
+      ],
     },
   },
   { ignores: ["dist/**", ".astro", "public/pagefind/**"] },
