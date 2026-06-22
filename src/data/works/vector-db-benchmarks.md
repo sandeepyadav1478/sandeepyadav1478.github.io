@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Vector Database Benchmarks — Qdrant vs Pinecone vs Weaviate"
 type: writing
 cardStyle: borderless

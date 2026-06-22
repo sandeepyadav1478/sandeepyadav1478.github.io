@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "taskr — Developer Task Runner CLI"
 type: oss
 cardStyle: borderless

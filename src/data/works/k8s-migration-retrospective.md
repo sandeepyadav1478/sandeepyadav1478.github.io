@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Migrating 50 Services to Kubernetes — A Retrospective"
 type: writing
 cardStyle: terminal

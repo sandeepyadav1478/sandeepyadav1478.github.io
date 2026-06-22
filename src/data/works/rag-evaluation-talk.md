@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Evaluating RAG Systems — Beyond Vibes"
 type: talk
 pubDatetime: 2025-10-18T00:00:00Z

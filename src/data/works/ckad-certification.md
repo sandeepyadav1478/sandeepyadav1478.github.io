@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Certified Kubernetes Application Developer (CKAD)"
 type: certification
 pubDatetime: 2024-09-15T00:00:00Z

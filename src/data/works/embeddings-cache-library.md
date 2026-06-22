@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "embed-cache — Persistent Embedding Cache"
 type: oss
 cardStyle: borderless

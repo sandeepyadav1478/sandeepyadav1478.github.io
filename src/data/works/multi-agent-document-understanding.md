@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Multi-Agent Document Understanding
 type: project
 pubDatetime: 2026-03-15T00:00:00Z

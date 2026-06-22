@@ -1,5 +1,6 @@
 ---
-title: "AI Engineer at Acme AI"
+draft: false
+title: "AI Engineer at Auctane"
 type: experience
 pubDatetime: 2024-01-15T00:00:00Z
 description: "Building LLM-powered applications and agentic workflows. Leading fine-tuning, RAG, and inference optimization for enterprise AI products."
@@ -7,15 +8,15 @@ tags: [ai-engineering, llm, rag, fine-tuning, mlops, leadership]
 tech: [Python, PyTorch, LangGraph, Unsloth, vLLM, MLflow, AWS]
 links:
   - label: "Company"
-    url: "https://example.com"
-organization: "Acme AI"
-organizationUrl: "https://example.com"
+    url: "https://auctane.com"
+organization: "Auctane"
+organizationUrl: "https://auctane.com"
 role: "AI Engineer — LLM Applications"
 ongoing: true
 image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
 timeline:
   - date: "Jan 2024"
-    title: "Joined Acme AI"
+    title: "Joined Auctane"
     description: "Started as AI Engineer on the LLM Applications team"
   - date: "Apr 2024"
     title: "RAG Pipeline v1"
@@ -31,7 +32,7 @@ timeline:
     description: "Leading multi-agent orchestration for complex enterprise workflows"
 ---
 
-As AI Engineer at Acme AI, I work across the full LLM application lifecycle — from model fine-tuning to production deployment.
+As AI Engineer at Auctane, I work across the full LLM application lifecycle — from model fine-tuning to production deployment.
 
 ## Key Achievements
 

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "MLOps Community Meetup — Speaker & Organizer"
 type: meetup
 cardStyle: accent-bar

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "LangChain AI Agents Hackathon — 2nd Place"
 type: hackathon
 cardStyle: glass

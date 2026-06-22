@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Agentic Pipelines, Code Gen & RAG Evaluation
 type: building
 pubDatetime: 2026-04-01T00:00:00Z

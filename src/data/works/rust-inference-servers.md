@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Learning Rust for High-Performance Inference"
 type: writing
 pubDatetime: 2026-01-20T00:00:00Z

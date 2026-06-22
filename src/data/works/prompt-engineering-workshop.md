@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Prompt Engineering for Production Systems"
 type: talk
 pubDatetime: 2026-03-05T00:00:00Z

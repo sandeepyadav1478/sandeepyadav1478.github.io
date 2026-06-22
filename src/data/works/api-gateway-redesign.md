@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "API Gateway Redesign — From Monolith to Microservices"
 type: project
 pubDatetime: 2024-01-10T00:00:00Z

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Open Source Mentorship — First-Time Contributors Program"
 type: talk
 cardStyle: outlined

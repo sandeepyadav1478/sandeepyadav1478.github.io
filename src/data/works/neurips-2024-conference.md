@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "NeurIPS 2024 — Spotlight Poster Presentation"
 type: conference
 pubDatetime: 2024-12-10T00:00:00Z

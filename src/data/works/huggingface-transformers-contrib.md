@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "HuggingFace Transformers — Core Contributions"
 type: oss
 pubDatetime: 2025-09-15T00:00:00Z
