@@ -2,7 +2,7 @@
 draft: false
 title: "sqloutbox"
 type: oss
-status: archived
+status: maintained
 pubDatetime: 2024-03-01T00:00:00Z
 description: "Transactional outbox pattern for SQLAlchemy — reliable event publishing from relational databases without distributed transactions."
 tags: [python, sqlalchemy, outbox, messaging, open-source]
