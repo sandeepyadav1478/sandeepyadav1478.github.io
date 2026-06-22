@@ -32,6 +32,8 @@ import Newsletter from "@/components/Newsletter.astro";
 import ContactSection from "@/components/ContactSection.astro";
 import getSortedWorks from "@/utils/getSortedWorks";
 import { SECTIONS, BOARD } from "@/config";
+import ActivityCard from "@/components/ActivityCard.astro";
+import { getActivityItems } from "@/lib/sources";
 
 const allWorks = await getCollection("works");
 const sortedWorks = getSortedWorks(allWorks);
@@ -143,6 +145,19 @@ const statusLabelMap: Record<string, { label: string; cls: string }> = {
         </ul>
       )}
     </section>
+
+    {/* === ACTIVITY FEED === */}
+    {SECTIONS.showActivity && (() => {
+      const activityItems = getActivityItems(50);
+      return activityItems.length > 0 && (
+        <section id="activity" class="activity-section">
+          <h2 class="section-heading">Activity</h2>
+          <ul class="activity-list">
+            {activityItems.map(item => <ActivityCard item={item} />)}
+          </ul>
+        </section>
+      );
+    })()}
 
     {/* === WORK GROUP: Open Source + Models === */}
     {SECTIONS.showOpenSource && (
