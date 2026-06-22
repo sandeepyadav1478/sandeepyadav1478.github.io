@@ -1,7 +1,9 @@
 name: Sync from upstream template
 
 on:
-  workflow_dispatch: # manual only — auto-sync disabled (no shared git history with template)
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6 AM UTC
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,12 +17,11 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    # Disabled: clone has no shared git history with template — all files conflict on every merge.
-    # Template updates are synced manually via our workflow scripts instead.
-    if: false
+    # Only run in the clone, not in the template repo itself
+    if: github.repository != 'sandeepyadav1478/sora'
     steps:
       - name: Checkout fork
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -30,41 +31,68 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Add upstream remote
-        run: git remote add upstream https://github.com/sandeepyadav1478/sora.git || true
-
       - name: Fetch upstream
-        run: git fetch upstream main
-
-      - name: Merge upstream changes
         run: |
-          git merge upstream/main --no-edit --allow-unrelated-histories || {
-            echo "::warning::Merge conflict detected. Creating a PR instead."
-            git merge --abort
-            git checkout -b sync/upstream-$GITHUB_RUN_ID
-            git merge upstream/main --no-edit --allow-unrelated-histories || true
-            git diff --check || { echo "::error::Unresolved conflicts after retry — manual fix required"; exit 1; }
-            git add -A
-            git commit -m "chore: sync upstream template (conflicts)" --allow-empty
-            git push origin sync/upstream-$GITHUB_RUN_ID
-            echo "CONFLICT=true" >> $GITHUB_ENV
-            echo "CONFLICT_BRANCH=sync/upstream-$GITHUB_RUN_ID" >> $GITHUB_ENV
-          }
+          git remote add upstream https://github.com/sandeepyadav1478/sora.git || true
+          git fetch upstream main
 
-      - name: Open PR for conflict branch
-        if: env.CONFLICT == 'true'
-        env:
-          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          BRANCH: ${{ env.CONFLICT_BRANCH }}
+      - name: Check if upstream has new commits
+        id: check
         run: |
-          curl -s -o /dev/null \
-            -X POST \
-            -H "Authorization: Bearer $GH_API_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${GH_REPO}/pulls" \
-            -d "{\"title\":\"chore: sync upstream template (conflicts)\",\"head\":\"${BRANCH}\",\"base\":\"main\",\"body\":\"Upstream sync produced merge conflicts. Please resolve and merge this PR.\"}"
+          UPSTREAM_SHA=$(git rev-parse upstream/main)
+          LAST_SYNCED=$(cat .sora-upstream-sha 2>/dev/null || echo "")
+          echo "upstream_sha=$UPSTREAM_SHA" >> "$GITHUB_OUTPUT"
+          if [ "$UPSTREAM_SHA" = "$LAST_SYNCED" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Upstream unchanged since last sync ($UPSTREAM_SHA) — skipping."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "New upstream commits detected. Last=$LAST_SYNCED Current=$UPSTREAM_SHA"
+          fi
 
-      - name: Push merged changes
-        if: env.CONFLICT != 'true'
-        run: git push origin main
+      - name: Sync template files from upstream
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          # Selectively copy template-level files only.
+          # Clone-specific files (config.ts, config.sources.mjs, src/data/works/, src/data/sources-cache.json) are NOT touched.
+          TEMPLATE_FILES=(
+            "scripts/lib/cache.mjs"
+            "scripts/lib/datetime.mjs"
+            "scripts/lib/dedup.mjs"
+            "scripts/lib/envelope.mjs"
+            "scripts/lib/http.mjs"
+            "scripts/lib/parseFeed.mjs"
+            "scripts/lib/parseWorks.mjs"
+            "scripts/lib/text.mjs"
+            "scripts/adapters/codeforces.mjs"
+            "scripts/adapters/credly.mjs"
+            "scripts/adapters/github.mjs"
+            "scripts/adapters/huggingface.mjs"
+            "scripts/adapters/leetcode.mjs"
+            "scripts/adapters/npm.mjs"
+            "scripts/adapters/pypi.mjs"
+            "scripts/adapters/rss.mjs"
+            "scripts/adapters/stackoverflow.mjs"
+            "scripts/adapters/wakatime.mjs"
+            "scripts/adapters/youtube.mjs"
+            "scripts/check-archives.mjs"
+            "scripts/process-report.mjs"
+            "scripts/sync-sources.mjs"
+            ".github/workflows/ci.yml"
+            ".github/workflows/deploy.yml"
+          )
+          for f in "${TEMPLATE_FILES[@]}"; do
+            git show "upstream/main:$f" > "$f" 2>/dev/null && echo "synced: $f" || echo "skip (not in upstream): $f"
+          done
+
+      - name: Record synced SHA and commit
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          echo "${{ steps.check.outputs.upstream_sha }}" > .sora-upstream-sha
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No template file changes after sync — nothing to commit."
+          else
+            git commit -m "chore: sync template files from upstream (${{ steps.check.outputs.upstream_sha }})"
+            git push origin main
+          fi
