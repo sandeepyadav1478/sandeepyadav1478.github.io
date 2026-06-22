@@ -78,8 +78,8 @@ jobs:
             "scripts/check-archives.mjs"
             "scripts/process-report.mjs"
             "scripts/sync-sources.mjs"
-            ".github/workflows/ci.yml"
-            ".github/workflows/deploy.yml"
+            # NOTE: .github/workflows/*.yml excluded — GITHUB_TOKEN cannot push workflow files.
+            # Sync ci.yml and deploy.yml manually when needed.
           )
           for f in "${TEMPLATE_FILES[@]}"; do
             git show "upstream/main:$f" > "$f" 2>/dev/null && echo "synced: $f" || echo "skip (not in upstream): $f"
