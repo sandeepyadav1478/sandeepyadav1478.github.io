@@ -2,7 +2,7 @@
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
 import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
-import { SITE, PROFILE } from "@/config";
+import { SITE, PROFILE, CONNECT } from "@/config";
 import "@/styles/global.css";
 
 type Props = {
@@ -196,5 +196,17 @@ const structuredData = isHomepage
 
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>
+
+    <!-- Topmate floating widget -->
+    {
+      CONNECT.enabled && "topmateUrl" in CONNECT && CONNECT.topmateUrl && (
+        <script
+          is:inline
+          type="text/javascript"
+          src="https://topmate.io/embed/profile/sandeepyadav1478/widget"
+          defer
+        />
+      )
+    }
   </body>
 </html>

@@ -436,6 +436,7 @@ export const CONNECT = {
     "Pick a time that works for you — happy to chat about roles, collaborations, or anything else.",
   // Replace with your Calendly (or Cal.com / SavvyCal) scheduling link
   calendlyUrl: "https://calendly.com/sandeepyadav1478",
+  topmateUrl: "https://topmate.io/sandeepyadav1478",
 } as const;
 
 // ============================================================================
