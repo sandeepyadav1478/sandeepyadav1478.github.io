@@ -1,51 +1,551 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T05:56:21.578Z",
+  "generatedAt": "2026-06-23T13:26:10.906Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
-      "count": 45,
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
+      "count": 66,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
-      "count": 2,
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
+      "count": 3,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
-      "count": 0,
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
+      "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
-      "count": 1,
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
+      "count": 5,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-06-23T05:56:21.578Z",
+      "lastSuccess": "2026-06-23T13:26:10.906Z",
       "count": 8,
       "consecutiveFailures": 0
     }
   },
   "items": [
+    {
+      "id": "wakatime:rating:ai-agents-7d",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "20658 AI-written lines in last 7 days (100%)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-23T13:26:14.453Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "ai-agents",
+        "agentLineChanges": {
+          "Claude": 20658
+        },
+        "agentCosts": {
+          "Claude": 3015.6583159999986
+        },
+        "totalAiLines": 20658,
+        "totalHumanLines": 0,
+        "aiLinePercent": 100,
+        "totalAiSessions": 1009,
+        "totalPromptEvents": 1121,
+        "totalAiTokens": 1004437320
+      }
+    },
+    {
+      "id": "wakatime:rating:all_time",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "2,829 hrs 20 mins coded all time",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-23T13:26:14.313Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "alltime",
+        "text": "2,829 hrs 20 mins",
+        "totalSeconds": 10185599.992791,
+        "startDate": "2021-07-22"
+      }
+    },
+    {
+      "id": "wakatime:rating:projects",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "WakaTime projects (20 tracked)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-23T13:26:13.545Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "projects",
+        "projects": [
+          {
+            "name": "autopulse",
+            "lastHeartbeatAt": "2026-06-23T13:10:08Z"
+          },
+          {
+            "name": "allanite",
+            "lastHeartbeatAt": "2026-06-23T13:09:45Z"
+          },
+          {
+            "name": "workspace",
+            "lastHeartbeatAt": "2026-06-23T12:58:31Z"
+          },
+          {
+            "name": "allanite_devops",
+            "lastHeartbeatAt": "2026-06-23T12:01:58Z"
+          },
+          {
+            "name": "personal-site",
+            "lastHeartbeatAt": "2026-06-23T11:56:45Z"
+          },
+          {
+            "name": "sora",
+            "lastHeartbeatAt": "2026-06-23T11:56:08Z"
+          },
+          {
+            "name": "observer-sessions",
+            "lastHeartbeatAt": "2026-06-23T11:37:24Z"
+          },
+          {
+            "name": "sqloutbox",
+            "lastHeartbeatAt": "2026-06-13T12:21:41Z"
+          },
+          {
+            "name": "opus48-recovery",
+            "lastHeartbeatAt": "2026-06-12T10:54:10Z"
+          },
+          {
+            "name": "jetbrains-cc-gui",
+            "lastHeartbeatAt": "2026-06-12T10:53:41Z"
+          },
+          {
+            "name": "tmp",
+            "lastHeartbeatAt": "2026-06-12T08:58:05Z"
+          },
+          {
+            "name": "memory",
+            "lastHeartbeatAt": "2026-06-11T16:48:47Z"
+          },
+          {
+            "name": "tasks",
+            "lastHeartbeatAt": "2026-06-11T08:09:28Z"
+          },
+          {
+            "name": "ap_mon_state",
+            "lastHeartbeatAt": "2026-06-10T12:24:14Z"
+          },
+          {
+            "name": "sandeepyadav1478.github.io",
+            "lastHeartbeatAt": "2026-06-08T17:34:46Z"
+          },
+          {
+            "name": "projects",
+            "lastHeartbeatAt": "2026-06-07T09:05:34Z"
+          },
+          {
+            "name": "autopulse-review",
+            "lastHeartbeatAt": "2026-06-06T19:26:22Z"
+          },
+          {
+            "name": "test-collections",
+            "lastHeartbeatAt": "2026-06-05T11:25:34Z"
+          },
+          {
+            "name": "autopulse-debug",
+            "lastHeartbeatAt": "2026-06-03T17:18:00Z"
+          },
+          {
+            "name": "claude-skills",
+            "lastHeartbeatAt": "2026-05-27T12:09:49Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wakatime:rating:last_7_days",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "29 hrs 19 mins coding this week",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-23T13:26:13.512Z",
+      "payload": {
+        "platform": "wakatime",
+        "totalSeconds": 105586.031,
+        "humanReadableTotal": "29 hrs 19 mins",
+        "range": "last_7_days",
+        "dailyAverage": 15084,
+        "languages": [
+          "Python",
+          "Markdown",
+          "JavaScript",
+          "Other",
+          "YAML",
+          "Bash",
+          "Diff",
+          "Astro",
+          "TypeScript",
+          "JSON",
+          "SQL",
+          "Docker"
+        ],
+        "bestDay": {
+          "date": "2026-06-16",
+          "text": "7 hrs 11 mins",
+          "totalSeconds": 25880.91
+        },
+        "editors": [
+          {
+            "name": "VS Code",
+            "percent": 67.47
+          },
+          {
+            "name": "Claude Code",
+            "percent": 32.46
+          },
+          {
+            "name": "PyCharm",
+            "percent": 0.07
+          }
+        ],
+        "categories": [
+          {
+            "name": "AI Coding",
+            "percent": 99.45
+          },
+          {
+            "name": "Coding",
+            "percent": 0.51
+          },
+          {
+            "name": "Writing Tests",
+            "percent": 0.03
+          }
+        ]
+      }
+    },
+    {
+      "id": "wakatime:rating:public-alltime",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "WakaTime all-time stats for @sandeepyadav1478",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-23T13:26:13.429Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "public",
+        "categories": [
+          {
+            "name": "Coding",
+            "percent": 69.91
+          },
+          {
+            "name": "AI Coding",
+            "percent": 13.68
+          },
+          {
+            "name": "Meeting",
+            "percent": 12.25
+          },
+          {
+            "name": "Writing Docs",
+            "percent": 2.23
+          },
+          {
+            "name": "Writing Tests",
+            "percent": 1.82
+          },
+          {
+            "name": "Browsing",
+            "percent": 0.11
+          }
+        ],
+        "editors": [
+          {
+            "name": "VS Code",
+            "percent": 80.65
+          },
+          {
+            "name": "Google Calendar",
+            "percent": 12.25
+          },
+          {
+            "name": "Claude Code",
+            "percent": 5.5
+          },
+          {
+            "name": "PyCharm",
+            "percent": 1.47
+          }
+        ],
+        "languages": [
+          {
+            "name": "Python",
+            "percent": 60.48
+          },
+          {
+            "name": "Other",
+            "percent": 14.45
+          },
+          {
+            "name": "Markdown",
+            "percent": 6.17
+          },
+          {
+            "name": "HTML",
+            "percent": 3.91
+          },
+          {
+            "name": "JSON",
+            "percent": 3.81
+          },
+          {
+            "name": "YAML",
+            "percent": 2.8
+          },
+          {
+            "name": "Terraform",
+            "percent": 1.75
+          },
+          {
+            "name": "Text",
+            "percent": 1.19
+          },
+          {
+            "name": "Docker",
+            "percent": 1.09
+          },
+          {
+            "name": "Bash",
+            "percent": 0.98
+          },
+          {
+            "name": "INI",
+            "percent": 0.68
+          },
+          {
+            "name": "JavaScript",
+            "percent": 0.54
+          }
+        ],
+        "os": [
+          {
+            "name": "Mac",
+            "percent": 53.19
+          },
+          {
+            "name": "Linux",
+            "percent": 20.82
+          },
+          {
+            "name": "Windows",
+            "percent": 13.74
+          },
+          {
+            "name": "Unknown OS",
+            "percent": 12.25
+          }
+        ],
+        "aiCodingPercent": 13.68
+      }
+    },
+    {
+      "id": "github:commit:2ff8bad770c63d737ecee8cbb18841b723f1761b",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/2ff8bad770c63d737ecee8cbb18841b723f1761b",
+      "date": "2026-06-23T13:25:48Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "2ff8bad770c63d737ecee8cbb18841b723f1761b",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:57d5266a4cb06b95123a4453dd76e571cb66c03c",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/57d5266a4cb06b95123a4453dd76e571cb66c03c",
+      "date": "2026-06-23T13:25:42Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "57d5266a4cb06b95123a4453dd76e571cb66c03c",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
+      "date": "2026-06-23T12:43:28Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:c820d9f0f1869e79cb2a562f452d648c8d2883cc",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/c820d9f0f1869e79cb2a562f452d648c8d2883cc",
+      "date": "2026-06-23T12:43:25Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "c820d9f0f1869e79cb2a562f452d648c8d2883cc",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:2de5e375e8c33bbbc7234300e456113237583c4b",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/2de5e375e8c33bbbc7234300e456113237583c4b",
+      "date": "2026-06-23T11:54:47Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "2de5e375e8c33bbbc7234300e456113237583c4b",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:e979213c584dff16a422815e5344e0ec5805e8c1",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/e979213c584dff16a422815e5344e0ec5805e8c1",
+      "date": "2026-06-23T11:54:43Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "e979213c584dff16a422815e5344e0ec5805e8c1",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:34608722e1a87fdca8df6ae9e0d23546c2631f6c",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/34608722e1a87fdca8df6ae9e0d23546c2631f6c",
+      "date": "2026-06-23T11:48:26Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "34608722e1a87fdca8df6ae9e0d23546c2631f6c",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:2f460c6b2b3449126e67b5a6344317c191998f2c",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/2f460c6b2b3449126e67b5a6344317c191998f2c",
+      "date": "2026-06-23T11:48:23Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "2f460c6b2b3449126e67b5a6344317c191998f2c",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:8140ba4d333df30bd335fe2a26066cff7c4accb3",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/8140ba4d333df30bd335fe2a26066cff7c4accb3",
+      "date": "2026-06-23T10:44:10Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "8140ba4d333df30bd335fe2a26066cff7c4accb3",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
+      "date": "2026-06-23T10:43:36Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:150f9b46b4d34b38a26161d39f1d21086cd78ebb",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/150f9b46b4d34b38a26161d39f1d21086cd78ebb",
+      "date": "2026-06-23T07:29:32Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "150f9b46b4d34b38a26161d39f1d21086cd78ebb",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:a60f244d5798610ffca35762f55d3398ab723727",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/a60f244d5798610ffca35762f55d3398ab723727",
+      "date": "2026-06-23T07:24:52Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "a60f244d5798610ffca35762f55d3398ab723727",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
     {
       "id": "leetcode:rating:sandeepyadav1478",
       "source": "leetcode",
@@ -62,28 +562,6 @@
           "hard": 0
         },
         "ranking": 2226626
-      }
-    },
-    {
-      "id": "wakatime:rating:last_7_days",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "29 hrs 19 mins coding this week",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-23T05:56:23.034Z",
-      "payload": {
-        "platform": "wakatime",
-        "totalSeconds": 105586.031,
-        "humanReadableTotal": "29 hrs 19 mins",
-        "range": "last_7_days",
-        "dailyAverage": 15084,
-        "languages": [
-          "Python",
-          "Markdown",
-          "JavaScript",
-          "Other",
-          "YAML"
-        ]
       }
     },
     {
@@ -117,6 +595,30 @@
       }
     },
     {
+      "id": "github:repo:sandeepyadav1478/sandeepyadav1478",
+      "source": "github",
+      "kind": "repo",
+      "title": "sandeepyadav1478: Config files for my GitHub profile.",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
+      "date": "2026-06-23T03:35:25Z",
+      "payload": {
+        "platform": "github",
+        "name": "sandeepyadav1478",
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "config",
+          "github-config"
+        ],
+        "license": null,
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "Config files for my GitHub profile.",
+        "languageBytes": {}
+      }
+    },
+    {
       "id": "github:commit:939073597dd1806eebb7457165628dd8a22cd589",
       "source": "github",
       "kind": "commit",
@@ -129,6 +631,23 @@
         "branch": "main",
         "message": "",
         "visibility": "public"
+      }
+    },
+    {
+      "id": "codeforces:profile:sandeepyadav1478",
+      "source": "codeforces",
+      "kind": "profile",
+      "title": "Codeforces: rating 679 (newbie)",
+      "url": "https://codeforces.com/profile/sandeepyadav1478",
+      "date": "2026-06-22T17:58:07.000Z",
+      "payload": {
+        "platform": "codeforces",
+        "rating": 679,
+        "maxRating": 679,
+        "rank": "newbie",
+        "maxRank": "newbie",
+        "registrationYear": 2026,
+        "contestsAttended": 2
       }
     },
     {
@@ -372,6 +891,26 @@
       }
     },
     {
+      "id": "github:profile:sandeepyadav1478",
+      "source": "github",
+      "kind": "profile",
+      "title": "GitHub: 49 repos · 19 followers",
+      "url": "https://github.com/sandeepyadav1478",
+      "date": "2026-06-22T12:42:20Z",
+      "payload": {
+        "platform": "github",
+        "name": "Sandeep Yadav",
+        "company": "@ReturnRabbit by Auctane",
+        "location": "New Delhi, India",
+        "hireable": true,
+        "followers": 19,
+        "publicRepos": 49,
+        "accountAgeYears": 8,
+        "createdAt": "2017-08-23T04:02:54Z",
+        "bio": "Software Engineer"
+      }
+    },
+    {
       "id": "github:commit:eff948f37abf9c8b092392a0620b9eb3c2bea788",
       "source": "github",
       "kind": "commit",
@@ -612,6 +1151,40 @@
       }
     },
     {
+      "id": "github:commit:pr-sandeepyadav1478/sora-2-opened",
+      "source": "github",
+      "kind": "commit",
+      "title": "PR #2: feat/plan2-adapters",
+      "url": "https://github.com/sandeepyadav1478/sora/pulls",
+      "date": "2026-06-16T06:45:34Z",
+      "payload": {
+        "eventType": "pull_request",
+        "action": "opened",
+        "prNumber": 2,
+        "headRef": "feat/plan2-adapters",
+        "baseRef": "main",
+        "merged": false,
+        "repo": "sandeepyadav1478/sora",
+        "isExternal": false,
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:create-sandeepyadav1478/sora-branch-feat/plan2-adapters",
+      "source": "github",
+      "kind": "commit",
+      "title": "Created branch feat/plan2-adapters in sora",
+      "url": "https://github.com/sandeepyadav1478/sora/tree/feat%2Fplan2-adapters",
+      "date": "2026-06-16T06:35:14Z",
+      "payload": {
+        "eventType": "branch_create",
+        "refType": "branch",
+        "ref": "feat/plan2-adapters",
+        "description": "An open-source portfolio template built with Astro. Showcase your life's work — OSS contributions, projects, writing, talks, certifications — on a clean, single-page board with modal-based UX.",
+        "repo": "sandeepyadav1478/sora"
+      }
+    },
+    {
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
@@ -620,7 +1193,269 @@
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
         "registry": "pypi",
-        "version": "0.6.0"
+        "version": "0.6.0",
+        "license": "MIT",
+        "keywords": [
+          "doppler",
+          "durable",
+          "event-sourcing",
+          "linked-list",
+          "messaging"
+        ],
+        "requiresPython": ">=3.10",
+        "releaseCount": 5,
+        "topicCategory": "Database",
+        "isTyped": true,
+        "devStatus": "Beta",
+        "downloadSeries": [
+          {
+            "date": "2026-06-21",
+            "downloads": 3
+          },
+          {
+            "date": "2026-06-20",
+            "downloads": 2
+          },
+          {
+            "date": "2026-06-19",
+            "downloads": 2
+          },
+          {
+            "date": "2026-06-18",
+            "downloads": 8
+          },
+          {
+            "date": "2026-06-17",
+            "downloads": 7
+          },
+          {
+            "date": "2026-06-16",
+            "downloads": 6
+          },
+          {
+            "date": "2026-06-15",
+            "downloads": 8
+          },
+          {
+            "date": "2026-06-14",
+            "downloads": 2
+          },
+          {
+            "date": "2026-06-13",
+            "downloads": 120
+          },
+          {
+            "date": "2026-06-12",
+            "downloads": 108
+          },
+          {
+            "date": "2026-06-11",
+            "downloads": 1
+          },
+          {
+            "date": "2026-06-06",
+            "downloads": 30
+          },
+          {
+            "date": "2026-06-05",
+            "downloads": 12
+          },
+          {
+            "date": "2026-06-02",
+            "downloads": 3
+          },
+          {
+            "date": "2026-05-28",
+            "downloads": 2
+          },
+          {
+            "date": "2026-05-24",
+            "downloads": 1
+          },
+          {
+            "date": "2026-05-20",
+            "downloads": 6
+          },
+          {
+            "date": "2026-05-18",
+            "downloads": 1
+          },
+          {
+            "date": "2026-05-17",
+            "downloads": 1
+          },
+          {
+            "date": "2026-05-16",
+            "downloads": 4
+          },
+          {
+            "date": "2026-05-15",
+            "downloads": 6
+          },
+          {
+            "date": "2026-05-12",
+            "downloads": 6
+          },
+          {
+            "date": "2026-05-10",
+            "downloads": 1
+          },
+          {
+            "date": "2026-05-07",
+            "downloads": 11
+          },
+          {
+            "date": "2026-05-06",
+            "downloads": 7
+          },
+          {
+            "date": "2026-05-05",
+            "downloads": 5
+          },
+          {
+            "date": "2026-05-04",
+            "downloads": 4
+          },
+          {
+            "date": "2026-05-02",
+            "downloads": 1
+          },
+          {
+            "date": "2026-04-29",
+            "downloads": 1
+          },
+          {
+            "date": "2026-04-28",
+            "downloads": 6
+          },
+          {
+            "date": "2026-04-23",
+            "downloads": 1
+          },
+          {
+            "date": "2026-04-22",
+            "downloads": 3
+          },
+          {
+            "date": "2026-04-21",
+            "downloads": 13
+          },
+          {
+            "date": "2026-04-19",
+            "downloads": 6
+          },
+          {
+            "date": "2026-04-18",
+            "downloads": 9
+          },
+          {
+            "date": "2026-04-17",
+            "downloads": 17
+          },
+          {
+            "date": "2026-04-16",
+            "downloads": 180
+          },
+          {
+            "date": "2026-04-15",
+            "downloads": 94
+          }
+        ],
+        "totalDownloads": 698,
+        "peakDay": {
+          "date": "2026-04-16",
+          "downloads": 180
+        },
+        "trend7d": {
+          "avg7d": 5.142857142857143,
+          "avgPrev7d": 39.42857142857143
+        },
+        "pythonVersions": [
+          {
+            "version": "null",
+            "downloads": 587
+          },
+          {
+            "version": "3.12",
+            "downloads": 36
+          },
+          {
+            "version": "3.11",
+            "downloads": 30
+          },
+          {
+            "version": "3.10",
+            "downloads": 25
+          },
+          {
+            "version": "3.13",
+            "downloads": 20
+          }
+        ],
+        "osByDownloads": [
+          {
+            "os": "Linux",
+            "downloads": 80
+          },
+          {
+            "os": "Darwin",
+            "downloads": 29
+          },
+          {
+            "os": "Windows",
+            "downloads": 2
+          }
+        ],
+        "releaseHistory": [
+          {
+            "version": "0.6.0",
+            "uploadDate": "2026-06-13T12:15:48.917083Z",
+            "size": 147785
+          },
+          {
+            "version": "0.5.0",
+            "uploadDate": "2026-06-12T17:09:00.288938Z",
+            "size": 142193
+          },
+          {
+            "version": "0.4.1",
+            "uploadDate": "2026-04-16T15:04:34.496428Z",
+            "size": 93811
+          },
+          {
+            "version": "0.4.0",
+            "uploadDate": "2026-04-16T03:07:51.458759Z",
+            "size": 93353
+          },
+          {
+            "version": "0.3.0",
+            "uploadDate": "2026-04-15T17:52:41.863324Z",
+            "size": 84019
+          }
+        ],
+        "allClassifiers": [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Database",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: System :: Distributed Computing",
+          "Typing :: Typed"
+        ],
+        "requiresDist": [
+          "tomli>=2.0; python_version < \"3.11\"",
+          "mypy>=1.8; extra == \"dev\"",
+          "pytest-asyncio>=0.21; extra == \"dev\"",
+          "pytest>=7.0; extra == \"dev\"",
+          "ruff>=0.4; extra == \"dev\""
+        ],
+        "vulnerabilities": 0
       }
     },
     {
@@ -639,138 +1474,83 @@
       }
     },
     {
-      "id": "github:commit:6f14ff220941ada8726619df7c776c8b56174b53",
+      "id": "github:post:ic-zhukunpenglinyutong/jetbrains-cc-gui-1311-4690471180",
       "source": "github",
-      "kind": "commit",
-      "title": "Pushed to jetbrains-cc-gui",
-      "url": "https://github.com/sandeepyadav1478/jetbrains-cc-gui/commit/6f14ff220941ada8726619df7c776c8b56174b53",
-      "date": "2026-06-12T10:44:43Z",
+      "kind": "post",
+      "title": "Commented on #1311: [Bug] Bedrock/Vertex/Foundry auth fails with 400 when IDE is launched from desktop launcher (Dock/Start Menu)",
+      "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui/issues/1311#issuecomment-4690471180",
+      "date": "2026-06-12T10:53:20Z",
       "payload": {
-        "repo": "sandeepyadav1478/jetbrains-cc-gui",
-        "sha": "6f14ff220941ada8726619df7c776c8b56174b53",
-        "branch": "fix/bedrock-aws-env-desktop-launch",
-        "message": "",
-        "visibility": "public"
+        "eventType": "issue_comment",
+        "issueNumber": 1311,
+        "issueTitle": "[Bug] Bedrock/Vertex/Foundry auth fails with 400 when IDE is launched from desktop launcher (Dock/Start Menu)",
+        "commentBody": "Here's fix PR https://github.com/zhukunpenglinyutong/jetbrains-cc-gui/pull/1310",
+        "repo": "zhukunpenglinyutong/jetbrains-cc-gui",
+        "isExternal": true
       }
     },
     {
-      "id": "github:commit:2b989c72bef688cd2286ff1a38b4947803074d32",
+      "id": "github:post:ic-alirezarezvani/claude-skills-756-4556967180",
       "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sqloutbox",
-      "url": "https://github.com/sandeepyadav1478/sqloutbox/commit/2b989c72bef688cd2286ff1a38b4947803074d32",
-      "date": "2026-06-12T03:50:25Z",
+      "kind": "post",
+      "title": "Commented on #756: fix(marketplace): sync 42 stale plugin versions with actual plugin.json",
+      "url": "https://github.com/alirezarezvani/claude-skills/pull/756#issuecomment-4556967180",
+      "date": "2026-05-27T17:29:36Z",
       "payload": {
-        "repo": "sandeepyadav1478/sqloutbox",
-        "sha": "2b989c72bef688cd2286ff1a38b4947803074d32",
-        "branch": "feat/durable-ordered-retry-signal",
-        "message": "",
-        "visibility": "public"
+        "eventType": "issue_comment",
+        "issueNumber": 756,
+        "issueTitle": "fix(marketplace): sync 42 stale plugin versions with actual plugin.json",
+        "commentBody": "thanks @alirezarezvani ",
+        "repo": "alirezarezvani/claude-skills",
+        "isExternal": true
       }
     },
     {
-      "id": "github:commit:00b706c40c3cf3f82caf6d5584f7ff8efb937318",
+      "id": "github:post:ic-alirezarezvani/claude-skills-711-4553909510",
       "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sqloutbox",
-      "url": "https://github.com/sandeepyadav1478/sqloutbox/commit/00b706c40c3cf3f82caf6d5584f7ff8efb937318",
-      "date": "2026-06-12T02:47:12Z",
+      "kind": "post",
+      "title": "Commented on #711: [BUG] engineering-advanced-skills fails to install — missing root .claude-plugin/plugin.json",
+      "url": "https://github.com/alirezarezvani/claude-skills/issues/711#issuecomment-4553909510",
+      "date": "2026-05-27T10:59:50Z",
       "payload": {
-        "repo": "sandeepyadav1478/sqloutbox",
-        "sha": "00b706c40c3cf3f82caf6d5584f7ff8efb937318",
-        "branch": "feat/durable-ordered-retry-signal",
-        "message": "",
-        "visibility": "public"
+        "eventType": "issue_comment",
+        "issueNumber": 711,
+        "issueTitle": "[BUG] engineering-advanced-skills fails to install — missing root .claude-plugin/plugin.json",
+        "commentBody": "@alirezarezvani It seem installation still stuck in that error. Raised another PR and issue for it please check.\n\nhttps…",
+        "repo": "alirezarezvani/claude-skills",
+        "isExternal": true
       }
     },
     {
-      "id": "github:commit:90115bdd210fd147eda8f6fb96db9bcd514ae2db",
+      "id": "github:post:ic-alirezarezvani/claude-skills-757-4553898185",
       "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/90115bdd210fd147eda8f6fb96db9bcd514ae2db",
-      "date": "2026-06-11T09:51:38Z",
+      "kind": "post",
+      "title": "Commented on #757: [BUG] marketplace.json serves stale versions — 42 plugins unreachable due to version mismatch with plugin.json",
+      "url": "https://github.com/alirezarezvani/claude-skills/issues/757#issuecomment-4553898185",
+      "date": "2026-05-27T10:58:07Z",
       "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "90115bdd210fd147eda8f6fb96db9bcd514ae2db",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
+        "eventType": "issue_comment",
+        "issueNumber": 757,
+        "issueTitle": "[BUG] marketplace.json serves stale versions — 42 plugins unreachable due to version mismatch with plugin.json",
+        "commentBody": "@alirezarezvani I've retried plugin installation, it seems this still persists due to marketplace file versioning.\nI've…",
+        "repo": "alirezarezvani/claude-skills",
+        "isExternal": true
       }
     },
     {
-      "id": "github:commit:ce23a8997e94932fa1df65c1414b5576055ae365",
+      "id": "github:post:ic-alirezarezvani/claude-skills-756-4553892964",
       "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/ce23a8997e94932fa1df65c1414b5576055ae365",
-      "date": "2026-06-11T09:42:30Z",
+      "kind": "post",
+      "title": "Commented on #756: fix(marketplace): sync 42 stale plugin versions with actual plugin.json",
+      "url": "https://github.com/alirezarezvani/claude-skills/pull/756#issuecomment-4553892964",
+      "date": "2026-05-27T10:57:21Z",
       "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "ce23a8997e94932fa1df65c1414b5576055ae365",
-        "branch": "feat/content-aggregator",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:51771a4998527d26ee1ba4078d9e7e78a9709303",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sqloutbox",
-      "url": "https://github.com/sandeepyadav1478/sqloutbox/commit/51771a4998527d26ee1ba4078d9e7e78a9709303",
-      "date": "2026-06-11T06:05:10Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sqloutbox",
-        "sha": "51771a4998527d26ee1ba4078d9e7e78a9709303",
-        "branch": "feat/durable-ordered-retry-signal",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:d82ad696cefe7614bb8e3b8425e5868de44806f4",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478/commit/d82ad696cefe7614bb8e3b8425e5868de44806f4",
-      "date": "2026-05-27T17:27:21Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478",
-        "sha": "d82ad696cefe7614bb8e3b8425e5868de44806f4",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:bdb183a74d4f9b7aee562243183d3471ea070e81",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to claude-skills",
-      "url": "https://github.com/sandeepyadav1478/claude-skills/commit/bdb183a74d4f9b7aee562243183d3471ea070e81",
-      "date": "2026-05-27T10:48:01Z",
-      "payload": {
-        "repo": "sandeepyadav1478/claude-skills",
-        "sha": "bdb183a74d4f9b7aee562243183d3471ea070e81",
-        "branch": "fix/marketplace-version-sync",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:14a13634a1211aedda9430ab376f3f8e2d50ec86",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to claude-skills",
-      "url": "https://github.com/sandeepyadav1478/claude-skills/commit/14a13634a1211aedda9430ab376f3f8e2d50ec86",
-      "date": "2026-05-27T10:35:35Z",
-      "payload": {
-        "repo": "sandeepyadav1478/claude-skills",
-        "sha": "14a13634a1211aedda9430ab376f3f8e2d50ec86",
-        "branch": "fix/marketplace-version-sync",
-        "message": "",
-        "visibility": "public"
+        "eventType": "issue_comment",
+        "issueNumber": 756,
+        "issueTitle": "fix(marketplace): sync 42 stale plugin versions with actual plugin.json",
+        "commentBody": "@alirezarezvani I've retried plugin installation, it seems this still persists due to marketplace file versioning.\r\nI'v…",
+        "repo": "alirezarezvani/claude-skills",
+        "isExternal": true
       }
     },
     {
@@ -784,7 +1564,11 @@
         "platform": "codeforces",
         "contestId": 2205,
         "rating": 679,
-        "rank": 10459
+        "rank": 10459,
+        "maxRating": 679,
+        "maxRank": "newbie",
+        "registrationTimeSeconds": 1767962056,
+        "currentRating": 679
       }
     },
     {
@@ -798,7 +1582,77 @@
         "platform": "codeforces",
         "contestId": 2197,
         "rating": 473,
-        "rank": 5944
+        "rank": 5944,
+        "maxRating": 679,
+        "maxRank": "newbie",
+        "registrationTimeSeconds": 1767962056
+      }
+    },
+    {
+      "id": "huggingface:profile:sandeepyadav1478",
+      "source": "huggingface",
+      "kind": "profile",
+      "title": "HuggingFace: Active member · Allanite Machine Learning",
+      "url": "https://huggingface.co/sandeepyadav1478",
+      "date": "2023-08-02T08:48:26.000Z",
+      "payload": {
+        "platform": "huggingface",
+        "numModels": 0,
+        "numDatasets": 0,
+        "numSpaces": 0,
+        "numDiscussions": 1,
+        "numPapers": 0,
+        "numUpvotes": 1,
+        "numLikes": 1,
+        "numFollowers": 0,
+        "numFollowing": 1,
+        "orgs": [
+          {
+            "name": "allanite-ml",
+            "fullname": "Allanite Machine Learning"
+          }
+        ],
+        "joinedAt": "2023-08-02T08:48:26.000Z",
+        "likes": [
+          {
+            "name": "unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF",
+            "type": "model",
+            "likedAt": "2026-01-05T01:35:30.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/Transfer-files-from-google-to-terabox-cloud",
+      "source": "github",
+      "kind": "repo",
+      "title": "Transfer-files-from-google-to-terabox-cloud: Xsfer file between Google  and Terabox cloud storage.",
+      "url": "https://github.com/sandeepyadav1478/Transfer-files-from-google-to-terabox-cloud",
+      "date": "2022-05-31T08:00:47Z",
+      "payload": {
+        "platform": "github",
+        "name": "Transfer-files-from-google-to-terabox-cloud",
+        "stars": 103,
+        "forks": 27,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "colab",
+          "data",
+          "demo-images",
+          "google-photos",
+          "google-photos-api",
+          "google-photos-backup",
+          "terabox",
+          "transfer"
+        ],
+        "license": null,
+        "isTemplate": false,
+        "hasPages": true,
+        "description": "Xsfer file between Google  and Terabox cloud storage.",
+        "languageBytes": {
+          "Jupyter Notebook": 978492,
+          "Python": 9773
+        }
       }
     },
     {
@@ -810,10 +1664,68 @@
       "date": "2022-03-27T01:15:06.000Z",
       "payload": {
         "issuer": "SAS",
+        "issuerUrl": "https://www.credly.com/org/sas",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/158eb6e8-b715-4f06-bc97-9d4c0c6b1505/62056_badges_Learn_AdvancedAnalytics.png",
         "description": "This course introduces data curation and provides prerequisite material for the SAS Data Curation Specialist training.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2022-03-27T08:15:33.120-05:00",
+        "lastUpdatedAt": "2022-03-27T08:15:33.120-05:00",
+        "skills": [
+          "Data Curation"
+        ],
+        "allSkills": [
+          "Data Curation",
+          "SAS",
+          "SAS Data Integration Studio"
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Course",
+            "title": "The owner of this badge completed Introduction to Data Curation for SAS Data Scientists.",
+            "url": null
+          }
+        ],
+        "endorsementCount": 0,
+        "level": null,
+        "typeCategory": null,
+        "cost": null,
+        "timeToEarn": null
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/VYRIXSECURITYLAB",
+      "source": "github",
+      "kind": "repo",
+      "title": "VYRIXSECURITYLAB: This repo was created to contain Social media hunter/ Virus/Ransomware or any other unusual activity process.",
+      "url": "https://github.com/sandeepyadav1478/VYRIXSECURITYLAB",
+      "date": "2021-12-28T13:05:45Z",
+      "payload": {
+        "platform": "github",
+        "name": "VYRIXSECURITYLAB",
+        "stars": 3,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "ransomeware",
+          "sherlock",
+          "sherlock-mini",
+          "social-media-analysis",
+          "social-media-mining",
+          "social-media-search",
+          "virus"
+        ],
+        "license": "MIT",
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "This repo was created to contain Social media hunter/ Virus/Ransomware or any other unusual activity process.",
+        "languageBytes": {
+          "Python": 50986,
+          "Batchfile": 1407
+        }
       }
     },
     {
@@ -825,10 +1737,88 @@
       "date": "2021-12-10T00:00:00.000Z",
       "payload": {
         "issuer": "Certiprof",
+        "issuerUrl": "https://www.credly.com/org/certiprof",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/21e16d4d-d2df-46e6-9098-526caab49e63/blob",
         "description": "This badge has been issued to the candidates who have demonstrated their unwavering commitment to lifelong learning, which is vitally important in today's ever-changing and expanding digital world. It also identifies the qualities of an open, disciplined, and constantly evolving mind, capable of using and contributing knowledge to develop a more equal and better world.",
         "expired": true,
-        "expiresAt": "2023-12-10"
+        "expiresAt": "2023-12-10",
+        "acceptedAt": "2021-12-10T15:04:02.325-06:00",
+        "lastUpdatedAt": "2021-12-10T15:04:02.345-06:00",
+        "skills": [
+          "Career Development",
+          "Lifelong Learning"
+        ],
+        "allSkills": [
+          "Career Development",
+          "Continuing Education",
+          "Enthusiasm For Lifelong Learning",
+          "Ethics - Professionalism - Values",
+          "Growth Mindset: Open To Evolving Continuously And Adopting A Lifelong Learning Attitude",
+          "Lifelong Learning",
+          "Open Education Resources"
+        ],
+        "earnThisBadgeUrl": "https://certiprof.com/",
+        "enableEarnThisBadge": true,
+        "earningCriteria": [
+          {
+            "activityType": "Participant",
+            "title": "Be a continuous and focused learner.",
+            "url": "https://certiprof.com/"
+          },
+          {
+            "activityType": "Education Experience",
+            "title": "Identify themselves with the concept of lifelong learning.",
+            "url": "https://certiprof.com/"
+          },
+          {
+            "activityType": "Credential",
+            "title": "Genuinely believe and identify with the concept that knowledge and education can and should change the world.",
+            "url": "https://certiprof.com/"
+          },
+          {
+            "activityType": "Member",
+            "title": "Want to boost their professional growth.",
+            "url": "https://certiprof.com/"
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Learning",
+        "cost": "Free",
+        "timeToEarn": "Months"
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/Uploading-video-on-youtube",
+      "source": "github",
+      "kind": "repo",
+      "title": "Uploading-video-on-youtube: Uploading video on youtube from google drive with youtube v3 data api",
+      "url": "https://github.com/sandeepyadav1478/Uploading-video-on-youtube",
+      "date": "2021-09-05T16:25:14Z",
+      "payload": {
+        "platform": "github",
+        "name": "Uploading-video-on-youtube",
+        "stars": 3,
+        "forks": 1,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "colab",
+          "colaboratory",
+          "drive",
+          "drive-to-youtube",
+          "youtube",
+          "youtube-api",
+          "youtube-upload"
+        ],
+        "license": "BSD-2-Clause",
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "Uploading video on youtube from google drive with youtube v3 data api",
+        "languageBytes": {
+          "Jupyter Notebook": 14203,
+          "Python": 2794
+        }
       }
     },
     {
@@ -840,10 +1830,245 @@
       "date": "2021-07-20T04:29:46.000Z",
       "payload": {
         "issuer": "Certiprof",
+        "issuerUrl": "https://www.credly.com/org/certiprof",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/ea2c9f2e-b7e1-4a5a-a82e-7e94b67b35bd/image.png",
         "description": "Earners of the Remote Work Professional Certification are aware and very attentive to the practices, tools, and techniques accepted worldwide to perform remote work, being aware that the remote experience can be managed better and with a high degree of sustainability. They know the best practices for productive and successful remote work.",
         "expired": true,
-        "expiresAt": "2023-07-20"
+        "expiresAt": "2023-07-20",
+        "acceptedAt": "2021-07-19T23:30:54.634-05:00",
+        "lastUpdatedAt": "2021-07-19T23:30:54.634-05:00",
+        "skills": [
+          "Listening Skills",
+          "Team Building"
+        ],
+        "allSkills": [
+          "Ability To Use Technology",
+          "Adaptability",
+          "Collaboration And Teamwork",
+          "Commitment To Remote Working Philosophy And Standards",
+          "Communication",
+          "Delegation",
+          "Flexibility",
+          "Goal-Oriented",
+          "Listening Skills",
+          "Negotiation And Conflict Resolution",
+          "Remote Teams",
+          "Remote Working",
+          "Results Delivery",
+          "Setting Objectives",
+          "Shared Leadership"
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Course",
+            "title": "Complete the Remote Work Professional Certification (Self-study or workshop) Achieve a mastery score of 60% or better on the assessment.",
+            "url": "https://certiprof.com/pages/remote-worker-professional-certificate-rwpc"
+          },
+          {
+            "activityType": "Assessment",
+            "title": "Badge holders have passed a multiple choice exam, with a minimum score of 24 out of 40 (60%). The exam is a closed-book exam that lasts 60 minutes.",
+            "url": "https://certiprof.com/pages/remote-worker-professional-certificate-rwpc"
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Learning",
+        "cost": "Free",
+        "timeToEarn": "Hours"
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/IBM-Watson-S2T---T2S",
+      "source": "github",
+      "kind": "repo",
+      "title": "IBM-Watson-S2T---T2S: Repository contains 2 types of solution : python and dist(exe)",
+      "url": "https://github.com/sandeepyadav1478/IBM-Watson-S2T---T2S",
+      "date": "2021-07-19T08:36:31Z",
+      "payload": {
+        "platform": "github",
+        "name": "IBM-Watson-S2T---T2S",
+        "stars": 1,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [
+          "ibm",
+          "ibm-cloud",
+          "ibm-watson",
+          "ibmcode",
+          "python3",
+          "quantum-computing",
+          "speech-recognition",
+          "speech-to-text",
+          "text-to-speech",
+          "text-to-speech-python3",
+          "watson-assistant"
+        ],
+        "license": "BSD-3-Clause",
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "Repository contains 2 types of solution : python and dist(exe)",
+        "languageBytes": {
+          "HTML": 1215055,
+          "TeX": 875096,
+          "Python": 15917
+        }
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/PENTESTERLAB",
+      "source": "github",
+      "kind": "repo",
+      "title": "PENTESTERLAB: I consider PentesterLab to be a great resource for learning about web application security and ways how it can be subverted. Even though the exercises usually don’t take much time to complete they can teach a lot. I can’t but recommend it, especially to any aspiring junior penetration testers out there.",
+      "url": "https://github.com/sandeepyadav1478/PENTESTERLAB",
+      "date": "2021-07-19T07:50:50Z",
+      "payload": {
+        "platform": "github",
+        "name": "PENTESTERLAB",
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "android",
+          "api",
+          "auth",
+          "ctf",
+          "intercept",
+          "pcap",
+          "pentester",
+          "pentesters",
+          "pentesting",
+          "recon"
+        ],
+        "license": "Apache-2.0",
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "I consider PentesterLab to be a great resource for learning about web application security and ways how it can be subverted. Even though the exercises usually don’t take much time to complete they can teach a lot. I can’t but recommend it, especially to any aspiring junior penetration testers out there.",
+        "languageBytes": {}
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/Credly-Filter",
+      "source": "github",
+      "kind": "repo",
+      "title": "Credly-Filter: Code was created for scrapping badges from Credly official site with filters. You can change the code for certifications also. For filter options you have to pass it as string in list.",
+      "url": "https://github.com/sandeepyadav1478/Credly-Filter",
+      "date": "2021-07-18T05:16:44Z",
+      "payload": {
+        "platform": "github",
+        "name": "Credly-Filter",
+        "stars": 1,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "badges",
+          "certificates",
+          "credly",
+          "free",
+          "links",
+          "paid",
+          "python-script",
+          "scraper",
+          "selenium"
+        ],
+        "license": "Apache-2.0",
+        "isTemplate": false,
+        "hasPages": true,
+        "description": "Code was created for scrapping badges from Credly official site with filters. You can change the code for certifications also. For filter options you have to pass it as string in list.",
+        "languageBytes": {
+          "Jupyter Notebook": 132578,
+          "Python": 5222
+        }
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/fetch-youtube-channel-details",
+      "source": "github",
+      "kind": "repo",
+      "title": "fetch-youtube-channel-details: This function will return subscribers, total video views, channel types, monthly revenue, yearly revenue, profile pic., cover image.  ",
+      "url": "https://github.com/sandeepyadav1478/fetch-youtube-channel-details",
+      "date": "2021-06-23T13:28:02Z",
+      "payload": {
+        "platform": "github",
+        "name": "fetch-youtube-channel-details",
+        "stars": 1,
+        "forks": 0,
+        "language": "PHP",
+        "topics": [
+          "php",
+          "php7",
+          "sql",
+          "webscraping"
+        ],
+        "license": "CC0-1.0",
+        "isTemplate": false,
+        "hasPages": false,
+        "description": "This function will return subscribers, total video views, channel types, monthly revenue, yearly revenue, profile pic., cover image.  ",
+        "languageBytes": {
+          "PHP": 2163
+        }
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/Fast_Fourier_Transformation",
+      "source": "github",
+      "kind": "repo",
+      "title": "Fast_Fourier_Transformation: The FFT is an optimized algorithm for the implementation of the \"Discrete Fourier Transformation\" (DFT). A signal is sampled over a period of time and divided into its frequency components. These components are single sinusoidal oscillations at distinct frequencies each with their own amplitude and phase. This transformation is illustrated in the following diagram. Over the time period measured, the signal contains 3 distinct dominant frequencies. ",
+      "url": "https://github.com/sandeepyadav1478/Fast_Fourier_Transformation",
+      "date": "2021-06-23T13:03:45Z",
+      "payload": {
+        "platform": "github",
+        "name": "Fast_Fourier_Transformation",
+        "stars": 2,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "fft",
+          "fftx-shift",
+          "fourier",
+          "fourier-transform",
+          "pygame",
+          "python"
+        ],
+        "license": "MIT",
+        "isTemplate": false,
+        "hasPages": true,
+        "description": "The FFT is an optimized algorithm for the implementation of the \"Discrete Fourier Transformation\" (DFT). A signal is sampled over a period of time and divided into its frequency components. These components are single sinusoidal oscillations at distinct frequencies each with their own amplitude and phase. This transformation is illustrated in the following diagram. Over the time period measured, the signal contains 3 distinct dominant frequencies. ",
+        "languageBytes": {
+          "Python": 43951
+        }
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/Instagram-Unfollower-Script",
+      "source": "github",
+      "kind": "repo",
+      "title": "Instagram-Unfollower-Script: I created this script for my friend who have very long list request sent by him on Instagram.  Script undo all send requests.",
+      "url": "https://github.com/sandeepyadav1478/Instagram-Unfollower-Script",
+      "date": "2021-04-05T11:12:37Z",
+      "payload": {
+        "platform": "github",
+        "name": "Instagram-Unfollower-Script",
+        "stars": 1,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "friend",
+          "instagram",
+          "instagram-script",
+          "instagramunfollower",
+          "pyth",
+          "script"
+        ],
+        "license": null,
+        "isTemplate": false,
+        "hasPages": true,
+        "description": "I created this script for my friend who have very long list request sent by him on Instagram.  Script undo all send requests.",
+        "languageBytes": {
+          "Python": 2487
+        }
       }
     },
     {
@@ -855,10 +2080,65 @@
       "date": "2020-09-26T08:51:36.000Z",
       "payload": {
         "issuer": "IBM SkillsBuild",
+        "issuerUrl": "https://www.credly.com/org/ibm-skillsbuild",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/7aa8da9f-3580-4f1d-b604-faecad98e7c5/blob",
         "description": "This credential earner understands mindfulness concepts and techniques, and has learned how to apply mindfulness practices for various situations. The individual understands how to further develop focus and self-awareness. The earner can use these skills as a foundation for further study in mindfulness and to apply mental and emotional management in any career path they choose.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2020-09-26T06:21:27.384-05:00",
+        "lastUpdatedAt": "2020-09-26T06:21:27.384-05:00",
+        "skills": [
+          "Communication Skills",
+          "Mindfulness",
+          "Relaxation Techniques"
+        ],
+        "allSkills": [
+          "Attention",
+          "Communication Skills",
+          "Emotional Intelligence",
+          "Mental Management",
+          "Mindfulness",
+          "Professional Skills",
+          "PWID-B0530500",
+          "Relaxation Techniques",
+          "Self-Awareness",
+          "Visualization Practices"
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Assessment",
+            "title": " Pass the end-of-course assessment with a score of 80% or higher.",
+            "url": null
+          },
+          {
+            "activityType": "Other",
+            "title": "High school students and educators can complete the credential here.",
+            "url": "https://students.yourlearning.ibm.com/activity/ALM-COURSE_4069014"
+          },
+          {
+            "activityType": "Other",
+            "title": "Adult learners (age 18+) can complete the credential here.",
+            "url": "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4067535"
+          },
+          {
+            "activityType": "Member",
+            "title": "This credential is available to registered users of IBM SkillsBuild:",
+            "url": null
+          },
+          {
+            "activityType": "Course",
+            "title": " Complete the Explorations into Mindfulness course, created by IBM and the University of Oxford Mindfulness Centre, which includes lessons, videos, reading assignments, reflection moments, knowledge checks, and opportunities to practice mindfulness techniques.",
+            "url": null
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Learning",
+        "cost": "Free",
+        "timeToEarn": "Hours"
       }
     },
     {
@@ -870,10 +2150,75 @@
       "date": "2020-09-26T08:47:41.000Z",
       "payload": {
         "issuer": "IBM SkillsBuild",
+        "issuerUrl": "https://www.credly.com/org/ibm-skillsbuild",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/50b96632-6cbb-40b7-ac0e-b83f49ff7f94/image.png",
         "description": "This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks. This also includes an awareness of the job market. Earners can use this knowledge to pursue further education for a variety of roles in cybersecurity.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2020-09-26T06:21:27.465-05:00",
+        "lastUpdatedAt": "2020-09-26T06:21:27.465-05:00",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Incident Response",
+          "Information Security",
+          "Security Strategies",
+          "Social Engineering",
+          "Threat Detection",
+          "Vulnerability Management"
+        ],
+        "allSkills": [
+          "Cryptography",
+          "Cyber Attacks",
+          "Cybersecurity",
+          "Cybersecurity Processes",
+          "Cybersecurity Risk Management",
+          "Cyber Threat Analysis",
+          "Cyber Threat Intelligence",
+          "Incident Response",
+          "Information Security",
+          "PWID-B0454800",
+          "Security Strategies",
+          "Social Engineering",
+          "Threat Analysis",
+          "Threat Detection",
+          "Vulnerability Management"
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Assessment",
+            "title": " Pass the end-of-course assessment with a score of 80% or higher.",
+            "url": null
+          },
+          {
+            "activityType": "Member",
+            "title": "This credential is available to registered users of IBM SkillsBuild:",
+            "url": null
+          },
+          {
+            "activityType": "Course",
+            "title": "Complete Cybersecurity Fundamentals, designed by IBM.",
+            "url": null
+          },
+          {
+            "activityType": "Other",
+            "title": "Adult learners (age 18+) can complete the credential here.",
+            "url": "https://skills.yourlearning.ibm.com/activity/ILB-DNRPWDGQGMMY7GGD"
+          },
+          {
+            "activityType": "Other",
+            "title": "High school students and educators can complete the credential here.",
+            "url": "https://students.yourlearning.ibm.com/activity/ILB-ZKRKJQJJEMEQQ7GV"
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Intermediate",
+        "typeCategory": "Learning",
+        "cost": "Free",
+        "timeToEarn": "Hours"
       }
     },
     {
@@ -885,10 +2230,52 @@
       "date": "2020-09-26T05:14:05.000Z",
       "payload": {
         "issuer": "IBM",
+        "issuerUrl": "https://www.credly.com/org/ibm",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/09f644d1-eed2-4279-bc49-1e26cddc9d3d/Team_Essentials.png",
         "description": "This badge earner has demonstrated proficiency in using Enterprise Design Thinking concepts and activities to design responsible artificial intelligence systems with intention and a focus on people.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2020-09-26T00:14:06.154-05:00",
+        "lastUpdatedAt": "2020-09-26T00:14:06.162-05:00",
+        "skills": [
+          "Critical Thinking",
+          "Design Thinking",
+          "Problem Solving"
+        ],
+        "allSkills": [
+          "AI",
+          "Artificial Intelligence",
+          "Critical Thinking",
+          "Design Thinking",
+          "Problem Solving",
+          "PWID-B0189400"
+        ],
+        "alignments": [
+          {
+            "name": "Enterprise Design Thinking",
+            "url": "https://www.ibm.com/design/thinking/"
+          }
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Other",
+            "title": "Note:  sign-in is required to access the course link.",
+            "url": null
+          },
+          {
+            "activityType": "Other",
+            "title": "Successful completion of the Team Essentials for AI course including passing the in-course quizzes.",
+            "url": "https://www.ibm.com/design/thinking/page/badges/ai#AI_Essentials"
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Learning",
+        "cost": "Paid",
+        "timeToEarn": "Hours"
       }
     },
     {
@@ -900,10 +2287,65 @@
       "date": "2020-09-26T04:43:44.000Z",
       "payload": {
         "issuer": "IBM",
+        "issuerUrl": "https://www.credly.com/org/ibm",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png",
         "description": "The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2020-09-25T23:43:45.128-05:00",
+        "lastUpdatedAt": "2020-09-25T23:43:45.136-05:00",
+        "skills": [
+          "Empathy",
+          "User Research"
+        ],
+        "allSkills": [
+          "Design",
+          "Empathy",
+          "Experience Design",
+          "Ideation",
+          "PWID-B0495200",
+          "User-Centered Design",
+          "User-Centric",
+          "User Experience",
+          "User Research",
+          "UX"
+        ],
+        "alignments": [
+          {
+            "name": "Enterprise Design Thinking",
+            "url": "https://www.ibm.com/design/thinking/"
+          }
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Other",
+            "title": "EARN: Complete the online Enterprise Design Thinking Lessons, or IBM Approved course equivalent. You may also earn this through intimate in-person training and assessment. Contact IBM to learn more at designthinking@us.ibm.com.",
+            "url": "https://www.ibm.com/design/thinking/page/badges/core-skills#Practitioner"
+          },
+          {
+            "activityType": "Other",
+            "title": "Note: The new badge for this one can be found here. However, if you have earned this older badge, you do not need to earn the replacement badge since the content is the same.",
+            "url": "https://www.credly.com/org/ibm/badge/enterprise-design-thinking-practitioner.1"
+          },
+          {
+            "activityType": "Other",
+            "title": "Able to discuss and apply basic Enterprise Design Thinking concepts.",
+            "url": null
+          },
+          {
+            "activityType": "Other",
+            "title": "Able to identify opportunities to apply Enterprise Design Thinking.",
+            "url": null
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Learning",
+        "cost": "Free",
+        "timeToEarn": "Hours"
       }
     },
     {
@@ -915,10 +2357,40 @@
       "date": "2020-09-26T02:24:39.000Z",
       "payload": {
         "issuer": "IBM",
+        "issuerUrl": "https://www.credly.com/org/ibm",
+        "issuerVerified": false,
         "imageUrl": "https://images.credly.com/images/b40db465-587f-45eb-a854-af8630a630e7/blob",
         "description": "The badge earner is able to write their own Python scripts and perform basic hands-on data analysis using IBM's Jupyter-based lab environment.",
         "expired": false,
-        "expiresAt": null
+        "expiresAt": null,
+        "acceptedAt": "2020-09-25T21:26:26.697-05:00",
+        "lastUpdatedAt": "2020-09-25T21:26:26.697-05:00",
+        "skills": [
+          "Data Science",
+          "Pandas",
+          "Python"
+        ],
+        "allSkills": [
+          "Data Science",
+          "Pandas",
+          "PWID-B0367400",
+          "Python",
+          "Python Programming"
+        ],
+        "earnThisBadgeUrl": null,
+        "enableEarnThisBadge": false,
+        "earningCriteria": [
+          {
+            "activityType": "Course",
+            "title": "Successful completion of the course \"Python for Data Science\".",
+            "url": "https://cognitiveclass.ai/courses/python-for-data-science"
+          }
+        ],
+        "endorsementCount": 0,
+        "level": "Foundational",
+        "typeCategory": "Validation",
+        "cost": "Free",
+        "timeToEarn": "Days"
       }
     }
   ]
