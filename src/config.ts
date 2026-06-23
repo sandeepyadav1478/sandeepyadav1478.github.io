@@ -223,19 +223,6 @@ export const ACTIVITY_DISPLAY = {
 } as const;
 
 // ============================================================================
-// ACTIVITY_FILTER — Minimum thresholds before an item is shown at all.
-// ============================================================================
-export const ACTIVITY_FILTER = {
-  repo_min_stars: 1,
-  package_min_downloads: 10,
-  video_min_views: 100,
-  leetcode_min_solved: 5,
-  codeforces_min_rating: 1,
-  stackoverflow_min_reputation: 10,
-  wakatime_min_seconds: 3600,
-} as const;
-
-// ============================================================================
 // BOARD — Works board layout & display options
 // ============================================================================
 export const BOARD = {
