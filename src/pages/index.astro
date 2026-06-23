@@ -24,6 +24,7 @@ import FAQSection from "@/components/FAQSection.astro";
 import EducationSection from "@/components/EducationSection.astro";
 import Testimonials from "@/components/Testimonials.astro";
 import HighlightCards from "@/components/HighlightCards.astro";
+import StatsBar from "@/components/StatsBar.astro";
 import Newsletter from "@/components/Newsletter.astro";
 import ContactSection from "@/components/ContactSection.astro";
 import getSortedWorks from "@/utils/getSortedWorks";
@@ -72,6 +73,7 @@ const statusLabelMap: Record<string, { label: string; cls: string }> = {
 
     {SECTIONS.showAbout && <AboutSection />}
     <HighlightCards />
+    {SECTIONS.showStats && <StatsBar />}
 
     {/* === THE BOARD === */}
     <section
