@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { writeFile } from "node:fs/promises";
