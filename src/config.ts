@@ -195,6 +195,31 @@ export const ACTIVITY_DISPLAY = {
   credly_expired: true, // ⚠ "expired" warning when payload.expired === true
   credly_issuer: true, // 🏅 issuing organisation name badge
   credly_tooltip: true, // hover: badge description (first 120 chars)
+
+  // repo (github)
+  repo_stars: true,
+  repo_forks: true,
+  repo_language: true,
+  repo_tooltip: true,
+
+  // profile (github, huggingface)
+  profile_followers: true,
+  profile_repos: true,
+  profile_tooltip: true,
+
+  // rating — wakatime enriched
+  waka_alltime: true,
+  waka_ai_lines: true,
+  waka_ai_pct: true,
+  waka_ai_tooltip: true,
+
+  // rating — leetcode enriched
+  lc_streak: true,
+  lc_beats: true,
+  lc_contest_rating: true,
+
+  // rating — codeforces enriched
+  cf_max_rating: true,
 } as const;
 
 // ============================================================================
