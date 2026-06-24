@@ -24,8 +24,8 @@ export const SOURCES = {
     maxPackages: 25,
   },
   rss: {
-    enabled: false,
-    feeds: [],
+    enabled: true,
+    feeds: ["https://medium.com/feed/@sandeepyadav1478"],
     maxPosts: 50,
   },
   youtube: {
