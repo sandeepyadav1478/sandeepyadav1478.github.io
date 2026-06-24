@@ -648,10 +648,7 @@
         "stars": 1,
         "forks": 0,
         "language": null,
-        "topics": [
-          "config",
-          "github-config"
-        ],
+        "topics": ["config", "github-config"],
         "license": null,
         "isTemplate": false,
         "hasPages": false,
@@ -2043,14 +2040,8 @@
         "expiresAt": null,
         "acceptedAt": "2022-03-27T08:15:33.120-05:00",
         "lastUpdatedAt": "2022-03-27T08:15:33.120-05:00",
-        "skills": [
-          "Data Curation"
-        ],
-        "allSkills": [
-          "Data Curation",
-          "SAS",
-          "SAS Data Integration Studio"
-        ],
+        "skills": ["Data Curation"],
+        "allSkills": ["Data Curation", "SAS", "SAS Data Integration Studio"],
         "earnThisBadgeUrl": null,
         "enableEarnThisBadge": false,
         "earningCriteria": [
@@ -2117,10 +2108,7 @@
         "expiresAt": "2023-12-10",
         "acceptedAt": "2021-12-10T15:04:02.325-06:00",
         "lastUpdatedAt": "2021-12-10T15:04:02.345-06:00",
-        "skills": [
-          "Career Development",
-          "Lifelong Learning"
-        ],
+        "skills": ["Career Development", "Lifelong Learning"],
         "allSkills": [
           "Career Development",
           "Continuing Education",
@@ -2211,10 +2199,7 @@
         "expiresAt": "2023-07-20",
         "acceptedAt": "2021-07-19T23:30:54.634-05:00",
         "lastUpdatedAt": "2021-07-19T23:30:54.634-05:00",
-        "skills": [
-          "Listening Skills",
-          "Team Building"
-        ],
+        "skills": ["Listening Skills", "Team Building"],
         "allSkills": [
           "Ability To Use Technology",
           "Adaptability",
@@ -2372,12 +2357,7 @@
         "stars": 1,
         "forks": 0,
         "language": "PHP",
-        "topics": [
-          "php",
-          "php7",
-          "sql",
-          "webscraping"
-        ],
+        "topics": ["php", "php7", "sql", "webscraping"],
         "license": "CC0-1.0",
         "isTemplate": false,
         "hasPages": false,
@@ -2617,11 +2597,7 @@
         "expiresAt": null,
         "acceptedAt": "2020-09-26T00:14:06.154-05:00",
         "lastUpdatedAt": "2020-09-26T00:14:06.162-05:00",
-        "skills": [
-          "Critical Thinking",
-          "Design Thinking",
-          "Problem Solving"
-        ],
+        "skills": ["Critical Thinking", "Design Thinking", "Problem Solving"],
         "allSkills": [
           "AI",
           "Artificial Intelligence",
@@ -2674,10 +2650,7 @@
         "expiresAt": null,
         "acceptedAt": "2020-09-25T23:43:45.128-05:00",
         "lastUpdatedAt": "2020-09-25T23:43:45.136-05:00",
-        "skills": [
-          "Empathy",
-          "User Research"
-        ],
+        "skills": ["Empathy", "User Research"],
         "allSkills": [
           "Design",
           "Empathy",
@@ -2744,11 +2717,7 @@
         "expiresAt": null,
         "acceptedAt": "2020-09-25T21:26:26.697-05:00",
         "lastUpdatedAt": "2020-09-25T21:26:26.697-05:00",
-        "skills": [
-          "Data Science",
-          "Pandas",
-          "Python"
-        ],
+        "skills": ["Data Science", "Pandas", "Python"],
         "allSkills": [
           "Data Science",
           "Pandas",
