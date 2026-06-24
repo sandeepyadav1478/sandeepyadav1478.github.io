@@ -1,82 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T05:54:53.882Z",
+  "generatedAt": "2026-06-24T08:35:46.455Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 66,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
-      "count": 3,
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
+      "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 6,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-06-24T05:54:53.882Z",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
       "count": 8,
+      "consecutiveFailures": 0
+    },
+    "rss": {
+      "status": "ok",
+      "lastSuccess": "2026-06-24T08:35:46.455Z",
+      "count": 1,
       "consecutiveFailures": 0
     }
   },
   "items": [
-    {
-      "id": "wakatime:rating:ai-agents-7d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "20422 AI-written lines in last 7 days (100%)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:57.330Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "ai-agents",
-        "agentLineChanges": {
-          "Claude": 20422
-        },
-        "agentCosts": {
-          "Claude": 2893.4301249999967
-        },
-        "totalAiLines": 20422,
-        "totalHumanLines": 1,
-        "aiLinePercent": 100,
-        "totalAiSessions": 1163,
-        "totalPromptEvents": 1100,
-        "totalAiTokens": 962038853
-      }
-    },
     {
       "id": "wakatime:rating:summaries-30d",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:56.668Z",
+      "date": "2026-06-24T08:35:52.025Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
@@ -286,9 +268,9 @@
           },
           {
             "date": "2026-06-23",
-            "totalSeconds": 27396,
+            "totalSeconds": 27710,
             "aiSeconds": 0,
-            "humanSeconds": 27396,
+            "humanSeconds": 27710,
             "aiPercent": 0
           }
         ],
@@ -297,12 +279,36 @@
       }
     },
     {
+      "id": "wakatime:rating:ai-agents-7d",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "20422 AI-written lines in last 7 days (100%)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-06-24T08:35:50.236Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "ai-agents",
+        "agentLineChanges": {
+          "Claude": 20422
+        },
+        "agentCosts": {
+          "Claude": 2893.4301249999967
+        },
+        "totalAiLines": 20422,
+        "totalHumanLines": 1,
+        "aiLinePercent": 100,
+        "totalAiSessions": 1166,
+        "totalPromptEvents": 1102,
+        "totalAiTokens": 962038853
+      }
+    },
+    {
       "id": "wakatime:rating:all_time",
       "source": "wakatime",
       "kind": "rating",
       "title": "2,830 hrs 1 min coded all time",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:56.623Z",
+      "date": "2026-06-24T08:35:49.276Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "alltime",
@@ -317,7 +323,7 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:56.482Z",
+      "date": "2026-06-24T08:35:49.267Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
@@ -411,12 +417,14 @@
       "kind": "rating",
       "title": "29 hrs 4 mins coding this week",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:56.455Z",
+      "date": "2026-06-24T08:35:49.236Z",
       "payload": {
         "platform": "wakatime",
         "totalSeconds": 104695.636,
         "humanReadableTotal": "29 hrs 4 mins",
         "range": "last_7_days",
+        "status": "ok",
+        "percentCalculated": 100,
         "dailyAverage": 14957,
         "languages": [
           "Python",
@@ -478,7 +486,7 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-06-24T05:54:56.152Z",
+      "date": "2026-06-24T08:35:49.148Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -598,6 +606,36 @@
       }
     },
     {
+      "id": "github:commit:99edfa594158eb4655ea2efe4a75a37fa45f3336",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sandeepyadav1478.github.io",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/99edfa594158eb4655ea2efe4a75a37fa45f3336",
+      "date": "2026-06-24T08:35:26Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
+        "sha": "99edfa594158eb4655ea2efe4a75a37fa45f3336",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "github:commit:436fce1cf265ece596b665cd19971b9c47761aba",
+      "source": "github",
+      "kind": "commit",
+      "title": "Pushed to sora",
+      "url": "https://github.com/sandeepyadav1478/sora/commit/436fce1cf265ece596b665cd19971b9c47761aba",
+      "date": "2026-06-24T08:35:23Z",
+      "payload": {
+        "repo": "sandeepyadav1478/sora",
+        "sha": "436fce1cf265ece596b665cd19971b9c47761aba",
+        "branch": "main",
+        "message": "",
+        "visibility": "public"
+      }
+    },
+    {
       "id": "github:repo:sandeepyadav1478/sandeepyadav1478",
       "source": "github",
       "kind": "repo",
@@ -617,6 +655,7 @@
         "license": null,
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": false,
         "description": "Config files for my GitHub profile.",
         "languageBytes": {}
       }
@@ -1138,7 +1177,8 @@
         "publicRepos": 49,
         "accountAgeYears": 8,
         "createdAt": "2017-08-23T04:02:54Z",
-        "bio": "Software Engineer"
+        "bio": "Software Engineer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31266882?v=4"
       }
     },
     {
@@ -1401,21 +1441,6 @@
       }
     },
     {
-      "id": "github:commit:create-sandeepyadav1478/sora-branch-feat/plan2-adapters",
-      "source": "github",
-      "kind": "commit",
-      "title": "Created branch feat/plan2-adapters in sora",
-      "url": "https://github.com/sandeepyadav1478/sora/tree/feat%2Fplan2-adapters",
-      "date": "2026-06-16T06:35:14Z",
-      "payload": {
-        "eventType": "branch_create",
-        "refType": "branch",
-        "ref": "feat/plan2-adapters",
-        "description": "An open-source portfolio template built with Astro. Showcase your life's work — OSS contributions, projects, writing, talks, certifications — on a clean, single-page board with modal-based UX.",
-        "repo": "sandeepyadav1478/sora"
-      }
-    },
-    {
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
@@ -1425,6 +1450,8 @@
       "payload": {
         "registry": "pypi",
         "version": "0.6.0",
+        "yanked": false,
+        "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
         "monthlyDownloads": 320,
         "weeklyDownloads": 28,
         "license": "MIT",
@@ -1696,21 +1723,6 @@
       }
     },
     {
-      "id": "github:commit:9aa718a70b27514e0709a0f7a897b6ea74e3f43b",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sqloutbox",
-      "url": "https://github.com/sandeepyadav1478/sqloutbox/commit/9aa718a70b27514e0709a0f7a897b6ea74e3f43b",
-      "date": "2026-06-12T16:59:40Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sqloutbox",
-        "sha": "9aa718a70b27514e0709a0f7a897b6ea74e3f43b",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
       "id": "github:post:ic-zhukunpenglinyutong/jetbrains-cc-gui-1311-4690471180",
       "source": "github",
       "kind": "post",
@@ -1809,6 +1821,115 @@
       }
     },
     {
+      "id": "codeforces:profile:sandeepyadav1478-submissions",
+      "source": "codeforces",
+      "kind": "profile",
+      "title": "Codeforces: 20 submissions, 20% AC rate",
+      "url": "https://codeforces.com/profile/sandeepyadav1478",
+      "date": "2026-02-26T16:59:56.000Z",
+      "payload": {
+        "platform": "codeforces",
+        "subkind": "submissions",
+        "totalSubmissions": 20,
+        "acSubmissions": 4,
+        "acRate": 20,
+        "languageBreakdown": [
+          {
+            "lang": "PyPy 3-64",
+            "count": 17
+          },
+          {
+            "lang": "C++23 (GCC 14-64, msys2)",
+            "count": 1
+          },
+          {
+            "lang": "C++20 (GCC 13-64)",
+            "count": 1
+          },
+          {
+            "lang": "GNU C11",
+            "count": 1
+          }
+        ],
+        "tagFrequency": [
+          {
+            "tag": "math",
+            "count": 4
+          },
+          {
+            "tag": "brute force",
+            "count": 3
+          },
+          {
+            "tag": "data structures",
+            "count": 1
+          },
+          {
+            "tag": "divide and conquer",
+            "count": 1
+          },
+          {
+            "tag": "number theory",
+            "count": 1
+          },
+          {
+            "tag": "games",
+            "count": 1
+          },
+          {
+            "tag": "greedy",
+            "count": 1
+          },
+          {
+            "tag": "binary search",
+            "count": 1
+          },
+          {
+            "tag": "expression parsing",
+            "count": 1
+          },
+          {
+            "tag": "schedules",
+            "count": 1
+          }
+        ],
+        "difficultyHistogram": [
+          {
+            "rating": 800,
+            "count": 2
+          },
+          {
+            "rating": 1200,
+            "count": 1
+          },
+          {
+            "rating": 1600,
+            "count": 1
+          }
+        ],
+        "verdictBreakdown": [
+          {
+            "verdict": "TIME_LIMIT_EXCEEDED",
+            "count": 9
+          },
+          {
+            "verdict": "WRONG_ANSWER",
+            "count": 6
+          },
+          {
+            "verdict": "OK",
+            "count": 4
+          },
+          {
+            "verdict": "COMPILATION_ERROR",
+            "count": 1
+          }
+        ],
+        "avgDifficulty": 1100,
+        "lastSubmittedAt": "2026-02-26T16:59:56.000Z"
+      }
+    },
+    {
       "id": "codeforces:rating:2197",
       "source": "codeforces",
       "kind": "rating",
@@ -1823,6 +1944,18 @@
         "maxRating": 679,
         "maxRank": "newbie",
         "registrationTimeSeconds": 1767962056
+      }
+    },
+    {
+      "id": "rss:post:https://medium.com/feed/@sandeepyadav1478:https://medium.com/p/8439491672e0",
+      "source": "rss",
+      "kind": "post",
+      "title": "When AI Forgot It Was AI: Lessons from Anthropic’s Vending Machine Experiment",
+      "url": "https://sandeepyadav1478.medium.com/when-ai-forgot-it-was-ai-lessons-from-anthropics-vending-machine-experiment-8439491672e0?source=rss-9647c244c451------2",
+      "date": "2025-07-01T15:15:00.000Z",
+      "payload": {
+        "feed": "Stories by Sandeep Yadav on Medium",
+        "excerpt": "What happens when you give an AI complete control of a business? Anthropic’s “Project Vend” provides both hilarious and concerning answers. The Experiment That Got Out of Hand Researchers at Anthropic and AI safety company Andon Labs decided to test something ambitious: could an…"
       }
     },
     {
@@ -1885,6 +2018,7 @@
         "license": null,
         "isTemplate": false,
         "hasPages": true,
+        "hasDiscussions": true,
         "description": "Xsfer file between Google  and Terabox cloud storage.",
         "languageBytes": {
           "Jupyter Notebook": 978492,
@@ -1958,6 +2092,7 @@
         "license": "MIT",
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": true,
         "description": "This repo was created to contain Social media hunter/ Virus/Ransomware or any other unusual activity process.",
         "languageBytes": {
           "Python": 50986,
@@ -2051,6 +2186,7 @@
         "license": "BSD-2-Clause",
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": false,
         "description": "Uploading video on youtube from google drive with youtube v3 data api",
         "languageBytes": {
           "Jupyter Notebook": 14203,
@@ -2146,6 +2282,7 @@
         "license": "BSD-3-Clause",
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": false,
         "description": "Repository contains 2 types of solution : python and dist(exe)",
         "languageBytes": {
           "HTML": 1215055,
@@ -2182,6 +2319,7 @@
         "license": "Apache-2.0",
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": false,
         "description": "I consider PentesterLab to be a great resource for learning about web application security and ways how it can be subverted. Even though the exercises usually don’t take much time to complete they can teach a lot. I can’t but recommend it, especially to any aspiring junior penetration testers out there.",
         "languageBytes": {}
       }
@@ -2213,6 +2351,7 @@
         "license": "Apache-2.0",
         "isTemplate": false,
         "hasPages": true,
+        "hasDiscussions": true,
         "description": "Code was created for scrapping badges from Credly official site with filters. You can change the code for certifications also. For filter options you have to pass it as string in list.",
         "languageBytes": {
           "Jupyter Notebook": 132578,
@@ -2242,6 +2381,7 @@
         "license": "CC0-1.0",
         "isTemplate": false,
         "hasPages": false,
+        "hasDiscussions": false,
         "description": "This function will return subscribers, total video views, channel types, monthly revenue, yearly revenue, profile pic., cover image.  ",
         "languageBytes": {
           "PHP": 2163
@@ -2272,6 +2412,7 @@
         "license": "MIT",
         "isTemplate": false,
         "hasPages": true,
+        "hasDiscussions": true,
         "description": "The FFT is an optimized algorithm for the implementation of the \"Discrete Fourier Transformation\" (DFT). A signal is sampled over a period of time and divided into its frequency components. These components are single sinusoidal oscillations at distinct frequencies each with their own amplitude and phase. This transformation is illustrated in the following diagram. Over the time period measured, the signal contains 3 distinct dominant frequencies. ",
         "languageBytes": {
           "Python": 43951
@@ -2302,6 +2443,7 @@
         "license": null,
         "isTemplate": false,
         "hasPages": true,
+        "hasDiscussions": false,
         "description": "I created this script for my friend who have very long list request sent by him on Instagram.  Script undo all send requests.",
         "languageBytes": {
           "Python": 2487
