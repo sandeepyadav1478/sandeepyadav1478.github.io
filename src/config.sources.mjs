@@ -70,4 +70,8 @@ export const SOURCES = {
     enabled: true,
     handle: "sandeepyadav1478",
   },
+  linkedin: {
+    enabled: true,
+    cacheFile: "src/data/linkedin-cache.json",
+  },
 };

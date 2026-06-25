@@ -1,0 +1,143 @@
+{
+  "fetchedAt": "2026-06-25",
+  "profile": {
+    "url": "https://www.linkedin.com/in/sandeepyadav1478/",
+    "name": "Sandeep Yadav",
+    "headline": "SE @ShipStation Global",
+    "location": "New Delhi, Delhi, India",
+    "followers": 758,
+    "connections": "500+",
+    "openToWork": [
+      "Back End Developer",
+      "Python Developer",
+      "Django Developer",
+      "Software Engineer"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "ShipStation Global",
+        "type": "Full-time",
+        "start": "Jun 2026",
+        "end": "Present",
+        "duration": "1 mo",
+        "location": "Austin, TX · Remote",
+        "bullets": [],
+        "isCurrent": true
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Auctane",
+        "type": "Full-time",
+        "start": "Mar 2025",
+        "end": "Present",
+        "duration": "1 yr 4 mos",
+        "location": "Austin, Texas, United States",
+        "bullets": [
+          "Beta cohort performance (Advanced Returns, ShipStation Returns): Onboarded 57 merchants; 48 remained active, achieving a Customer Retention Rate of 84.2% and a Churn Rate of 15.8%, validating product–market fit for broader rollout."
+        ],
+        "isCurrent": true
+      },
+      {
+        "title": "Back End Developer",
+        "company": "Auctane",
+        "type": "Full-time",
+        "start": "Jun 2023",
+        "end": "Feb 2025",
+        "duration": "1 yr 9 mos",
+        "location": "Austin, TX, USA",
+        "bullets": [],
+        "isCurrent": false
+      },
+      {
+        "title": "Back End Developer",
+        "company": "Return Rabbit",
+        "type": "Full-time",
+        "start": "Aug 2022",
+        "end": "Feb 2025",
+        "duration": "2 yrs 7 mos",
+        "location": "Texas, United States · Remote",
+        "bullets": [
+          "Leveraged AI-powered recommendations: dynamic recommendation engine using the Apriori algorithm; achieved lightning-fast response in milliseconds via DB replica optimization.",
+          "Engineered and deployed API integration between existing backend systems and the WooCommerce platform, enabling bidirectional data flow for processing returns and exchanges."
+        ],
+        "isCurrent": false
+      },
+      {
+        "title": "Back End Developer",
+        "company": "BlueApp Software Pvt Ltd",
+        "type": "Full-time",
+        "start": "Jan 2022",
+        "end": "Jun 2022",
+        "duration": "6 mos",
+        "location": "India",
+        "bullets": [
+          "Worked on auto-trading cryptocurrency project using multi-exchange API and market analytics-based predictions.",
+          "Realtime data integration for improved end-user results for future trades."
+        ],
+        "isCurrent": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Upwork",
+        "type": "Freelance",
+        "start": "Jan 2020",
+        "end": "Jan 2022",
+        "duration": "2 yrs 1 mo",
+        "location": "India",
+        "bullets": [
+          "Web scraping/crawler scripts for daily maintenance including data collection and cleaning.",
+          "Multi-threading/processing for asynchronous applications."
+        ],
+        "isCurrent": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Radical Reflex",
+        "type": "Part-time",
+        "start": "Jun 2019",
+        "end": "Nov 2019",
+        "duration": "6 mos",
+        "location": "Saket, Delhi, India · On-site",
+        "bullets": [
+          "Suggested changes and enhancements for websites based on end-user needs.",
+          "Researched, tested and implemented client feature requests including content validation and CMS."
+        ],
+        "isCurrent": false
+      }
+    ],
+    "education": [
+      {
+        "school": "Rajasthan Technical University",
+        "degree": "Bachelor of Technology - BTech",
+        "field": "Computer Science and Engineering",
+        "start": "2014",
+        "end": "2018",
+        "activities": "Participation in Panche - 7 to 10"
+      },
+      {
+        "school": "Board of Secondary Education Rajasthan",
+        "degree": "Middle School and High School",
+        "field": "",
+        "start": "2012",
+        "end": "2014"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Contributor: Hugging Face Transformers",
+        "start": "May 2025",
+        "end": "Present",
+        "url": "https://github.com/huggingface/transformers",
+        "skills": [
+          "Machine Learning",
+          "PyTorch"
+        ]
+      }
+    ],
+    "contact": {
+      "email": "sandeepyadav1478@gmail.com",
+      "website": "calendly.com"
+    }
+  }
+}
