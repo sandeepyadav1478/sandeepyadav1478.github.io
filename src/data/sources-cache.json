@@ -1,101 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T05:50:06.514Z",
+  "generatedAt": "2026-07-06T06:12:38.424Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 62,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 6,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-07-05T05:50:06.514Z",
+      "lastSuccess": "2026-07-06T06:12:38.424Z",
       "count": 8,
       "consecutiveFailures": 0
     }
   },
   "items": [
     {
-      "id": "wakatime:rating:ai-agents-7d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "1209 AI-written lines in last 7 days (54%)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:09.344Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "ai-agents",
-        "agentLineChanges": {},
-        "agentCosts": {},
-        "totalAiLines": 1209,
-        "totalHumanLines": 1024,
-        "aiLinePercent": 54,
-        "totalAiSessions": 77,
-        "totalPromptEvents": 485,
-        "totalAiTokens": 92120888
-      }
-    },
-    {
       "id": "wakatime:rating:summaries-30d",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:09.276Z",
+      "date": "2026-07-06T06:12:41.438Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-06-05",
-            "totalSeconds": 31387.536,
-            "aiSeconds": 0,
-            "humanSeconds": 31387.536,
-            "aiPercent": 0
-          },
           {
             "date": "2026-06-06",
             "totalSeconds": 18749,
@@ -280,9 +253,9 @@
           },
           {
             "date": "2026-07-02",
-            "totalSeconds": 9894.509,
+            "totalSeconds": 10766.509,
             "aiSeconds": 0,
-            "humanSeconds": 9894.509,
+            "humanSeconds": 10766.509,
             "aiPercent": 0
           },
           {
@@ -298,10 +271,37 @@
             "aiSeconds": 0,
             "humanSeconds": 0,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-07-05",
+            "totalSeconds": 0,
+            "aiSeconds": 0,
+            "humanSeconds": 0,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
-        "daysWithData": 28
+        "daysWithData": 27
+      }
+    },
+    {
+      "id": "wakatime:rating:ai-agents-7d",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "685 AI-written lines in last 7 days (43%)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-07-06T06:12:41.413Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "ai-agents",
+        "agentLineChanges": {},
+        "agentCosts": {},
+        "totalAiLines": 685,
+        "totalHumanLines": 926,
+        "aiLinePercent": 43,
+        "totalAiSessions": 31,
+        "totalPromptEvents": 376,
+        "totalAiTokens": 93995584
       }
     },
     {
@@ -310,14 +310,14 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:09.172Z",
+      "date": "2026-07-06T06:12:41.283Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
         "projects": [
           {
             "name": "autopulse",
-            "lastHeartbeatAt": "2026-07-02T15:39:03Z"
+            "lastHeartbeatAt": "2026-07-06T01:50:25Z"
           },
           {
             "name": "transformers",
@@ -404,7 +404,7 @@
       "kind": "rating",
       "title": "2,860 hrs 28 mins coded all time",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:09.160Z",
+      "date": "2026-07-06T06:12:41.235Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "alltime",
@@ -417,35 +417,31 @@
       "id": "wakatime:rating:last_7_days",
       "source": "wakatime",
       "kind": "rating",
-      "title": "18 hrs 19 mins coding this week",
+      "title": "11 hrs 22 mins coding this week",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:09.126Z",
+      "date": "2026-07-06T06:12:41.215Z",
       "payload": {
         "platform": "wakatime",
-        "totalSeconds": 65978.723,
-        "humanReadableTotal": "18 hrs 19 mins",
+        "totalSeconds": 40933.054,
+        "humanReadableTotal": "11 hrs 22 mins",
         "range": "last_7_days",
         "status": "ok",
         "percentCalculated": 100,
-        "dailyAverage": 13196,
+        "dailyAverage": 10233,
         "languages": [
           "JSON",
           "Markdown",
           "Other",
           "TOML",
-          "JavaScript",
           "Makefile",
           "Python",
           "Git Config",
           "Bash",
           "INI",
-          "TypeScript",
           "Text",
           "HTML",
           "Terraform",
-          "YAML",
-          "Docker",
-          "XML"
+          "YAML"
         ],
         "bestDay": {
           "date": "2026-06-30",
@@ -455,33 +451,25 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 64.18
-          },
-          {
-            "name": "Qwen Code Cli",
-            "percent": 27.12
+            "percent": 86.4
           },
           {
             "name": "Claude Code",
-            "percent": 8.71
+            "percent": 13.6
           }
         ],
         "categories": [
           {
             "name": "AI Coding",
-            "percent": 79.73
+            "percent": 69.53
           },
           {
             "name": "Coding",
-            "percent": 17.77
+            "percent": 26.89
           },
           {
             "name": "Writing Docs",
-            "percent": 2.4
-          },
-          {
-            "name": "Writing Tests",
-            "percent": 0.1
+            "percent": 3.58
           }
         ]
       }
@@ -492,7 +480,7 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-05T05:50:08.890Z",
+      "date": "2026-07-06T06:12:41.110Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -617,7 +605,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-07-05T03:25:12Z",
+      "date": "2026-07-06T03:33:06Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -1469,7 +1457,7 @@
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0 · 330 downloads/mo",
+      "title": "sqloutbox 0.6.0",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -1477,8 +1465,6 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
-        "monthlyDownloads": 330,
-        "weeklyDownloads": 11,
         "license": "MIT",
         "keywords": [
           "doppler",
@@ -1493,6 +1479,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-07-05",
+            "downloads": 1
+          },
           {
             "date": "2026-07-03",
             "downloads": 4
@@ -1670,19 +1660,19 @@
             "downloads": 94
           }
         ],
-        "totalDownloads": 719,
+        "totalDownloads": 720,
         "peakDay": {
           "date": "2026-04-16",
           "downloads": 180
         },
         "trend7d": {
-          "avg7d": 3.4285714285714284,
-          "avgPrev7d": 5
+          "avg7d": 3.142857142857143,
+          "avgPrev7d": 5.142857142857143
         },
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 604
+            "downloads": 605
           },
           {
             "version": "3.12",
