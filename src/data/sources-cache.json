@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T04:54:02.678Z",
+  "generatedAt": "2026-07-22T04:53:41.336Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
-      "count": 54,
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
+      "count": 50,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
-      "count": 6,
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
+      "count": 4,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-07-21T04:54:02.678Z",
+      "lastSuccess": "2026-07-22T04:53:41.336Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,18 +64,11 @@
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.502Z",
+      "date": "2026-07-22T04:53:44.064Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-06-21",
-            "totalSeconds": 10042,
-            "aiSeconds": 0,
-            "humanSeconds": 10042,
-            "aiPercent": 0
-          },
           {
             "date": "2026-06-22",
             "totalSeconds": 23882,
@@ -278,10 +271,17 @@
             "aiSeconds": 0,
             "humanSeconds": 0,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-07-21",
+            "totalSeconds": 0,
+            "aiSeconds": 0,
+            "humanSeconds": 0,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
-        "daysWithData": 20
+        "daysWithData": 19
       }
     },
     {
@@ -290,7 +290,7 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.470Z",
+      "date": "2026-07-22T04:53:44.055Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
@@ -379,34 +379,12 @@
       }
     },
     {
-      "id": "wakatime:rating:ai-agents-7d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "2 AI-written lines in last 7 days (67%)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.452Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "ai-agents",
-        "agentLineChanges": {},
-        "agentCosts": {
-          "Claude": 2.673243
-        },
-        "totalAiLines": 2,
-        "totalHumanLines": 1,
-        "aiLinePercent": 67,
-        "totalAiSessions": 9,
-        "totalPromptEvents": 28,
-        "totalAiTokens": 8706280
-      }
-    },
-    {
       "id": "wakatime:rating:all_time",
       "source": "wakatime",
       "kind": "rating",
       "title": "2,870 hrs 41 mins coded all time",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.432Z",
+      "date": "2026-07-22T04:53:44.034Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "alltime",
@@ -416,67 +394,12 @@
       }
     },
     {
-      "id": "wakatime:rating:last_7_days",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "1 hr 19 mins coding this week",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.411Z",
-      "payload": {
-        "platform": "wakatime",
-        "totalSeconds": 4772.108,
-        "humanReadableTotal": "1 hr 19 mins",
-        "range": "last_7_days",
-        "status": "ok",
-        "percentCalculated": 100,
-        "dailyAverage": 2386,
-        "languages": [
-          "Python",
-          "Other",
-          "Markdown",
-          "JSON",
-          "JavaScript",
-          "YAML",
-          "Git Config"
-        ],
-        "bestDay": {
-          "date": "2026-07-14",
-          "text": "1 hr 22 mins",
-          "totalSeconds": 4928.844
-        },
-        "editors": [
-          {
-            "name": "Claude Code",
-            "percent": 63.98
-          },
-          {
-            "name": "VS Code",
-            "percent": 36.02
-          }
-        ],
-        "categories": [
-          {
-            "name": "AI Coding",
-            "percent": 93.37
-          },
-          {
-            "name": "Writing Docs",
-            "percent": 4.81
-          },
-          {
-            "name": "Coding",
-            "percent": 1.82
-          }
-        ]
-      }
-    },
-    {
       "id": "wakatime:rating:public-alltime",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-21T04:54:06.287Z",
+      "date": "2026-07-22T04:53:43.950Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -601,7 +524,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-07-21T02:40:36Z",
+      "date": "2026-07-22T02:39:21Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -1348,7 +1271,7 @@
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0 · 48 downloads/mo",
+      "title": "sqloutbox 0.6.0 · 45 downloads/mo",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -1356,8 +1279,8 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
-        "monthlyDownloads": 48,
-        "weeklyDownloads": 21,
+        "monthlyDownloads": 45,
+        "weeklyDownloads": 19,
         "license": "MIT",
         "keywords": [
           "doppler",
@@ -1959,8 +1882,8 @@
       "payload": {
         "platform": "github",
         "name": "Transfer-files-from-google-to-terabox-cloud",
-        "stars": 103,
-        "forks": 26,
+        "stars": 102,
+        "forks": 25,
         "language": "Jupyter Notebook",
         "topics": [
           "colab",
@@ -2143,6 +2066,41 @@
       }
     },
     {
+      "id": "github:repo:sandeepyadav1478/trending_keywords_typewriter",
+      "source": "github",
+      "kind": "repo",
+      "title": "trending_keywords_typewriter: trending_keywords_typewriter",
+      "url": "https://github.com/sandeepyadav1478/trending_keywords_typewriter",
+      "date": "2021-09-12T17:34:11Z",
+      "payload": {
+        "platform": "github",
+        "name": "trending_keywords_typewriter",
+        "stars": 1,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "automation",
+          "google-trends",
+          "keywords-builder",
+          "pynput",
+          "results",
+          "top",
+          "trending-topics",
+          "typewriter",
+          "writer-tools"
+        ],
+        "license": "AGPL-3.0",
+        "isTemplate": false,
+        "hasPages": false,
+        "hasDiscussions": false,
+        "description": null,
+        "languageBytes": {
+          "Jupyter Notebook": 17342,
+          "Python": 8947
+        }
+      }
+    },
+    {
       "id": "github:repo:sandeepyadav1478/Uploading-video-on-youtube",
       "source": "github",
       "kind": "repo",
@@ -2235,44 +2193,6 @@
       }
     },
     {
-      "id": "github:repo:sandeepyadav1478/IBM-Watson-S2T---T2S",
-      "source": "github",
-      "kind": "repo",
-      "title": "IBM-Watson-S2T---T2S: Repository contains 2 types of solution : python and dist(exe)",
-      "url": "https://github.com/sandeepyadav1478/IBM-Watson-S2T---T2S",
-      "date": "2021-07-19T08:36:31Z",
-      "payload": {
-        "platform": "github",
-        "name": "IBM-Watson-S2T---T2S",
-        "stars": 1,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [
-          "ibm",
-          "ibm-cloud",
-          "ibm-watson",
-          "ibmcode",
-          "python3",
-          "quantum-computing",
-          "speech-recognition",
-          "speech-to-text",
-          "text-to-speech",
-          "text-to-speech-python3",
-          "watson-assistant"
-        ],
-        "license": "BSD-3-Clause",
-        "isTemplate": false,
-        "hasPages": false,
-        "hasDiscussions": false,
-        "description": "Repository contains 2 types of solution : python and dist(exe)",
-        "languageBytes": {
-          "HTML": 1215055,
-          "TeX": 875096,
-          "Python": 15917
-        }
-      }
-    },
-    {
       "id": "github:repo:sandeepyadav1478/PENTESTERLAB",
       "source": "github",
       "kind": "repo",
@@ -2303,132 +2223,6 @@
         "hasDiscussions": false,
         "description": "I consider PentesterLab to be a great resource for learning about web application security and ways how it can be subverted. Even though the exercises usually don’t take much time to complete they can teach a lot. I can’t but recommend it, especially to any aspiring junior penetration testers out there.",
         "languageBytes": {}
-      }
-    },
-    {
-      "id": "github:repo:sandeepyadav1478/Credly-Filter",
-      "source": "github",
-      "kind": "repo",
-      "title": "Credly-Filter: Code was created for scrapping badges from Credly official site with filters. You can change the code for certifications also. For filter options you have to pass it as string in list.",
-      "url": "https://github.com/sandeepyadav1478/Credly-Filter",
-      "date": "2021-07-18T05:16:44Z",
-      "payload": {
-        "platform": "github",
-        "name": "Credly-Filter",
-        "stars": 1,
-        "forks": 0,
-        "language": "Jupyter Notebook",
-        "topics": [
-          "badges",
-          "certificates",
-          "credly",
-          "free",
-          "links",
-          "paid",
-          "python-script",
-          "scraper",
-          "selenium"
-        ],
-        "license": "Apache-2.0",
-        "isTemplate": false,
-        "hasPages": true,
-        "hasDiscussions": true,
-        "description": "Code was created for scrapping badges from Credly official site with filters. You can change the code for certifications also. For filter options you have to pass it as string in list.",
-        "languageBytes": {
-          "Jupyter Notebook": 132578,
-          "Python": 5222
-        }
-      }
-    },
-    {
-      "id": "github:repo:sandeepyadav1478/fetch-youtube-channel-details",
-      "source": "github",
-      "kind": "repo",
-      "title": "fetch-youtube-channel-details: This function will return subscribers, total video views, channel types, monthly revenue, yearly revenue, profile pic., cover image.  ",
-      "url": "https://github.com/sandeepyadav1478/fetch-youtube-channel-details",
-      "date": "2021-06-23T13:28:02Z",
-      "payload": {
-        "platform": "github",
-        "name": "fetch-youtube-channel-details",
-        "stars": 1,
-        "forks": 0,
-        "language": "PHP",
-        "topics": [
-          "php",
-          "php7",
-          "sql",
-          "webscraping"
-        ],
-        "license": "CC0-1.0",
-        "isTemplate": false,
-        "hasPages": false,
-        "hasDiscussions": false,
-        "description": "This function will return subscribers, total video views, channel types, monthly revenue, yearly revenue, profile pic., cover image.  ",
-        "languageBytes": {
-          "PHP": 2163
-        }
-      }
-    },
-    {
-      "id": "github:repo:sandeepyadav1478/Fast_Fourier_Transformation",
-      "source": "github",
-      "kind": "repo",
-      "title": "Fast_Fourier_Transformation: The FFT is an optimized algorithm for the implementation of the \"Discrete Fourier Transformation\" (DFT). A signal is sampled over a period of time and divided into its frequency components. These components are single sinusoidal oscillations at distinct frequencies each with their own amplitude and phase. This transformation is illustrated in the following diagram. Over the time period measured, the signal contains 3 distinct dominant frequencies. ",
-      "url": "https://github.com/sandeepyadav1478/Fast_Fourier_Transformation",
-      "date": "2021-06-23T13:03:45Z",
-      "payload": {
-        "platform": "github",
-        "name": "Fast_Fourier_Transformation",
-        "stars": 2,
-        "forks": 0,
-        "language": "Python",
-        "topics": [
-          "fft",
-          "fftx-shift",
-          "fourier",
-          "fourier-transform",
-          "pygame",
-          "python"
-        ],
-        "license": "MIT",
-        "isTemplate": false,
-        "hasPages": true,
-        "hasDiscussions": true,
-        "description": "The FFT is an optimized algorithm for the implementation of the \"Discrete Fourier Transformation\" (DFT). A signal is sampled over a period of time and divided into its frequency components. These components are single sinusoidal oscillations at distinct frequencies each with their own amplitude and phase. This transformation is illustrated in the following diagram. Over the time period measured, the signal contains 3 distinct dominant frequencies. ",
-        "languageBytes": {
-          "Python": 43951
-        }
-      }
-    },
-    {
-      "id": "github:repo:sandeepyadav1478/Instagram-Unfollower-Script",
-      "source": "github",
-      "kind": "repo",
-      "title": "Instagram-Unfollower-Script: I created this script for my friend who have very long list request sent by him on Instagram.  Script undo all send requests.",
-      "url": "https://github.com/sandeepyadav1478/Instagram-Unfollower-Script",
-      "date": "2021-04-05T11:12:37Z",
-      "payload": {
-        "platform": "github",
-        "name": "Instagram-Unfollower-Script",
-        "stars": 1,
-        "forks": 0,
-        "language": "Python",
-        "topics": [
-          "friend",
-          "instagram",
-          "instagram-script",
-          "instagramunfollower",
-          "pyth",
-          "script"
-        ],
-        "license": null,
-        "isTemplate": false,
-        "hasPages": true,
-        "hasDiscussions": false,
-        "description": "I created this script for my friend who have very long list request sent by him on Instagram.  Script undo all send requests.",
-        "languageBytes": {
-          "Python": 2487
-        }
       }
     },
     {
