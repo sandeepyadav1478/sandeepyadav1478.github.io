@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T04:59:41.605Z",
+  "generatedAt": "2026-07-24T04:55:35.869Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
-      "count": 29,
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "count": 14,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
-      "count": 4,
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "count": 3,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-07-23T04:59:41.605Z",
+      "lastSuccess": "2026-07-24T04:55:35.869Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,18 +64,11 @@
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-23T04:59:44.647Z",
+      "date": "2026-07-24T04:55:38.567Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-06-23",
-            "totalSeconds": 27710,
-            "aiSeconds": 0,
-            "humanSeconds": 27710,
-            "aiPercent": 0
-          },
           {
             "date": "2026-06-24",
             "totalSeconds": 8139,
@@ -278,10 +271,17 @@
             "aiSeconds": 0,
             "humanSeconds": 0,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-07-23",
+            "totalSeconds": 0,
+            "aiSeconds": 0,
+            "humanSeconds": 0,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
-        "daysWithData": 18
+        "daysWithData": 17
       }
     },
     {
@@ -290,7 +290,7 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-23T04:59:44.493Z",
+      "date": "2026-07-24T04:55:38.470Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
@@ -379,27 +379,12 @@
       }
     },
     {
-      "id": "wakatime:rating:all_time",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "2,870 hrs 41 mins coded all time",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-23T04:59:44.474Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "alltime",
-        "text": "2,870 hrs 41 mins",
-        "totalSeconds": 10334517.384791,
-        "startDate": "2021-07-22"
-      }
-    },
-    {
       "id": "wakatime:rating:public-alltime",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-23T04:59:44.227Z",
+      "date": "2026-07-24T04:55:38.144Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -524,7 +509,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-07-23T02:43:54Z",
+      "date": "2026-07-24T02:39:38Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -710,186 +695,6 @@
       }
     },
     {
-      "id": "github:commit:2ff8bad770c63d737ecee8cbb18841b723f1761b",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/2ff8bad770c63d737ecee8cbb18841b723f1761b",
-      "date": "2026-06-23T13:25:48Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "2ff8bad770c63d737ecee8cbb18841b723f1761b",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:57d5266a4cb06b95123a4453dd76e571cb66c03c",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/57d5266a4cb06b95123a4453dd76e571cb66c03c",
-      "date": "2026-06-23T13:25:42Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "57d5266a4cb06b95123a4453dd76e571cb66c03c",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
-      "date": "2026-06-23T12:43:28Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "4aefa96c04424b62fd7f63d5d91ce33a31d501bc",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:c820d9f0f1869e79cb2a562f452d648c8d2883cc",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/c820d9f0f1869e79cb2a562f452d648c8d2883cc",
-      "date": "2026-06-23T12:43:25Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "c820d9f0f1869e79cb2a562f452d648c8d2883cc",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:2de5e375e8c33bbbc7234300e456113237583c4b",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/2de5e375e8c33bbbc7234300e456113237583c4b",
-      "date": "2026-06-23T11:54:47Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "2de5e375e8c33bbbc7234300e456113237583c4b",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:e979213c584dff16a422815e5344e0ec5805e8c1",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/e979213c584dff16a422815e5344e0ec5805e8c1",
-      "date": "2026-06-23T11:54:43Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "e979213c584dff16a422815e5344e0ec5805e8c1",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:34608722e1a87fdca8df6ae9e0d23546c2631f6c",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/34608722e1a87fdca8df6ae9e0d23546c2631f6c",
-      "date": "2026-06-23T11:48:26Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "34608722e1a87fdca8df6ae9e0d23546c2631f6c",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:2f460c6b2b3449126e67b5a6344317c191998f2c",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/2f460c6b2b3449126e67b5a6344317c191998f2c",
-      "date": "2026-06-23T11:48:23Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "2f460c6b2b3449126e67b5a6344317c191998f2c",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:8140ba4d333df30bd335fe2a26066cff7c4accb3",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/8140ba4d333df30bd335fe2a26066cff7c4accb3",
-      "date": "2026-06-23T10:44:10Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "8140ba4d333df30bd335fe2a26066cff7c4accb3",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
-      "date": "2026-06-23T10:43:36Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "b5ffdb3b0a897a9120bd80d04856a281f48b9f7b",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:150f9b46b4d34b38a26161d39f1d21086cd78ebb",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/150f9b46b4d34b38a26161d39f1d21086cd78ebb",
-      "date": "2026-06-23T07:29:32Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "150f9b46b4d34b38a26161d39f1d21086cd78ebb",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:a60f244d5798610ffca35762f55d3398ab723727",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/a60f244d5798610ffca35762f55d3398ab723727",
-      "date": "2026-06-23T07:24:52Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "a60f244d5798610ffca35762f55d3398ab723727",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
       "id": "leetcode:rating:sandeepyadav1478",
       "source": "leetcode",
       "kind": "rating",
@@ -908,55 +713,10 @@
       }
     },
     {
-      "id": "github:commit:3a7901d8d92a641ea1a5a6a5a4038a80b2808821",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/3a7901d8d92a641ea1a5a6a5a4038a80b2808821",
-      "date": "2026-06-23T04:00:56Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "3a7901d8d92a641ea1a5a6a5a4038a80b2808821",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:5509a08b30f5ad0a0152ae965c567e9df0cd35e6",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/5509a08b30f5ad0a0152ae965c567e9df0cd35e6",
-      "date": "2026-06-23T04:00:38Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "5509a08b30f5ad0a0152ae965c567e9df0cd35e6",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:939073597dd1806eebb7457165628dd8a22cd589",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/939073597dd1806eebb7457165628dd8a22cd589",
-      "date": "2026-06-23T02:11:22Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "939073597dd1806eebb7457165628dd8a22cd589",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0 · 55 downloads/mo",
+      "title": "sqloutbox 0.6.0",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -964,8 +724,6 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
-        "monthlyDownloads": 55,
-        "weeklyDownloads": 25,
         "license": "MIT",
         "keywords": [
           "doppler",
@@ -980,6 +738,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-07-23",
+            "downloads": 3
+          },
           {
             "date": "2026-07-22",
             "downloads": 10
@@ -1185,19 +947,19 @@
             "downloads": 94
           }
         ],
-        "totalDownloads": 755,
+        "totalDownloads": 758,
         "peakDay": {
           "date": "2026-04-16",
           "downloads": 180
         },
         "trend7d": {
-          "avg7d": 5.428571428571429,
-          "avgPrev7d": 3.142857142857143
+          "avg7d": 5.285714285714286,
+          "avgPrev7d": 3.4285714285714284
         },
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 636
+            "downloads": 639
           },
           {
             "version": "3.12",
