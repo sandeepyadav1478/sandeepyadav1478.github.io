@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T04:55:35.869Z",
+  "generatedAt": "2026-07-25T04:51:47.254Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
-      "count": 14,
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "count": 10,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
-      "count": 3,
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "count": 4,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-07-24T04:55:35.869Z",
+      "lastSuccess": "2026-07-25T04:51:47.254Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,18 +64,11 @@
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-24T04:55:38.567Z",
+      "date": "2026-07-25T04:51:55.198Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-06-24",
-            "totalSeconds": 8139,
-            "aiSeconds": 0,
-            "humanSeconds": 8139,
-            "aiPercent": 0
-          },
           {
             "date": "2026-06-25",
             "totalSeconds": 18477.179,
@@ -278,10 +271,17 @@
             "aiSeconds": 0,
             "humanSeconds": 0,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-07-24",
+            "totalSeconds": 0,
+            "aiSeconds": 0,
+            "humanSeconds": 0,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
-        "daysWithData": 17
+        "daysWithData": 16
       }
     },
     {
@@ -290,7 +290,7 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-24T04:55:38.470Z",
+      "date": "2026-07-25T04:51:50.000Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
@@ -379,35 +379,50 @@
       }
     },
     {
+      "id": "wakatime:rating:all_time",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "2,881 hrs 44 mins coded all time",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-07-25T04:51:49.979Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "alltime",
+        "text": "2,881 hrs 44 mins",
+        "totalSeconds": 10374249.748791,
+        "startDate": "2021-07-22"
+      }
+    },
+    {
       "id": "wakatime:rating:public-alltime",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-24T04:55:38.144Z",
+      "date": "2026-07-25T04:51:49.899Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
         "categories": [
           {
             "name": "Coding",
-            "percent": 68.9
+            "percent": 68.64
           },
           {
             "name": "AI Coding",
-            "percent": 14.87
+            "percent": 15.19
           },
           {
             "name": "Meeting",
-            "percent": 12.11
+            "percent": 12.07
           },
           {
             "name": "Writing Docs",
-            "percent": 2.22
+            "percent": 2.21
           },
           {
             "name": "Writing Tests",
-            "percent": 1.79
+            "percent": 1.78
           },
           {
             "name": "Browsing",
@@ -417,15 +432,15 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 80.12
+            "percent": 79.87
           },
           {
             "name": "Google Calendar",
-            "percent": 12.11
+            "percent": 12.07
           },
           {
             "name": "Claude Code",
-            "percent": 5.96
+            "percent": 6.27
           },
           {
             "name": "PyCharm",
@@ -435,23 +450,23 @@
         "languages": [
           {
             "name": "Python",
-            "percent": 59.7
+            "percent": 59.77
           },
           {
             "name": "Other",
-            "percent": 14.51
+            "percent": 14.45
           },
           {
             "name": "Markdown",
-            "percent": 6.49
+            "percent": 6.48
           },
           {
             "name": "JSON",
-            "percent": 4.07
+            "percent": 4.06
           },
           {
             "name": "HTML",
-            "percent": 3.88
+            "percent": 3.87
           },
           {
             "name": "YAML",
@@ -459,11 +474,11 @@
           },
           {
             "name": "Terraform",
-            "percent": 1.72
+            "percent": 1.71
           },
           {
             "name": "Text",
-            "percent": 1.21
+            "percent": 1.2
           },
           {
             "name": "Docker",
@@ -471,7 +486,7 @@
           },
           {
             "name": "Bash",
-            "percent": 0.98
+            "percent": 0.97
           },
           {
             "name": "INI",
@@ -479,28 +494,28 @@
           },
           {
             "name": "JavaScript",
-            "percent": 0.62
+            "percent": 0.63
           }
         ],
         "os": [
           {
             "name": "Mac",
-            "percent": 52.98
+            "percent": 53.11
           },
           {
             "name": "Linux",
-            "percent": 21.39
+            "percent": 21.36
           },
           {
             "name": "Windows",
-            "percent": 13.51
+            "percent": 13.46
           },
           {
             "name": "Unknown OS",
-            "percent": 12.11
+            "percent": 12.07
           }
         ],
-        "aiCodingPercent": 14.87
+        "aiCodingPercent": 15.19
       }
     },
     {
@@ -509,7 +524,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-07-24T02:39:38Z",
+      "date": "2026-07-25T02:37:53Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -632,66 +647,6 @@
           "Software Engineer"
         ],
         "fetchedAt": "2026-06-25"
-      }
-    },
-    {
-      "id": "github:commit:aa9b7040b2e17de484ea1ad1c288657f02f431be",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/aa9b7040b2e17de484ea1ad1c288657f02f431be",
-      "date": "2026-06-24T12:06:00Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "aa9b7040b2e17de484ea1ad1c288657f02f431be",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:66eb46b77785c49307233065757f362c9821dce1",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/66eb46b77785c49307233065757f362c9821dce1",
-      "date": "2026-06-24T12:05:39Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "66eb46b77785c49307233065757f362c9821dce1",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:99edfa594158eb4655ea2efe4a75a37fa45f3336",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/99edfa594158eb4655ea2efe4a75a37fa45f3336",
-      "date": "2026-06-24T08:35:26Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "99edfa594158eb4655ea2efe4a75a37fa45f3336",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:436fce1cf265ece596b665cd19971b9c47761aba",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/436fce1cf265ece596b665cd19971b9c47761aba",
-      "date": "2026-06-24T08:35:23Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "436fce1cf265ece596b665cd19971b9c47761aba",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
       }
     },
     {
