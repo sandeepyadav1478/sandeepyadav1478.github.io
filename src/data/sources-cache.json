@@ -1,81 +1,168 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T04:51:47.254Z",
+  "generatedAt": "2026-07-26T05:16:22.131Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
-      "count": 10,
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
+      "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-07-25T04:51:47.254Z",
+      "lastSuccess": "2026-07-26T05:16:22.131Z",
       "count": 8,
       "consecutiveFailures": 0
     }
   },
   "items": [
     {
+      "id": "wakatime:rating:projects",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "WakaTime projects (20 tracked)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-07-26T05:16:24.990Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "projects",
+        "projects": [
+          {
+            "name": "autopulse",
+            "lastHeartbeatAt": "2026-07-16T17:02:20Z"
+          },
+          {
+            "name": "synergies",
+            "lastHeartbeatAt": "2026-07-14T12:14:13Z"
+          },
+          {
+            "name": "transformers",
+            "lastHeartbeatAt": "2026-06-29T18:36:00Z"
+          },
+          {
+            "name": "pydantic-ai",
+            "lastHeartbeatAt": "2026-06-29T18:34:47Z"
+          },
+          {
+            "name": "sora",
+            "lastHeartbeatAt": "2026-06-28T17:50:51Z"
+          },
+          {
+            "name": "sandeepyadav1478.github.io",
+            "lastHeartbeatAt": "2026-06-28T17:24:46Z"
+          },
+          {
+            "name": "catalystrag",
+            "lastHeartbeatAt": "2026-06-28T00:57:21Z"
+          },
+          {
+            "name": "tmp",
+            "lastHeartbeatAt": "2026-06-27T23:12:19Z"
+          },
+          {
+            "name": "workspace",
+            "lastHeartbeatAt": "2026-06-27T20:56:27Z"
+          },
+          {
+            "name": "allanite",
+            "lastHeartbeatAt": "2026-06-27T17:31:15Z"
+          },
+          {
+            "name": "axiom",
+            "lastHeartbeatAt": "2026-06-27T15:13:09Z"
+          },
+          {
+            "name": "observer-sessions",
+            "lastHeartbeatAt": "2026-06-26T15:34:06Z"
+          },
+          {
+            "name": "personal-site",
+            "lastHeartbeatAt": "2026-06-26T15:33:56Z"
+          },
+          {
+            "name": "allanite_devops",
+            "lastHeartbeatAt": "2026-06-23T12:01:58Z"
+          },
+          {
+            "name": "sqloutbox",
+            "lastHeartbeatAt": "2026-06-13T12:21:41Z"
+          },
+          {
+            "name": "opus48-recovery",
+            "lastHeartbeatAt": "2026-06-12T10:54:10Z"
+          },
+          {
+            "name": "jetbrains-cc-gui",
+            "lastHeartbeatAt": "2026-06-12T10:53:41Z"
+          },
+          {
+            "name": "memory",
+            "lastHeartbeatAt": "2026-06-11T16:48:47Z"
+          },
+          {
+            "name": "tasks",
+            "lastHeartbeatAt": "2026-06-11T08:09:28Z"
+          },
+          {
+            "name": "ap_mon_state",
+            "lastHeartbeatAt": "2026-06-10T12:24:14Z"
+          }
+        ]
+      }
+    },
+    {
       "id": "wakatime:rating:summaries-30d",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-25T04:51:55.198Z",
+      "date": "2026-07-26T05:16:24.986Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-06-25",
-            "totalSeconds": 18477.179,
-            "aiSeconds": 0,
-            "humanSeconds": 18477.179,
-            "aiPercent": 0
-          },
           {
             "date": "2026-06-26",
             "totalSeconds": 5259.647,
@@ -278,104 +365,17 @@
             "aiSeconds": 0,
             "humanSeconds": 0,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-07-25",
+            "totalSeconds": 0,
+            "aiSeconds": 0,
+            "humanSeconds": 0,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
-        "daysWithData": 16
-      }
-    },
-    {
-      "id": "wakatime:rating:projects",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "WakaTime projects (20 tracked)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-25T04:51:50.000Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "projects",
-        "projects": [
-          {
-            "name": "autopulse",
-            "lastHeartbeatAt": "2026-07-16T17:02:20Z"
-          },
-          {
-            "name": "synergies",
-            "lastHeartbeatAt": "2026-07-14T12:14:13Z"
-          },
-          {
-            "name": "transformers",
-            "lastHeartbeatAt": "2026-06-29T18:36:00Z"
-          },
-          {
-            "name": "pydantic-ai",
-            "lastHeartbeatAt": "2026-06-29T18:34:47Z"
-          },
-          {
-            "name": "sora",
-            "lastHeartbeatAt": "2026-06-28T17:50:51Z"
-          },
-          {
-            "name": "sandeepyadav1478.github.io",
-            "lastHeartbeatAt": "2026-06-28T17:24:46Z"
-          },
-          {
-            "name": "catalystrag",
-            "lastHeartbeatAt": "2026-06-28T00:57:21Z"
-          },
-          {
-            "name": "tmp",
-            "lastHeartbeatAt": "2026-06-27T23:12:19Z"
-          },
-          {
-            "name": "workspace",
-            "lastHeartbeatAt": "2026-06-27T20:56:27Z"
-          },
-          {
-            "name": "allanite",
-            "lastHeartbeatAt": "2026-06-27T17:31:15Z"
-          },
-          {
-            "name": "axiom",
-            "lastHeartbeatAt": "2026-06-27T15:13:09Z"
-          },
-          {
-            "name": "observer-sessions",
-            "lastHeartbeatAt": "2026-06-26T15:34:06Z"
-          },
-          {
-            "name": "personal-site",
-            "lastHeartbeatAt": "2026-06-26T15:33:56Z"
-          },
-          {
-            "name": "allanite_devops",
-            "lastHeartbeatAt": "2026-06-23T12:01:58Z"
-          },
-          {
-            "name": "sqloutbox",
-            "lastHeartbeatAt": "2026-06-13T12:21:41Z"
-          },
-          {
-            "name": "opus48-recovery",
-            "lastHeartbeatAt": "2026-06-12T10:54:10Z"
-          },
-          {
-            "name": "jetbrains-cc-gui",
-            "lastHeartbeatAt": "2026-06-12T10:53:41Z"
-          },
-          {
-            "name": "memory",
-            "lastHeartbeatAt": "2026-06-11T16:48:47Z"
-          },
-          {
-            "name": "tasks",
-            "lastHeartbeatAt": "2026-06-11T08:09:28Z"
-          },
-          {
-            "name": "ap_mon_state",
-            "lastHeartbeatAt": "2026-06-10T12:24:14Z"
-          }
-        ]
+        "daysWithData": 15
       }
     },
     {
@@ -384,7 +384,7 @@
       "kind": "rating",
       "title": "2,881 hrs 44 mins coded all time",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-25T04:51:49.979Z",
+      "date": "2026-07-26T05:16:24.976Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "alltime",
@@ -399,7 +399,7 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-07-25T04:51:49.899Z",
+      "date": "2026-07-26T05:16:24.885Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -524,7 +524,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-07-25T02:37:53Z",
+      "date": "2026-07-26T02:46:40Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -547,7 +547,7 @@
       "id": "github:profile:sandeepyadav1478",
       "source": "github",
       "kind": "profile",
-      "title": "GitHub: 51 repos · 20 followers",
+      "title": "GitHub: 52 repos · 20 followers",
       "url": "https://github.com/sandeepyadav1478",
       "date": "2026-07-19T12:16:19Z",
       "payload": {
@@ -557,7 +557,7 @@
         "location": "New Delhi, India",
         "hireable": true,
         "followers": 20,
-        "publicRepos": 51,
+        "publicRepos": 52,
         "accountAgeYears": 8,
         "createdAt": "2017-08-23T04:02:54Z",
         "bio": "Software Engineer",
@@ -579,51 +579,6 @@
         "maxRank": "newbie",
         "registrationYear": 2026,
         "contestsAttended": 2
-      }
-    },
-    {
-      "id": "github:commit:dea1315edb1b0373c3fa2f7bd6e3d924cb781d50",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/dea1315edb1b0373c3fa2f7bd6e3d924cb781d50",
-      "date": "2026-06-25T13:52:44Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "dea1315edb1b0373c3fa2f7bd6e3d924cb781d50",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:b7d784cf1c3844ac3934cf8357b818a0fa608f74",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sandeepyadav1478.github.io",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478.github.io/commit/b7d784cf1c3844ac3934cf8357b818a0fa608f74",
-      "date": "2026-06-25T13:40:22Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sandeepyadav1478.github.io",
-        "sha": "b7d784cf1c3844ac3934cf8357b818a0fa608f74",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
-      }
-    },
-    {
-      "id": "github:commit:872d0edf3a54db1a31ff59d34000dfd79de7f6ae",
-      "source": "github",
-      "kind": "commit",
-      "title": "Pushed to sora",
-      "url": "https://github.com/sandeepyadav1478/sora/commit/872d0edf3a54db1a31ff59d34000dfd79de7f6ae",
-      "date": "2026-06-25T13:40:18Z",
-      "payload": {
-        "repo": "sandeepyadav1478/sora",
-        "sha": "872d0edf3a54db1a31ff59d34000dfd79de7f6ae",
-        "branch": "main",
-        "message": "",
-        "visibility": "public"
       }
     },
     {
@@ -671,7 +626,7 @@
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0",
+      "title": "sqloutbox 0.6.0 · 48 downloads/mo",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -679,6 +634,8 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
+        "monthlyDownloads": 48,
+        "weeklyDownloads": 13,
         "license": "MIT",
         "keywords": [
           "doppler",
