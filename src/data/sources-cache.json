@@ -1,81 +1,94 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T03:35:35.983Z",
+  "generatedAt": "2026-08-12T03:52:02.246Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
-      "count": 9,
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
+      "count": 10,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 6,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-08-11T03:35:35.983Z",
+      "lastSuccess": "2026-08-12T03:52:02.246Z",
       "count": 8,
       "consecutiveFailures": 0
     }
   },
   "items": [
     {
+      "id": "wakatime:rating:ai-agents-7d",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "10939 AI-written lines in last 7 days (100%)",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-08-12T03:52:05.513Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "ai-agents",
+        "agentLineChanges": {},
+        "agentCosts": {},
+        "totalAiLines": 10939,
+        "totalHumanLines": 0,
+        "aiLinePercent": 100,
+        "totalAiSessions": 307,
+        "totalPromptEvents": 230,
+        "totalAiTokens": 93323467
+      }
+    },
+    {
       "id": "wakatime:rating:summaries-30d",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime coding summaries — last 30 days",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:39.222Z",
+      "date": "2026-08-12T03:52:05.440Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "summaries",
         "days": [
-          {
-            "date": "2026-07-12",
-            "totalSeconds": 6862.756,
-            "aiSeconds": 0,
-            "humanSeconds": 6862.756,
-            "aiPercent": 0
-          },
           {
             "date": "2026-07-13",
             "totalSeconds": 13483,
@@ -278,45 +291,17 @@
             "aiSeconds": 0,
             "humanSeconds": 13854.393432,
             "aiPercent": 0
+          },
+          {
+            "date": "2026-08-11",
+            "totalSeconds": 23415.851695,
+            "aiSeconds": 0,
+            "humanSeconds": 23415.851695,
+            "aiPercent": 0
           }
         ],
         "avgAiPercent": 0,
         "daysWithData": 20
-      }
-    },
-    {
-      "id": "wakatime:rating:ai-agents-7d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "8273 AI-written lines in last 7 days (100%)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:39.142Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "ai-agents",
-        "agentLineChanges": {},
-        "agentCosts": {},
-        "totalAiLines": 8273,
-        "totalHumanLines": 0,
-        "aiLinePercent": 100,
-        "totalAiSessions": 196,
-        "totalPromptEvents": 170,
-        "totalAiTokens": 120182993
-      }
-    },
-    {
-      "id": "wakatime:rating:all_time",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "2,928 hrs 36 mins coded all time",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:39.108Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "alltime",
-        "text": "2,928 hrs 36 mins",
-        "totalSeconds": 10542979.16915,
-        "startDate": "2021-07-22"
       }
     },
     {
@@ -325,26 +310,38 @@
       "kind": "rating",
       "title": "WakaTime projects (20 tracked)",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:39.077Z",
+      "date": "2026-08-12T03:52:05.416Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "projects",
         "projects": [
           {
-            "name": "synergies",
-            "lastHeartbeatAt": "2026-08-10T19:18:54Z"
-          },
-          {
             "name": "rolehunt",
-            "lastHeartbeatAt": "2026-08-10T19:18:17Z"
+            "lastHeartbeatAt": "2026-08-11T17:46:40Z"
           },
           {
-            "name": "evalloop",
-            "lastHeartbeatAt": "2026-08-10T18:51:42Z"
+            "name": "synergies",
+            "lastHeartbeatAt": "2026-08-11T11:06:46Z"
+          },
+          {
+            "name": "home-sandeep-synergies",
+            "lastHeartbeatAt": "2026-08-11T11:05:40Z"
+          },
+          {
+            "name": "memory",
+            "lastHeartbeatAt": "2026-08-11T08:00:47Z"
           },
           {
             "name": "memory-benchmarks",
-            "lastHeartbeatAt": "2026-08-10T15:03:33Z"
+            "lastHeartbeatAt": "2026-08-11T07:37:01Z"
+          },
+          {
+            "name": "mem0",
+            "lastHeartbeatAt": "2026-08-11T06:54:16Z"
+          },
+          {
+            "name": "evalloop",
+            "lastHeartbeatAt": "2026-08-11T06:12:21Z"
           },
           {
             "name": "autopulse",
@@ -353,10 +350,6 @@
           {
             "name": "6.2.0",
             "lastHeartbeatAt": "2026-08-10T03:33:03Z"
-          },
-          {
-            "name": "mem0",
-            "lastHeartbeatAt": "2026-08-09T18:43:38Z"
           },
           {
             "name": "tracebench",
@@ -395,16 +388,8 @@
             "lastHeartbeatAt": "2026-08-03T08:37:00Z"
           },
           {
-            "name": "memory",
-            "lastHeartbeatAt": "2026-08-03T03:59:24Z"
-          },
-          {
             "name": "tmp",
             "lastHeartbeatAt": "2026-08-03T03:37:45Z"
-          },
-          {
-            "name": "home-sandeep-synergies",
-            "lastHeartbeatAt": "2026-07-31T08:29:02Z"
           },
           {
             "name": "work",
@@ -414,62 +399,79 @@
       }
     },
     {
+      "id": "wakatime:rating:all_time",
+      "source": "wakatime",
+      "kind": "rating",
+      "title": "2,934 hrs 17 mins coded all time",
+      "url": "https://wakatime.com/@sandeepyadav1478",
+      "date": "2026-08-12T03:52:05.415Z",
+      "payload": {
+        "platform": "wakatime",
+        "subkind": "alltime",
+        "text": "2,934 hrs 17 mins",
+        "totalSeconds": 10563460.907845,
+        "startDate": "2021-07-22"
+      }
+    },
+    {
       "id": "wakatime:rating:last_7_days",
       "source": "wakatime",
       "kind": "rating",
-      "title": "12 hrs 39 mins coding this week",
+      "title": "16 hrs 54 mins coding this week",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:39.059Z",
+      "date": "2026-08-12T03:52:05.383Z",
       "payload": {
         "platform": "wakatime",
-        "totalSeconds": 45540.675116,
-        "humanReadableTotal": "12 hrs 39 mins",
+        "totalSeconds": 60894.191033,
+        "humanReadableTotal": "16 hrs 54 mins",
         "range": "last_7_days",
         "status": "ok",
         "percentCalculated": 100,
-        "dailyAverage": 6506,
+        "dailyAverage": 8699,
         "languages": [
           "Markdown",
           "Python",
-          "Other",
+          "TOML",
           "sh",
+          "Other",
+          "CSS",
           "C++",
           "Bash",
-          "JSON",
-          "Diff",
+          "HTML",
           "MDX",
+          "Diff",
           "Terraform",
+          "Git Config",
           "Shell",
-          "TOML",
           "YAML"
         ],
         "bestDay": {
-          "date": "2026-08-06",
-          "text": "4 hrs 5 mins",
-          "totalSeconds": 14734.225434
+          "date": "2026-08-11",
+          "text": "6 hrs 30 mins",
+          "totalSeconds": 23415.851695
         },
         "editors": [
           {
             "name": "Claude Code",
-            "percent": 95.09
+            "percent": 95.84
           },
           {
             "name": "Zsh",
-            "percent": 4.64
+            "percent": 3.95
           },
           {
             "name": "VS Code",
-            "percent": 0.27
+            "percent": 0.21
           }
         ],
         "categories": [
           {
             "name": "AI Coding",
-            "percent": 95.67
+            "percent": 96.32
           },
           {
             "name": "Coding",
-            "percent": 4.33
+            "percent": 3.68
           }
         ]
       }
@@ -480,30 +482,30 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-08-11T03:35:38.963Z",
+      "date": "2026-08-12T03:52:05.115Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
         "categories": [
           {
             "name": "Coding",
-            "percent": 67.59
+            "percent": 67.44
           },
           {
             "name": "AI Coding",
-            "percent": 16.48
+            "percent": 16.66
           },
           {
             "name": "Meeting",
-            "percent": 11.88
+            "percent": 11.85
           },
           {
             "name": "Writing Docs",
-            "percent": 2.19
+            "percent": 2.18
           },
           {
             "name": "Writing Tests",
-            "percent": 1.76
+            "percent": 1.75
           },
           {
             "name": "Browsing",
@@ -513,15 +515,15 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 78.74
+            "percent": 78.56
           },
           {
             "name": "Google Calendar",
-            "percent": 11.88
+            "percent": 11.85
           },
           {
             "name": "Claude Code",
-            "percent": 7.61
+            "percent": 7.81
           },
           {
             "name": "PyCharm",
@@ -531,19 +533,19 @@
         "languages": [
           {
             "name": "Python",
-            "percent": 59.34
+            "percent": 59.24
           },
           {
             "name": "Other",
-            "percent": 14.27
+            "percent": 14.24
           },
           {
             "name": "Markdown",
-            "percent": 7.07
+            "percent": 7.2
           },
           {
             "name": "JSON",
-            "percent": 4.05
+            "percent": 4.04
           },
           {
             "name": "HTML",
@@ -551,15 +553,15 @@
           },
           {
             "name": "YAML",
-            "percent": 2.79
+            "percent": 2.78
           },
           {
             "name": "Terraform",
-            "percent": 1.73
+            "percent": 1.72
           },
           {
             "name": "Text",
-            "percent": 1.2
+            "percent": 1.19
           },
           {
             "name": "Bash",
@@ -581,22 +583,66 @@
         "os": [
           {
             "name": "Mac",
-            "percent": 52.27
+            "percent": 52.16
           },
           {
             "name": "Linux",
-            "percent": 22.6
+            "percent": 22.77
           },
           {
             "name": "Windows",
-            "percent": 13.25
+            "percent": 13.22
           },
           {
             "name": "Unknown OS",
-            "percent": 11.88
+            "percent": 11.86
           }
         ],
-        "aiCodingPercent": 16.48
+        "aiCodingPercent": 16.66
+      }
+    },
+    {
+      "id": "github:repo:sandeepyadav1478/sandeepyadav1478",
+      "source": "github",
+      "kind": "repo",
+      "title": "sandeepyadav1478: Config files for my GitHub profile.",
+      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
+      "date": "2026-08-12T01:55:09Z",
+      "payload": {
+        "platform": "github",
+        "name": "sandeepyadav1478",
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [
+          "config",
+          "github-config"
+        ],
+        "license": null,
+        "isTemplate": false,
+        "hasPages": false,
+        "hasDiscussions": false,
+        "description": "Config files for my GitHub profile.",
+        "languageBytes": {}
+      }
+    },
+    {
+      "id": "github:commit:pr-mem0ai/memory-benchmarks-25-opened",
+      "source": "github",
+      "kind": "commit",
+      "title": "PR #25: feat/token-and-latency-instrumentation",
+      "url": "https://github.com/mem0ai/memory-benchmarks/pulls",
+      "date": "2026-08-11T04:19:45Z",
+      "payload": {
+        "eventType": "pull_request",
+        "action": "opened",
+        "prNumber": 25,
+        "headRef": "feat/token-and-latency-instrumentation",
+        "baseRef": "main",
+        "merged": false,
+        "repo": "mem0ai/memory-benchmarks",
+        "isExternal": true,
+        "visibility": "public"
       }
     },
     {
@@ -630,35 +676,10 @@
       }
     },
     {
-      "id": "github:repo:sandeepyadav1478/sandeepyadav1478",
-      "source": "github",
-      "kind": "repo",
-      "title": "sandeepyadav1478: Config files for my GitHub profile.",
-      "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-08-11T01:43:28Z",
-      "payload": {
-        "platform": "github",
-        "name": "sandeepyadav1478",
-        "stars": 1,
-        "forks": 0,
-        "language": null,
-        "topics": [
-          "config",
-          "github-config"
-        ],
-        "license": null,
-        "isTemplate": false,
-        "hasPages": false,
-        "hasDiscussions": false,
-        "description": "Config files for my GitHub profile.",
-        "languageBytes": {}
-      }
-    },
-    {
       "id": "github:profile:sandeepyadav1478",
       "source": "github",
       "kind": "profile",
-      "title": "GitHub: 53 repos · 20 followers",
+      "title": "GitHub: 54 repos · 20 followers",
       "url": "https://github.com/sandeepyadav1478",
       "date": "2026-07-19T12:16:19Z",
       "payload": {
@@ -668,7 +689,7 @@
         "location": "New Delhi, India",
         "hireable": true,
         "followers": 20,
-        "publicRepos": 53,
+        "publicRepos": 54,
         "accountAgeYears": 8,
         "createdAt": "2017-08-23T04:02:54Z",
         "bio": "Software Engineer",
