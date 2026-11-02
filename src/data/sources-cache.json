@@ -1,485 +1,70 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:14:10.706Z",
+  "generatedAt": "2026-11-02T08:27:26.411Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
-      "count": 6,
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
+      "count": 1,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-11-01T08:14:10.706Z",
+      "lastSuccess": "2026-11-02T08:27:26.411Z",
       "count": 8,
       "consecutiveFailures": 0
     }
   },
   "items": [
     {
-      "id": "wakatime:rating:summaries-30d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "WakaTime coding summaries — last 30 days",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.409Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "summaries",
-        "days": [
-          {
-            "date": "2026-10-02",
-            "totalSeconds": 9634.912504,
-            "aiSeconds": 0,
-            "humanSeconds": 9634.912504,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-03",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-04",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-05",
-            "totalSeconds": 6962.489063,
-            "aiSeconds": 0,
-            "humanSeconds": 6962.489063,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-06",
-            "totalSeconds": 3420.501,
-            "aiSeconds": 0,
-            "humanSeconds": 3420.501,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-07",
-            "totalSeconds": 6493.44,
-            "aiSeconds": 0,
-            "humanSeconds": 6493.44,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-08",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-09",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-10",
-            "totalSeconds": 13170.744335,
-            "aiSeconds": 0,
-            "humanSeconds": 13170.744335,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-11",
-            "totalSeconds": 2370.205,
-            "aiSeconds": 0,
-            "humanSeconds": 2370.205,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-12",
-            "totalSeconds": 10411.003,
-            "aiSeconds": 0,
-            "humanSeconds": 10411.003,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-13",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-14",
-            "totalSeconds": 1515.900561,
-            "aiSeconds": 0,
-            "humanSeconds": 1515.900561,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-15",
-            "totalSeconds": 4170.994552,
-            "aiSeconds": 0,
-            "humanSeconds": 4170.994552,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-16",
-            "totalSeconds": 9188.42,
-            "aiSeconds": 0,
-            "humanSeconds": 9188.42,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-17",
-            "totalSeconds": 626.368769,
-            "aiSeconds": 0,
-            "humanSeconds": 626.368769,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-18",
-            "totalSeconds": 7262.47674,
-            "aiSeconds": 0,
-            "humanSeconds": 7262.47674,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-19",
-            "totalSeconds": 2066.986,
-            "aiSeconds": 0,
-            "humanSeconds": 2066.986,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-20",
-            "totalSeconds": 2425.616,
-            "aiSeconds": 0,
-            "humanSeconds": 2425.616,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-21",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-22",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-23",
-            "totalSeconds": 5465.765094,
-            "aiSeconds": 0,
-            "humanSeconds": 5465.765094,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-24",
-            "totalSeconds": 4800,
-            "aiSeconds": 0,
-            "humanSeconds": 4800,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-25",
-            "totalSeconds": 0,
-            "aiSeconds": 0,
-            "humanSeconds": 0,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-26",
-            "totalSeconds": 1258.713513,
-            "aiSeconds": 0,
-            "humanSeconds": 1258.713513,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-27",
-            "totalSeconds": 6884.228436,
-            "aiSeconds": 0,
-            "humanSeconds": 6884.228436,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-28",
-            "totalSeconds": 4085.756,
-            "aiSeconds": 0,
-            "humanSeconds": 4085.756,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-29",
-            "totalSeconds": 12477.695906,
-            "aiSeconds": 0,
-            "humanSeconds": 12477.695906,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-30",
-            "totalSeconds": 5886.28918,
-            "aiSeconds": 0,
-            "humanSeconds": 5886.28918,
-            "aiPercent": 0
-          },
-          {
-            "date": "2026-10-31",
-            "totalSeconds": 6571.375544,
-            "aiSeconds": 0,
-            "humanSeconds": 6571.375544,
-            "aiPercent": 0
-          }
-        ],
-        "avgAiPercent": 0,
-        "daysWithData": 22
-      }
-    },
-    {
-      "id": "wakatime:rating:ai-agents-7d",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "4345 AI-written lines in last 7 days (100%)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.351Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "ai-agents",
-        "agentLineChanges": {},
-        "agentCosts": {},
-        "totalAiLines": 4345,
-        "totalHumanLines": 1,
-        "aiLinePercent": 100,
-        "totalAiSessions": 88,
-        "totalPromptEvents": 125,
-        "totalAiTokens": 6303640
-      }
-    },
-    {
-      "id": "wakatime:rating:projects",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "WakaTime projects (20 tracked)",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.266Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "projects",
-        "projects": [
-          {
-            "name": "autopulse",
-            "lastHeartbeatAt": "2026-11-01T02:35:11Z"
-          },
-          {
-            "name": "HelloAgent",
-            "lastHeartbeatAt": "2026-11-01T02:30:46Z"
-          },
-          {
-            "name": "observer-sessions",
-            "lastHeartbeatAt": "2026-10-31T15:33:12Z"
-          },
-          {
-            "name": "rolehunt",
-            "lastHeartbeatAt": "2026-10-31T10:52:29Z"
-          },
-          {
-            "name": "PythonProject",
-            "lastHeartbeatAt": "2026-10-29T19:06:11Z"
-          },
-          {
-            "name": "memory",
-            "lastHeartbeatAt": "2026-10-29T18:53:17Z"
-          },
-          {
-            "name": "axiom",
-            "lastHeartbeatAt": "2026-10-27T18:58:41Z"
-          },
-          {
-            "name": "scripts",
-            "lastHeartbeatAt": "2026-10-14T17:20:32Z"
-          },
-          {
-            "name": "plugins",
-            "lastHeartbeatAt": "2026-10-14T17:20:20Z"
-          },
-          {
-            "name": "synergies",
-            "lastHeartbeatAt": "2026-10-14T17:20:10Z"
-          },
-          {
-            "name": "home-sandeep-synergies",
-            "lastHeartbeatAt": "2026-10-14T04:38:48Z"
-          },
-          {
-            "name": "touchstone",
-            "lastHeartbeatAt": "2026-10-09T23:34:41Z"
-          },
-          {
-            "name": "30s",
-            "lastHeartbeatAt": "2026-10-01T02:51:18Z"
-          },
-          {
-            "name": "tmp",
-            "lastHeartbeatAt": "2026-09-09T08:54:57Z"
-          },
-          {
-            "name": "claude",
-            "lastHeartbeatAt": "2026-09-09T04:38:17Z"
-          },
-          {
-            "name": "13.24.1",
-            "lastHeartbeatAt": "2026-09-09T04:19:10Z"
-          },
-          {
-            "name": "multi-llm",
-            "lastHeartbeatAt": "2026-09-09T04:08:38Z"
-          },
-          {
-            "name": "sandeepyadav1478",
-            "lastHeartbeatAt": "2026-09-04T17:27:57Z"
-          },
-          {
-            "name": "allanite-code-reviewer",
-            "lastHeartbeatAt": "2026-09-04T04:13:30Z"
-          },
-          {
-            "name": "chezmoi",
-            "lastHeartbeatAt": "2026-08-21T12:58:32Z"
-          }
-        ]
-      }
-    },
-    {
-      "id": "wakatime:rating:all_time",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "3,101 hrs 19 mins coded all time",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.256Z",
-      "payload": {
-        "platform": "wakatime",
-        "subkind": "alltime",
-        "text": "3,101 hrs 19 mins",
-        "totalSeconds": 11164751.747244,
-        "startDate": "2021-07-22"
-      }
-    },
-    {
-      "id": "wakatime:rating:last_7_days",
-      "source": "wakatime",
-      "kind": "rating",
-      "title": "6 hrs 30 mins coding this week",
-      "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.227Z",
-      "payload": {
-        "platform": "wakatime",
-        "totalSeconds": 23444.602804,
-        "humanReadableTotal": "6 hrs 30 mins",
-        "range": "last_7_days",
-        "status": "ok",
-        "percentCalculated": 100,
-        "dailyAverage": 4689,
-        "languages": [
-          "Markdown",
-          "Other",
-          "Python",
-          "TOML",
-          "sh",
-          "Gerber Image",
-          "CSS",
-          "HTML"
-        ],
-        "bestDay": {
-          "date": "2026-10-29",
-          "text": "3 hrs 27 mins",
-          "totalSeconds": 12477.695906
-        },
-        "editors": [
-          {
-            "name": "Claude Code",
-            "percent": 75.93
-          },
-          {
-            "name": "Google Calendar",
-            "percent": 15.1
-          },
-          {
-            "name": "Zsh",
-            "percent": 5.79
-          }
-        ],
-        "categories": [
-          {
-            "name": "AI Coding",
-            "percent": 79.32
-          },
-          {
-            "name": "Meeting",
-            "percent": 15.1
-          },
-          {
-            "name": "Coding",
-            "percent": 5.58
-          }
-        ]
-      }
-    },
-    {
       "id": "wakatime:rating:public-alltime",
       "source": "wakatime",
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-01T08:14:14.152Z",
+      "date": "2026-11-02T08:27:29.381Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -608,7 +193,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-11-01T04:41:14Z",
+      "date": "2026-11-02T04:43:02Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -734,6 +319,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-11-01",
+            "downloads": 2
+          },
           {
             "date": "2026-10-31",
             "downloads": 1
@@ -1089,25 +678,21 @@
           {
             "date": "2026-04-21",
             "downloads": 13
-          },
-          {
-            "date": "2026-04-19",
-            "downloads": 6
           }
         ],
-        "totalDownloads": 584,
+        "totalDownloads": 580,
         "peakDay": {
           "date": "2026-06-13",
           "downloads": 120
         },
         "trend7d": {
-          "avg7d": 1.7142857142857142,
-          "avgPrev7d": 2.142857142857143
+          "avg7d": 1.8571428571428572,
+          "avgPrev7d": 1.5714285714285714
         },
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 693
+            "downloads": 695
           },
           {
             "version": "3.13",
