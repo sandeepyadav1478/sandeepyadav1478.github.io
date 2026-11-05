@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T08:10:30.252Z",
+  "generatedAt": "2026-11-05T08:36:59.656Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-11-04T08:10:30.252Z",
+      "lastSuccess": "2026-11-05T08:36:59.656Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,22 +64,22 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-04T08:10:33.954Z",
+      "date": "2026-11-05T08:37:12.549Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
         "categories": [
           {
             "name": "Coding",
-            "percent": 63.96
+            "percent": 63.88
           },
           {
             "name": "AI Coding",
-            "percent": 20.89
+            "percent": 21
           },
           {
             "name": "Meeting",
-            "percent": 11.31
+            "percent": 11.29
           },
           {
             "name": "Writing Docs",
@@ -97,15 +97,15 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 74.59
+            "percent": 74.49
           },
           {
             "name": "Claude Code",
-            "percent": 12.28
+            "percent": 12.4
           },
           {
             "name": "Google Calendar",
-            "percent": 11.31
+            "percent": 11.29
           },
           {
             "name": "PyCharm",
@@ -115,27 +115,27 @@
         "languages": [
           {
             "name": "Python",
-            "percent": 57.13
+            "percent": 57.06
           },
           {
             "name": "Other",
-            "percent": 14.59
+            "percent": 14.58
           },
           {
             "name": "Markdown",
-            "percent": 9.08
+            "percent": 9.15
           },
           {
             "name": "JSON",
-            "percent": 3.9
+            "percent": 3.89
           },
           {
             "name": "HTML",
-            "percent": 3.65
+            "percent": 3.64
           },
           {
             "name": "YAML",
-            "percent": 2.67
+            "percent": 2.66
           },
           {
             "name": "Terraform",
@@ -143,7 +143,7 @@
           },
           {
             "name": "Text",
-            "percent": 1.16
+            "percent": 1.18
           },
           {
             "name": "Bash",
@@ -159,7 +159,7 @@
           },
           {
             "name": "TOML",
-            "percent": 0.62
+            "percent": 0.64
           },
           {
             "name": "JavaScript",
@@ -169,22 +169,22 @@
         "os": [
           {
             "name": "Mac",
-            "percent": 49.33
+            "percent": 49.27
           },
           {
             "name": "Linux",
-            "percent": 26.85
+            "percent": 26.95
           },
           {
             "name": "Windows",
-            "percent": 12.5
+            "percent": 12.49
           },
           {
             "name": "Unknown OS",
-            "percent": 11.31
+            "percent": 11.3
           }
         ],
-        "aiCodingPercent": 20.89
+        "aiCodingPercent": 21
       }
     },
     {
@@ -193,7 +193,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-11-04T05:02:02Z",
+      "date": "2026-11-05T05:24:52Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -319,6 +319,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-11-04",
+            "downloads": 2
+          },
           {
             "date": "2026-11-01",
             "downloads": 2
@@ -674,19 +678,15 @@
           {
             "date": "2026-04-22",
             "downloads": 3
-          },
-          {
-            "date": "2026-04-21",
-            "downloads": 13
           }
         ],
-        "totalDownloads": 580,
+        "totalDownloads": 569,
         "peakDay": {
           "date": "2026-06-13",
           "downloads": 120
         },
         "trend7d": {
-          "avg7d": 1.8571428571428572,
+          "avg7d": 2,
           "avgPrev7d": 1.5714285714285714
         },
         "pythonVersions": [
@@ -712,13 +712,17 @@
           },
           {
             "version": "3.14",
-            "downloads": 3
+            "downloads": 4
+          },
+          {
+            "version": "3.8",
+            "downloads": 1
           }
         ],
         "osByDownloads": [
           {
             "os": "Linux",
-            "downloads": 153
+            "downloads": 155
           },
           {
             "os": "Darwin",
