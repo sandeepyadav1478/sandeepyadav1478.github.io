@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:52:53.755Z",
+  "generatedAt": "2026-11-13T08:49:27.454Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-11-12T08:52:53.755Z",
+      "lastSuccess": "2026-11-13T08:49:27.454Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,22 +64,22 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-12T08:52:57.487Z",
+      "date": "2026-11-13T08:49:30.750Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
         "categories": [
           {
             "name": "Coding",
-            "percent": 63.66
+            "percent": 63.64
           },
           {
             "name": "AI Coding",
-            "percent": 21.16
+            "percent": 21.15
           },
           {
             "name": "Meeting",
-            "percent": 11.36
+            "percent": 11.4
           },
           {
             "name": "Writing Docs",
@@ -87,7 +87,7 @@
           },
           {
             "name": "Writing Tests",
-            "percent": 1.66
+            "percent": 1.65
           },
           {
             "name": "Browsing",
@@ -97,7 +97,7 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 74.22
+            "percent": 74.19
           },
           {
             "name": "Claude Code",
@@ -105,7 +105,7 @@
           },
           {
             "name": "Google Calendar",
-            "percent": 11.36
+            "percent": 11.4
           },
           {
             "name": "PyCharm",
@@ -115,15 +115,15 @@
         "languages": [
           {
             "name": "Python",
-            "percent": 56.93
+            "percent": 56.92
           },
           {
             "name": "Other",
-            "percent": 14.68
+            "percent": 14.72
           },
           {
             "name": "Markdown",
-            "percent": 9.24
+            "percent": 9.23
           },
           {
             "name": "JSON",
@@ -131,7 +131,7 @@
           },
           {
             "name": "HTML",
-            "percent": 3.63
+            "percent": 3.62
           },
           {
             "name": "YAML",
@@ -169,22 +169,22 @@
         "os": [
           {
             "name": "Mac",
-            "percent": 49
+            "percent": 48.96
           },
           {
             "name": "Linux",
-            "percent": 27.21
+            "percent": 27.22
           },
           {
             "name": "Windows",
-            "percent": 12.42
+            "percent": 12.41
           },
           {
             "name": "Unknown OS",
-            "percent": 11.37
+            "percent": 11.4
           }
         ],
-        "aiCodingPercent": 21.16
+        "aiCodingPercent": 21.15
       }
     },
     {
@@ -193,7 +193,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-11-12T05:58:08Z",
+      "date": "2026-11-13T05:22:04Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -295,7 +295,7 @@
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0 · 55 downloads/mo",
+      "title": "sqloutbox 0.6.0 · 26 downloads/mo",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -303,7 +303,7 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
-        "monthlyDownloads": 55,
+        "monthlyDownloads": 26,
         "weeklyDownloads": 2,
         "license": "MIT",
         "keywords": [
@@ -634,53 +634,9 @@
           {
             "date": "2026-05-16",
             "downloads": 4
-          },
-          {
-            "date": "2026-05-15",
-            "downloads": 6
-          },
-          {
-            "date": "2026-05-12",
-            "downloads": 6
-          },
-          {
-            "date": "2026-05-10",
-            "downloads": 1
-          },
-          {
-            "date": "2026-05-07",
-            "downloads": 11
-          },
-          {
-            "date": "2026-05-06",
-            "downloads": 7
-          },
-          {
-            "date": "2026-05-05",
-            "downloads": 5
-          },
-          {
-            "date": "2026-05-04",
-            "downloads": 4
-          },
-          {
-            "date": "2026-05-02",
-            "downloads": 1
-          },
-          {
-            "date": "2026-04-29",
-            "downloads": 1
-          },
-          {
-            "date": "2026-04-28",
-            "downloads": 6
-          },
-          {
-            "date": "2026-04-23",
-            "downloads": 1
           }
         ],
-        "totalDownloads": 568,
+        "totalDownloads": 519,
         "peakDay": {
           "date": "2026-06-13",
           "downloads": 120
@@ -692,23 +648,23 @@
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 697
+            "downloads": 378
           },
           {
             "version": "3.13",
-            "downloads": 80
+            "downloads": 70
           },
           {
             "version": "3.12",
-            "downloads": 43
+            "downloads": 33
           },
           {
             "version": "3.11",
-            "downloads": 38
+            "downloads": 23
           },
           {
             "version": "3.10",
-            "downloads": 27
+            "downloads": 10
           },
           {
             "version": "3.14",
@@ -722,15 +678,15 @@
         "osByDownloads": [
           {
             "os": "Linux",
-            "downloads": 155
+            "downloads": 117
           },
           {
             "os": "Darwin",
-            "downloads": 34
+            "downloads": 22
           },
           {
             "os": "Windows",
-            "downloads": 4
+            "downloads": 2
           }
         ],
         "releaseHistory": [
