@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T08:53:25.659Z",
+  "generatedAt": "2026-11-22T08:55:11.033Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-11-21T08:53:25.659Z",
+      "lastSuccess": "2026-11-22T08:55:11.033Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,7 +64,7 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-21T08:53:28.314Z",
+      "date": "2026-11-22T08:55:14.671Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
@@ -193,7 +193,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-11-21T05:51:10Z",
+      "date": "2026-11-22T05:24:00Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -295,7 +295,7 @@
       "id": "pypi:package:sqloutbox@0.6.0",
       "source": "pypi",
       "kind": "package",
-      "title": "sqloutbox 0.6.0 · 22 downloads/mo",
+      "title": "sqloutbox 0.6.0 · 31 downloads/mo",
       "url": "https://pypi.org/project/sqloutbox/0.6.0/",
       "date": "2026-06-13T12:15:48.917083Z",
       "payload": {
@@ -303,8 +303,8 @@
         "version": "0.6.0",
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
-        "monthlyDownloads": 22,
-        "weeklyDownloads": 6,
+        "monthlyDownloads": 31,
+        "weeklyDownloads": 16,
         "license": "MIT",
         "keywords": [
           "doppler",
@@ -319,6 +319,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-11-21",
+            "downloads": 10
+          },
           {
             "date": "2026-11-20",
             "downloads": 1
@@ -626,25 +630,21 @@
           {
             "date": "2026-05-28",
             "downloads": 2
-          },
-          {
-            "date": "2026-05-24",
-            "downloads": 1
           }
         ],
-        "totalDownloads": 513,
+        "totalDownloads": 522,
         "peakDay": {
           "date": "2026-06-13",
           "downloads": 120
         },
         "trend7d": {
-          "avg7d": 1.8571428571428572,
+          "avg7d": 3.142857142857143,
           "avgPrev7d": 1.7142857142857142
         },
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 378
+            "downloads": 387
           },
           {
             "version": "3.13",
