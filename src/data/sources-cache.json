@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T10:11:29.794Z",
+  "generatedAt": "2026-11-28T09:30:26.100Z",
   "sources": {
     "github": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 7,
       "consecutiveFailures": 0
     },
     "codeforces": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 4,
       "consecutiveFailures": 0
     },
     "pypi": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "huggingface": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "wakatime": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "leetcode": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "credly": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 8,
       "consecutiveFailures": 0
     },
     "rss": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 1,
       "consecutiveFailures": 0
     },
     "linkedin": {
       "status": "ok",
-      "lastSuccess": "2026-11-27T10:11:29.794Z",
+      "lastSuccess": "2026-11-28T09:30:26.100Z",
       "count": 8,
       "consecutiveFailures": 0
     }
@@ -64,18 +64,18 @@
       "kind": "rating",
       "title": "WakaTime all-time stats for @sandeepyadav1478",
       "url": "https://wakatime.com/@sandeepyadav1478",
-      "date": "2026-11-27T10:11:33.365Z",
+      "date": "2026-11-28T09:30:29.415Z",
       "payload": {
         "platform": "wakatime",
         "subkind": "public",
         "categories": [
           {
             "name": "Coding",
-            "percent": 63.46
+            "percent": 63.45
           },
           {
             "name": "AI Coding",
-            "percent": 21.14
+            "percent": 21.15
           },
           {
             "name": "Meeting",
@@ -97,11 +97,11 @@
         "editors": [
           {
             "name": "VS Code",
-            "percent": 73.97
+            "percent": 73.96
           },
           {
             "name": "Claude Code",
-            "percent": 12.58
+            "percent": 12.6
           },
           {
             "name": "Google Calendar",
@@ -115,7 +115,7 @@
         "languages": [
           {
             "name": "Python",
-            "percent": 56.75
+            "percent": 56.74
           },
           {
             "name": "Other",
@@ -123,7 +123,7 @@
           },
           {
             "name": "Markdown",
-            "percent": 9.25
+            "percent": 9.26
           },
           {
             "name": "JSON",
@@ -169,11 +169,11 @@
         "os": [
           {
             "name": "Mac",
-            "percent": 48.8
+            "percent": 48.79
           },
           {
             "name": "Linux",
-            "percent": 27.22
+            "percent": 27.24
           },
           {
             "name": "Windows",
@@ -184,7 +184,7 @@
             "percent": 11.61
           }
         ],
-        "aiCodingPercent": 21.14
+        "aiCodingPercent": 21.15
       }
     },
     {
@@ -193,7 +193,7 @@
       "kind": "repo",
       "title": "sandeepyadav1478: Config files for my GitHub profile.",
       "url": "https://github.com/sandeepyadav1478/sandeepyadav1478",
-      "date": "2026-11-27T06:58:47Z",
+      "date": "2026-11-28T06:33:23Z",
       "payload": {
         "platform": "github",
         "name": "sandeepyadav1478",
@@ -304,7 +304,7 @@
         "yanked": false,
         "summary": "Config-driven SQLite transactional outbox — multi-app TOML config, per-table injection control, .env/Doppler credential loading, multi-target sync daemon",
         "monthlyDownloads": 35,
-        "weeklyDownloads": 17,
+        "weeklyDownloads": 18,
         "license": "MIT",
         "keywords": [
           "doppler",
@@ -319,6 +319,10 @@
         "isTyped": true,
         "devStatus": "Beta",
         "downloadSeries": [
+          {
+            "date": "2026-11-27",
+            "downloads": 2
+          },
           {
             "date": "2026-11-26",
             "downloads": 3
@@ -644,19 +648,19 @@
             "downloads": 3
           }
         ],
-        "totalDownloads": 526,
+        "totalDownloads": 528,
         "peakDay": {
           "date": "2026-06-13",
           "downloads": 120
         },
         "trend7d": {
-          "avg7d": 3,
-          "avgPrev7d": 2
+          "avg7d": 2.7142857142857144,
+          "avgPrev7d": 2.2857142857142856
         },
         "pythonVersions": [
           {
             "version": "null",
-            "downloads": 390
+            "downloads": 392
           },
           {
             "version": "3.13",
